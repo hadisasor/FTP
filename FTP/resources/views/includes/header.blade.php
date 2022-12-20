@@ -19,7 +19,7 @@
                                                 <li><a href="elements.html">elements</a></li>
                                             </ul>
                                         </li>*/-->  
-                                        <li><a href="contact.html">Contact</a></li>
+                                      <!-- <li><a href="contact.html">Contact</a></li>--> 
                                     </ul>
                                 </nav>
                             </div>
@@ -27,14 +27,15 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="/">
-                                    <img src="img/FatoniLogo.png" height="92" width="112" alt="">
+                                    <img src="img/FatoniLogo-removebg.png" height="92" width="112" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-4 d-none d-lg-block">
                             <div class="book_room">
                                 <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Register</a>
+                                    <a class="popup-with-form" href="                   ">Register</a>
+                                                                    <!--#test-form-->
                                 </div>
                             </div>
                         </div>
