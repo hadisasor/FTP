@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/hajj', function () {
+    return view('hajj');
+});
+Route::get('/umrah', function () {
+    return view('umrah');
+});
+Route::get('/travel', function () {
+    return view('travel');
+});
+ 
