@@ -22,7 +22,3 @@ Route::get('/hajj', function () {
 Route::get('/umrah', function () {
     return view('umrah');
 });
-Route::get('/travel', function () {
-    return view('travel');
-});
- 
