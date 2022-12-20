@@ -17,12 +17,8 @@
     <link rel="stylesheet" href="{{URL::asset('../css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('../css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{URL::asset('../css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('../css/themify-icons.css')}}">
     <link rel="stylesheet" href="{{URL::asset('../css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('./css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('./css/gijgo.css')}}">
     <link rel="stylesheet" href="{{URL::asset('./css/animate.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('./css/slicknav.css')}}">
     <link rel="stylesheet" href="{{URL::asset('./css/style.css')}}">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
@@ -32,7 +28,7 @@
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid p-0">
+                <div class="container-fluid ">
                     <div class="row align-items-center no-gutters">
                         <div class="col-xl-5 col-lg-6">
                             <div class="main-menu  d-none d-lg-block">
@@ -42,6 +38,9 @@
                                         <li><a href="/hajj">Hajj</a></li>
                                         <li><a href="/umrah">Umrah</a></li>
                                         <li><a href="/travel">Travel</a></li>
+                                        <li><a href="">about</a></li>
+
+
 
                         <!--          <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
@@ -63,9 +62,11 @@
                         <div class="col-xl-5 col-lg-4 d-none d-lg-block">
                             <div class="book_room">
                                 <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="                   ">Register</a>
+                                    <a class="popup-with-form" href="/login">Register</a>
                                                                     <!--#test-form-->
+                                 
                                 </div>
+                                <a class="popup-with-form" href="/register">have account?</a>  
                             </div>
                         </div>
 

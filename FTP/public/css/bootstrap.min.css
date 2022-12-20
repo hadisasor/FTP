@@ -719,7 +719,7 @@ pre code {
 .col-xl-auto {
     position: relative;
     width: 100%;
-    min-height: 1px;
+    min-height: 20px;
     padding-right: 15px;
     padding-left: 15px
 }
@@ -3508,7 +3508,7 @@ tbody.collapse.show {
     padding: .5rem 1.5rem;
     margin-bottom: 0;
     font-size: .875rem;
-    color: #6c757d;
+    color: #661d15;
     white-space: nowrap
 }
 
@@ -4709,7 +4709,7 @@ tbody.collapse.show {
 .card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, .03);
+    background-color: #6a281ae9;
     border-bottom: 1px solid rgba(0, 0, 0, .125)
 }
 
