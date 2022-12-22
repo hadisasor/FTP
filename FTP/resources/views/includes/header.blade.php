@@ -13,6 +13,7 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
+    <link rel="stylesheet" href="{{URL::asset('../css/mine.css')}}">
     <link rel="stylesheet" href="{{URL::asset('../css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('../css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{URL::asset('../css/magnific-popup.css')}}">
@@ -26,19 +27,27 @@
 <body>
     <!-- header-start -->
     <header>
-        <div class="header-area ">
+        <div class="header-area">
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid ">
                     <div class="row align-items-center no-gutters">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="main-menu  d-none d-lg-block">
+                    <div class="">
+                        <div class="logo-img pl-3">
+                            <a href="/">
+                                <img src="img/FatoniLogo-removebg.png" height="92" width="112" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                        <div>
+                            <div class="main-menu d-block pl-3">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="/">home</a></li>
-                                        <li><a href="/hajj">Hajj</a></li>
-                                        <li><a href="/umrah">Umrah</a></li>
-                                        <li><a href="/travel">Travel</a></li>
-                                        <li><a href="">about</a></li>
+                                        <li ><a class="active" href="/">home</a></li>
+                                        <li ><a href="/hajj">Hajj</a></li>
+                                        <li ><a href="/umrah">Umrah</a></li>
+                                        <li ><a href="/travel">Travel</a></li>
+                                        <li ><a href="">about</a></li>
 
 
 
@@ -52,21 +61,15 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
-                                <a href="/">
-                                    <img src="img/FatoniLogo-removebg.png" height="92" width="112" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
-                            <div class="book_room">
-                                <div class="book_btn d-none d-lg-block">
+                        
+                        <div class="col-xl-5 col-lg-4 d-sm-none d-lg-block">
+                            <div class="book_room pl">
+                                <div class="book_btn d-block">
                                     <a class="popup-with-form" href="/login">Register</a>
                                                                     <!--#test-form-->
                                  
                                 </div>
-                                <a class="popup-with-form" href="/register">have account?</a>  
+                                <a class="popup-with-form ml-3" href="/register">have account?</a>  
                             </div>
                         </div>
 
