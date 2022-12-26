@@ -1,17 +1,17 @@
 @include('includes.header')
  
-<section class="reg-sec" style="background-color:#294341; height:100vh">
+<section class="reg-sec" style="background-color:#d4a276; height:100vh">
 
 
-    <div class="row" style="margin-top:10%;">
+    <div class="row" style="margin-top:13%; margin-left:35% ">
 
-      <div class="col-lg-6 order-1 order-lg-2 hero-img" >
+      {{-- <div class="col-lg-6 order-1 order-lg-2 hero-img" >
 
           <img src="{{asset('../../../img/Makkah.png')}}" class="img-fluid animated" alt="">
 
-        </div>
+        </div> --}}
 
-      <div class="col-md-5 px-5">
+      <div class="col-md-5 px-1">
         <form class="container-reg px-5" action="check" method="post">
                      
         @if (Session::get('success'))
