@@ -1,81 +1,161 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fatoni Travel</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/FatoniLogo-removebg.png">
-    <!-- Place favicon.ico in the root directory -->
+  <title>Fatoni Travel Limited Partnership</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="{{URL::asset('../css/mine.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('../css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('../css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('../css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('../css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('../css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('./css/animate.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('./css/style.css')}}">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  <!-- Favicons -->
+  <link href="{{ asset('../../img/FLogo.png') }}" rel="icon">
+  <link href="{{ asset('../../img/FLogo.png') }}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+@livewireStyles
+
+
+ <!-- Vendor CSS Files -->
+ <link href="{{ asset('../../vendors/aos/aos.css') }}" rel="stylesheet">
+ <link href="{{ asset('../../vendors/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('../../vendors/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+ <link href="{{ asset('../../vendors/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('../../vendors/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+ <link href="{{ asset('../../vendors/remixicon/remixicon.css') }}" rel="stylesheet">
+ <link href="{{ asset('../../vendors/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+ <!-- Template Main CSS File -->
+ <link href="{{ asset('../../css/style.css') }}" rel="stylesheet">
+
 </head>
 
 <body>
-    <!-- header-start -->
-    <header>
-        <div class="header-area">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid ">
-                    <div class="row align-items-center no-gutters">
-                    <div class="">
-                        <div class="logo-img pl-3">
-                            <a href="/">
-                                <img src="img/FatoniLogo-removebg.png" height="92" width="112" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                        <div>
-                            <div class="main-menu d-block pl-3">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li ><a class="active" href="/">home</a></li>
-                                        <li ><a href="/hajj">Hajj</a></li>
-                                        <li ><a href="/umrah">Umrah</a></li>
-                                        <li ><a href="/travel">Travel</a></li>
-                                        <li ><a href="">about</a></li>
+                @php  
+                //Turn date into Month & day only
+                function dayMonth($date){
+                  $date = strtotime($date);
+                  return date('d M', $date);
+                } 
 
 
+                //Put colon between numbers
+                function priceColon($price){
 
-                        <!--          <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>*/-->  
-                                      <!-- <li><a href="contact.html">Contact</a></li>--> 
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        
-                        <div class="col-xl-5 col-lg-4 d-sm-none d-lg-block">
-                            <div class="book_room pl">
-                                <div class="book_btn d-block">
-                                    <a class="popup-with-form" href="/login">Register</a>
-                                                                    <!--#test-form-->
-                                 
-                                </div>
-                                <a class="popup-with-form ml-3" href="/register">have account?</a>  
-                            </div>
-                        </div>
+                  $price = (string)$price;
+                  $colon = ',';
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header-end -->
+                  if (strlen($price) == 6)
+                  {
+                    return $price = substr_replace($price, $colon ,3 , 0 );
+                  }
+                  else if (strlen($price) == 5)
+                  {
+                    return  $price = substr_replace($price, $colon,2 ,0 );
+                  }
+
+                 else if (strlen($price) < 5)
+                {
+                  return $price;
+                }
+              }
+               
+          
+                @endphp
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <a href="{{route('Home')}}"><img src="{{asset('../../img/Flogo.png')}}" alt="" class="img-fluid"></a>
+      <div class="logo-container">
+      <h4> <a href="{{route('Home')}}" style=" font-family: 'Cairo', sans-serif; font-weight: 700;">Fatoni Travel Limited Partnership<br> <p >convenience website for serving Thai pilgrims</p></a></h4>
+    </div> 
+   
+      <!-- Uncomment below if you prefer to use an \ logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      @php 
+
+      $route= URL::current();
+      $route = strstr($route,'hajj');
+      $route =preg_replace('/[^a-zA-Z\']/', "", $route );
+
+      $route1= URL::current();
+      $route1 = strstr($route1,'umrah');
+      $route1 =preg_replace('/[^a-zA-Z\']/', "", $route1 );
+
+
+      @endphp
+      <nav id="navbar" class="navbar">
+        <ul>
+          @if($route == 'Home')
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Hajj</a></li>
+          <li><a class="nav-link   scrollto" href="#portfolio">Umrah</a></li>
+          <li><a class="nav-link scrollto" href="#team">Travel</a></li>
+              <li class="dropdown"><a href="#"><span>Services</span><i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="transortation">Transportation</a></li>
+                  <li class="dropdown"><a href="hotels"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Madinah</a></li>
+                      <li><a href="#">Makkah</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Attraction</a></li>
+                </ul>
+              </li>
+            @else
+            <li><a class="nav-link scrollto" href="/">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+            <li><a class="nav-link scrollto @if ($route == 'hajjpackages' || $route == 'hajjpackage') active @endif" href="/hajjpackages">Hajj</a></li>
+            <li><a class="nav-link scrollto @if ($route1 == 'umrahpackages' || $route1 == 'umrahpackage') active @endif" href="/umrahpackages">Umrah</a></li>
+            <li><a class="nav-link scrollto" href="#team">Travel</a></li>
+            <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Transportation</a></li>
+                <li class="dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Madinah</a></li>
+                    <li><a href="#">Makkah</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Attraction</a></li>
+            </ul>
+          </li>
+          @endif
+        {{-- User profile navagator --}}
+          @if (auth()->check())
+   
+          <li class="dropdown"><a href="#"><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/Yosr-02.png')}}"></a>
+                <span>{{auth()->user()->userType}}</span>
+                <h5>{{auth()->user()->fstname}} {{auth()->user()->lstname}}</h5>
+              </li>
+              <li><a href="{{route('my_profile')}}">profile</a></li>
+              @if (auth()->user()->userType == "Admin" || auth()->user()->userType == "Tokseh" )
+              <li><a href="{{route('dash')}}">packages management</a></li>
+              @else <li><a href="#">My packages</a></li>
+              @endif
+
+              <li> <a class="nav-link" href="/logout"> Logout</a></li>
+            </ul>
+            
+            
+        @else
+        <li><a class="getstarted scrollto" href="{{route('login')}}">Register</a></li>
+      </ul>
+      
+      @endif
+      
+      </nav><!-- .navbar -->
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </div>
+  </header><!-- End Header -->
