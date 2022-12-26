@@ -1,0 +1,161 @@
+    
+{{--                   
+              <div class="beds-details row"><!--beginning of bed details-->
+
+                <div class="col-xl-3">
+                  <img src="{{asset('img/Icons/bed.png')}}
+                  "><h5>Total beds with price</h5>
+                </div>
+
+
+                <div class="bed-num col">
+                  <img src="{{asset('img/Icons/bed.png')}}
+                  "> <p>5 beds <br> 2500 bht</p>
+                </div>
+
+                <div class="bed-num col"> 
+                  <img src="{{asset('img/Icons/bed.png')}}
+                  "> <p>4 beds <br> 2500 bht</p>
+                </div>
+
+                <div class="bed-num col">
+                  <img src="{{asset('img/Icons/bed.png')}}
+                  "> <p>3 beds <br> 2500 bht</p>
+                </div>
+
+                <div class="bed-num col">
+                  <img src="{{asset('img/Icons/bed.png')}}"> <p>2 beds <br> 2500 bht</p>
+                </div>
+
+              
+              </div><!--end of bed details--> --}}
+
+
+
+
+
+
+
+
+              {{--    
+
+
+      @php $cr = 0; @endphp
+      @if(!$users) <!-- if page was profile not my_profile because users variable doesn't exist in profile{id}-->
+      @foreach($users as $user)
+      @foreach($reviews as $review)
+      @if($user['id'] == $review['user_id'])
+      <div class="row mb-1 mx-3 bg-white">
+        <i class="col-md-2 bi bi-person-circle centering mt-3" style="font-size: 40px"></i>
+          <div class="col-md-10"> 
+              <div class="row mt-2"> 
+                
+                  @php $cr++; @endphp
+                  
+                  
+                    @foreach($review->users as $i=>$user1)
+                      @if($review['user_id'] == $user1['id'])
+                          <h5 class="col-md-4">{{$user1['fstname']}} {{$user1['lstname']}}</h5> 
+                      @endif
+
+                    @endforeach
+
+           
+
+                  <div class="col-md-6">
+                      @for($i = 1 ; $review['rating'] >= $i; $i++)
+                        <i class="col-md-1 bi bi-star-fill px-1"></i>
+                      @endfor
+
+                      @php $remain = 5 - $review['rating'] @endphp
+                      @for($i = 1 ; $remain >= $i; $i++)
+                        <i class="col-md-1 bi bi-star px-1"></i>
+                      @endfor
+                  </div>
+              </div>  
+
+              <div class="row pt-1 pb-3"> 
+                <p>{{$review['comment']}}</p>
+              </div> 
+          </div>
+        </div>
+          @endif
+          @endforeach
+          @endforeach
+          
+          @if($cr == 0)
+          <h5 class="col-md-4 centering" style=" color: #6d6d6d;"> There's no review currently</h5> 
+          @endif
+
+      @else<!-- if page was my_profile not profile because users exist in profile{id}-->
+     
+      @foreach($reviews as $index=>$review)<!-- Here -->
+      @if($users['id'] == $review['user_id'])
+        <div class="row mb-1 mx-3 bg-white">
+          <i class="col-md-2 bi bi-person-circle centering mt-3" style="font-size: 40px"></i>
+            <div class="col-md-10"> 
+                <div class="row mt-2"> 
+                    @php $cr++; @endphp
+                    
+                    
+                      @foreach($review->users as $i=>$user1)
+                        @if($review['user_id'] == $users['id'])
+                            <h5 class="col-md-4 pt-2">{{$user1['fstname']}} {{$user1['lstname']}}</h5> 
+                        @endif
+                      @endforeach
+
+               
+
+                    <div class="col-md-6 pt-2">
+                        @for($i = 1 ; $review['rating'] >= $i; $i++)
+                          <i class="col-md-1 bi bi-star-fill px-1"></i>
+                        @endfor
+
+                        @php $remain = 5 - $review['rating'] @endphp
+                        @for($i = 1 ; $remain >= $i; $i++)
+                          <i class="col-md-1 bi bi-star px-1"></i>
+                        @endfor
+                    </div>
+
+                    @foreach($review->users as $i=>$user1)
+                 
+                    @if( auth()->user() && auth()->user()->id != $user1['id'])
+                    
+                    <div class="col-md-2 dropdown">
+                      <button class="btn"  data-bs-toggle="dropdown" aria-expanded="false" style="padding:0px 5px 0px 5px;">
+                        <i class="bi bi-pencil-square"></i>
+                        <ul class="dropdown-menu" >
+                        <a class="dropdown-item" href="#">Report <i class="bi bi-exclamation-diamond"></i></a>
+                        </ul>
+                    </div> 
+
+                    @elseif(!auth()->user())
+
+                    @elseif(auth()->user()->id == $user1['id'])
+
+                    <div class="col-md-2 dropdown">
+                      <button class="btn"  data-bs-toggle="dropdown" aria-expanded="false" style="padding:0px 5px 0px 5px;">
+                        <i class="bi bi-pencil-square"></i>
+                        <ul class="dropdown-menu" >
+                          <a class="dropdown-item" href="/">Edit <i class="bi bi-pen"></i></a>
+                        <a class="dropdown-item" href="/deleteComment/{{$review['id']}}">Delete <i class="bi bi-trash"></i></a>
+                        </ul>
+                    </div> 
+
+                    @endif
+                  @endforeach
+                </div>  
+
+                <div class="row pt-1 pb-3"> 
+                  <p>{{$review['comment']}}</p>
+                </div> 
+            </div>
+          </div>
+      @endif
+      @endforeach<!-- Here -->
+          
+      @if($cr == 0)
+      <h4 class="col-md-4 centering" style=" color: #6d6d6d;">There's no review currently</h4> 
+      @endif
+          
+      @endif --}}
