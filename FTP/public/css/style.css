@@ -1881,9 +1881,9 @@ padding: 10px;
   background: #a47e1b;
   color: #fff;
 }
-.pricing .featured {
+/* .pricing .featured {
   border-top-color: #a47e1b;
-}
+} */
 .pricing .featured .buy-btn {
   background: #fff;
   color: rgb(0, 0, 0);
