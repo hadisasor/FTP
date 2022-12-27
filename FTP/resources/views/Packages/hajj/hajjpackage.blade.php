@@ -25,7 +25,7 @@
         @endif
   </div>
  <!-- Modal -->
- @include('includes/Modal')
+ {{-- @include('includes/Modal') --}}
   </section><!-- End Hero -->
 
   <main id="main">
@@ -48,7 +48,7 @@
                 @include('packages.includes.first_row')
                   
 
-                @include('includes.leader_review')
+                {{-- @include('includes.leader_review') --}}
 
 
             <div class="table-details row"><!--beginning of Mina details-->
@@ -98,7 +98,7 @@
                 </div>
                 <div class="book-container2 row"> 
                     <a href="HajjPackagePage.html" id="upgradePackage" class="book btn-get-started scrollto">Child policy</a>
-                    <button href="HajjPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button></div>    
+                    {{-- <button href="HajjPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button></div>     --}}
                 </div><!--Ending of booking-->
 
 
