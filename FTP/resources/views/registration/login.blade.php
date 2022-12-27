@@ -1,9 +1,9 @@
 @include('includes.header')
  
-<section class="reg-sec" style="background-color:rgb(208, 208, 208); height:100vh">
+<section class="reg-sec" style="background-color:rgb(255, 255, 255); height:100vh">
 
 
-    <div class="row" style="margin-top:13%; margin-left:30% ">
+    <div class="row" style="margin-top:10%;">
 
       {{-- <div class="col-lg-6 order-1 order-lg-2 hero-img" >
 
@@ -11,8 +11,8 @@
 
         </div> --}}
       <div>
-        <div class="col-md-6 px-0 border border-dark">
-          <form class="container-reg px-5" action="check" method="post">
+        <div class="col-12 px-0">
+          <form class="container-reg px-5 login" action="check" method="post">
                       
           @if (Session::get('success'))
               <div class="alert alert-success">
@@ -22,43 +22,43 @@
           @endif
 
           @if(Session::get('message'))
-          <div class="alert alert-danger">
-            {{(Session::get('message'))}}
-          </div>
+            <div class="alert alert-danger">
+              {{(Session::get('message'))}}
+            </div>
           @endif
 
           @if(Session::get('Null'))
-          <div class="alert alert-danger">
-            {{(Session::get('Null'))}}
-          </div>
+            <div class="alert alert-danger">
+              {{(Session::get('Null'))}}
+            </div>
           @endif
 
           @if(Session::get('logout'))
-          <div class="alert alert-danger">
-            {{(Session::get('logout'))}}
-          </div>
+            <div class="alert alert-danger">
+              {{(Session::get('logout'))}}
+            </div>
           @endif
 
           @if(Session::get('null'))
-          <div class="alert alert-danger">
-            {{(Session::get('null'))}}
-          </div>
+            <div class="alert alert-danger">
+              {{(Session::get('null'))}}
+            </div>
           @endif
 
           @if(Session::get('message2'))
-          <div class="alert alert-danger">
-            {{(Session::get('message2'))}}
-          </div>
+            <div class="alert alert-danger">
+              {{(Session::get('message2'))}}
+            </div>
           @endif
 
           @csrf
 
               <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Email:</label>
+                <label for="email" class="form-label text-start" style="width: 100%">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
               </div>
               <div class="mb-3">
-                <label for="password" class="form-label">Password:</label>
+                <label for="password" class="form-label text-start" style="width: 100%">Password:</label>
                 <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
               </div>
               <div class="form-check mb-3">
@@ -67,12 +67,12 @@
                 </label>
               </div>
               <br>
-              <button type="submit" class="btn-get-started">login</button>
+              <button type="submit" class="btn-get-started mb-5">login</button>
               <a href="/signup">create new account?</a>
             
-            </form>
-          
-          </div>
+          </form>
+        
+        </div>
 
     </div>
  

@@ -211,7 +211,7 @@ color: #dbb42c;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   color: #000000;
   white-space: nowrap;
   transition: 0.3s;
@@ -227,6 +227,33 @@ color: #dbb42c;
 
 
 
+
+.login{
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px 0px #a47d1b24;
+  
+}
+
+.login i, a{
+  color: #000000;
+  
+
+}
+
+.login label{
+  color: #000000;
+
+}
+
+.login button{
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
 
 
 
