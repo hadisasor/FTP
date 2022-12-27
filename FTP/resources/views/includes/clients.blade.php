@@ -1,4 +1,4 @@
-   <!-- ======= Clients Section ======= -->
+   {{-- <!-- ======= Clients Section ======= -->
    <section id="clients" class="clients section-bg">
     <div class="container">
 
@@ -31,4 +31,4 @@
       </div>
 
     </div>
-  </section><!-- End Cliens Section -->
+  </section><!-- End Cliens Section --> --}}
