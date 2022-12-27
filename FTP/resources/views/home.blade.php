@@ -26,10 +26,10 @@
 
 
 
-          <!-- change the photo -->
+          <!-- change the photo in background -->
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="{{asset('img/FLogo.png')}}" class="img-fluid animated" alt="">
+          <img src="{{asset('img/circle-01.png')}}" class="img-fluid animated" alt="">
         </div>
         <!-- change the photo -->
 
@@ -137,7 +137,7 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= Skills Section ======= -->
+    {{-- <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
@@ -188,7 +188,7 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section><!-- End Skills Section --> --}}
     <!-- ======= Hajj Section ======= -->
     
   
@@ -286,7 +286,7 @@
       </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    {{-- <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -352,7 +352,7 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section><!-- End Frequently Asked Questions Section --> --}}
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">

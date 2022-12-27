@@ -232,7 +232,7 @@ color: #dbb42c;
   border-radius: 50px;
   color: #000000;
   font-size: 12px;
-  border: 2px solid #ddb892;
+  border: 2px solid #a47e1b;
   font-weight: 600;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
@@ -406,13 +406,17 @@ color: #dbb42c;
   padding-top: 72px;
   
 }
+
+/*text in the home page*/
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;;
-  color: #fff;
+  color: #000000;
 }
+
+
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
@@ -466,25 +470,25 @@ color: #dbb42c;
 
 
 
-#hero .btn-get-started, button {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 11px 28px;
-  border-radius: 10px;
-  transition: 0.5s;
-  margin: 10px 0 0 0;
-  color: rgb(255, 255, 255);
-  background: #76520e;
-  border: 2px solid #76520e;
-}
+                            #hero .btn-get-started, button {
+                              font-family: "Jost", sans-serif;
+                              font-weight: 500;
+                              font-size: 16px;
+                              letter-spacing: 1px;
+                              display: inline-block;
+                              padding: 10px 28px 11px 28px;
+                              border-radius: 10px;
+                              transition: 0.5s;
+                              margin: 10px 0 0 0;
+                              color: rgb(1, 1, 1);
+                              
+                              border: 2px solid #a47e1b;
+                            }
 
-#hero .btn-get-started:hover, button:hover {
-  background: #fff;
-  border: none;
-}
+                            #hero .btn-get-started:hover, button:hover {
+                              background: #a47e1b;
+                              border: none;
+                            }
 #hero .btn-watch-video {
   font-size: 16px;
   display: flex;
@@ -568,7 +572,7 @@ color: #dbb42c;
 }
 
 #hero p {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
