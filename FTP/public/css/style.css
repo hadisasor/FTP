@@ -1811,7 +1811,7 @@ padding: 10px;
 }
 .pricing .box {
   padding: 60px 40px;
-  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  box-shadow: 0 3px 20px -2px rgba(148, 151, 158, 0.1);
   background: #fff;
   height: 100%;
   border-top: 4px solid #fff;
@@ -1821,11 +1821,11 @@ padding: 10px;
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #76520e;
 }
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #76520e;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1834,7 +1834,7 @@ padding: 10px;
   font-size: 28px;
 }
 .pricing h4 span {
-  color: #47b2e4;
+  color: #2c2c2c;
   font-size: 18px;
   display: block;
 }
@@ -1869,13 +1869,13 @@ padding: 10px;
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #000000;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #a47e1b;
 }
 .pricing .buy-btn:hover {
   background: #47b2e4;
