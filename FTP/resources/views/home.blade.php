@@ -81,12 +81,12 @@
     <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row" class="col-lg-6 d-flex flex-column">
+        <div class="row" class="">
 
           <!-- <div class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"> -->
 
           
-            <div class="content">
+            <div class="content col-12 pt-4 pb-3">
               <h3>Why Fatoni Travel Limited Partnership?</h3>
               <p>
                 Fatoni Travel Limited Partnership have strong relationships around Thailand to make sure you have saticfy with your trip.
