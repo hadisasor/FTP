@@ -26,10 +26,10 @@
 
 
 
-          <!-- change the photo -->
+          <!-- change the photo in background -->
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="{{asset('img/FLogo.png')}}" class="img-fluid animated" alt="">
+          <img src="{{asset('img/circle-01.png')}}" class="img-fluid animated" alt="">
         </div>
         <!-- change the photo -->
 
@@ -42,9 +42,12 @@
 
   <main id="main">
 
-  @include('includes.clients')
+  {{-- @include('includes.clients') --}}
 
     <!-- ======= About Us Section ======= -->
+    <br><br><br><br><br>
+
+
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
@@ -78,12 +81,13 @@
     <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row">
+        <div class="row" class="">
 
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+          <!-- <div class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"> -->
 
-            <div class="content">
-              <h3>Why <strong>Fatoni Travel Limited Partnership</strong>?</h3>
+          
+            <div class="content col-12 pt-4 pb-3">
+              <h3>Why Fatoni Travel Limited Partnership?</h3>
               <p>
                 Fatoni Travel Limited Partnership have strong relationships around Thailand to make sure you have saticfy with your trip.
                 and for hajj & umarah we have different connections and cooporations with several organization that specialized in hajj & umrah. 
@@ -128,13 +132,15 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("../../img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+          <!-- <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("../../img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div> -->
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
+    
+    <!-- End Why Us Section -->
 
-    <!-- ======= Skills Section ======= -->
+    {{-- <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
@@ -185,7 +191,9 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section>
+    
+    <!-- End Skills Section --> --}}
     <!-- ======= Hajj Section ======= -->
     
   
@@ -210,7 +218,9 @@
         </div>
 
       </div>
-    </section><!-- End Cta Section --> --}}
+    </section>
+    
+    <!-- End Cta Section --> --}}
 
     <!-- ======= Umrah Section ======= -->
   
@@ -281,9 +291,10 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section>
+    <!-- End Pricing Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    {{-- <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -349,7 +360,9 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>
+    
+    <!-- End Frequently Asked Questions Section --> --}}
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">

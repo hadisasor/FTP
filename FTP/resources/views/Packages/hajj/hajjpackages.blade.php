@@ -19,8 +19,8 @@ $countSaver  = 0;
            
   </section><!-- End Hero -->
 
-  <main id="main">
-    @include('includes.clients')
+  {{-- <main id="main">
+    @include('includes.clients') --}}
 
     <!-- ======= Hajj Section ======= -->
     <section id="hajj" class="about" style="background: url(/assets/img/bg.jpg);">

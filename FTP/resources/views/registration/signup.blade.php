@@ -1,15 +1,15 @@
 @include('includes.header')
  
-<section class="reg-sec" style="background-color:#294341; height:100vh; overflow-y:scroll">
+<section class="reg-sec" style="background-color:#ffffff; height:100vh; overflow-y:scroll">
 
 
 
-    <div class="row" style="margin-top:7%;">
-    <div class="col-xl-6">
+    <div class="row" style="margin-top:7%; margin-left:30%; margin-bottom:2%;">
+    {{-- <div class="col-xl-6">
       <div><img class="centering" src="{{asset('../../img/Yosr-02.png')}}" style="width:10cm"></div>
-    </div>
-    <div class="col-xl-5 px-6">
-    <form class="container-reg"  action="store" method="post" >
+    </div> --}}
+    <div class="col-ms-5 px-3 col-md-6">
+    <form class="container-reg register"  action="store" method="post" >
 
         
        @if (Session::get('fail'))
@@ -24,42 +24,42 @@
      
        
  
-            <div class="row mb-3 mt-3">
-              <label for="email" class="form-label">Email:</label>
+            <div class="row mb-3 mt-2 col-9 centering">
+              <label for="email" class="form-label text-start">Email:</label>
               <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="{{old('email')}}" >
               <span style="color: #e34646;">@error ('email') {{$message}} @enderror</span>
             </div>
             
-            <div class="row mb-3 centering">
-            <div class="col-6">
-                <label for="fstname" class="form-label">first name:</label>
-                <input type="text" class="form-control" id="fstname" placeholder="Enter your firstname" name="fstname" value="{{old('fstname')}}" style="width:200px;" >
-                <span style="color: #e34646;">@error ('fstname') {{$message}} @enderror</span>
-            </div>
-            
-            <div class="col-6" >
-                <label for="lstname" class="form-label">last name:</label>
-                <input type="text" class="form-control" id="lstname" placeholder="Enter your lastname" name="lstname" value="{{old('lstname')}}" style="width:200px;" >
-                <span style="color: #e34646;">@error ('lstname') {{$message}} @enderror</span>
-            </div>
+            <div class="row mb-3 centering text-start">
+              <div class="col-9">
+                  <label for="fstname" class="form-label text-start">first name</label>
+                  <input type="text" class="form-control" id="fstname" placeholder="Enter your firstname" name="fstname" value="{{old('fstname')}}" style="width:50%;" >
+                  <span style="color: #e34646;">@error ('fstname') {{$message}} @enderror</span>
+              </div>
+              
+              <div class="col-9 mt-2" >
+                  <label for="lstname" class="form-label text-start">last name</label>
+                  <input type="text" class="form-control" id="lstname" placeholder="Enter your lastname" name="lstname" value="{{old('lstname')}}" style="width:50%;" >
+                  <span style="color: #e34646;">@error ('lstname') {{$message}} @enderror</span>
+              </div>
             </div>
 
-            <div class="row mb-3">
-              <label for="password" class="form-label">Password:</label>
+            <div class="row mb-3 col-9 centering">
+              <label for="password" class="form-label text-start">Password:</label>
               <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" pattern="(?=.*\d).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
               <span style="color: #e34646;">@error ('password') {{$message}} @enderror</span>
 
             </div>
 
-            <div class="row mb-3">
-            <label for="confirm_password" class="form-label">Confirm password:</label>
+            <div class="row mb-3 col-9 centering">
+            <label for="confirm_password" class="form-label text-start">Confirm password:</label>
             <input type="password" class="form-control" id="confirm_pwd" placeholder="Confirm password" name="confirm_password">
             <span style="color: #e34646;">@error ('password'){{'password conformation is required'}} @enderror</span>
             </div>    
             
 
-            <div class="row mb-3">
-                <label for="phone" class="form-label">phone number:</label>
+            <div class="row mb-3 col-9 centering">
+                <label for="phone" class="form-label text-start">phone number:</label>
                 <input type="number" class="form-control" id="phone" placeholder="enter phone number" name="phone" value="{{old('phone')}}">
                 <span style="color: #e34646;">@error ('phone') {{$message}} @enderror</span>
               </div>
@@ -80,7 +80,7 @@
           </div>
 
             <br>
-            <button type="submit" class="btn-get-started">signup</button>
+            <button type="submit" class="btn-get-started mb-2">signup</button>
             <a href="/login">already have an account?</a>
         
     </form>  
