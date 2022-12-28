@@ -9,7 +9,7 @@
       <div><img class="centering" src="{{asset('../../img/Yosr-02.png')}}" style="width:10cm"></div>
     </div> --}}
     <div class="col-ms-5 px-3 col-md-6">
-    <form class="container-reg"  action="store" method="post" >
+    <form class="container-reg register"  action="store" method="post" >
 
         
        @if (Session::get('fail'))

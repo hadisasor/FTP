@@ -275,7 +275,7 @@ color: #dbb42c;
 
 
 
-.container-reg {
+.register {
   background-color: #fff;
   width: 120%;
   margin: 30px auto;
@@ -286,7 +286,7 @@ color: #dbb42c;
 
 }
 
-.container-reg label{
+.register label{
   color: #000000;
 
 }
@@ -883,7 +883,7 @@ width: 1rem;
   text-align: center;
 }
 .content .hajjpricing h4{
-  background-color: #34B19D;
+  background-color: #a47e1b;
   width: 100%;
   border-radius: 10px;
   color: white;
@@ -1548,16 +1548,18 @@ padding: 10px;
 
 .book{
   font-size: medium;
-  background-color: #76520e;
+  background-color: #fff;
   padding: 5px;
   border-radius: 7px;
   margin: 5px;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border: 2px solid #a47e1b;
 }
 
 .book:hover{
   background-color: #a47e1b;
-  color: white;
+  color: rgb(0, 0, 0);
 
 }
 
