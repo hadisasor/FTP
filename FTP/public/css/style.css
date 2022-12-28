@@ -197,6 +197,7 @@ color: #dbb42c;
   display: flex;
   list-style: none;
   align-items: center;
+  margin-left: 30%;
   padding-left: 44%;
 }
 .navbar li {
