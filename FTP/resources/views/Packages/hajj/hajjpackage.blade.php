@@ -110,7 +110,7 @@
 
                   <div class="onepic col"><!--Hotel one-->    
                     <div class="hotelsname col">
-                      <img src="{{asset('img/Icons/kabah2.png')}}"> <h2><p>Makkah hotel</p></h2>
+                      <img src="{{asset('img/Icons/FTLPM-01.png')}}"> <h2><p>Makkah hotel</p></h2>
                     </div>
                     @foreach ($hajjpackage->hotels as $hotel)
                       @if($hotel['location'] == 'Makkah')
@@ -121,7 +121,7 @@
 
                   <div class="onepic col"><!--Hotel 2--> 
                     <div class="hotelsname col"> 
-                      <img src="{{asset('img/Icons/madinah2.png')}}"><h2><p>Madinah hotel</p></h2>
+                      <img src="{{asset('img/Icons/FTLPT-02.png')}}"><h2><p>Madinah hotel</p></h2>
                     </div>
                       @foreach ($hajjpackage->hotels as $hotel)
                         @if($hotel['location'] == 'Madinah')

@@ -22,7 +22,7 @@ if($url == ''){
           @default
           @endswitch
         </h3>
-      <img class="thumbnail" src="{{asset('img/Ka3bah.jpg')}}">   
+      <img class="thumbnail" src="{{asset('img/FTLPM-01.jpg')}}">   
       <div><img class="icon" src="{{asset('img/Icons/Icons-12.png')}}">
         <h4>
           @switch($url)

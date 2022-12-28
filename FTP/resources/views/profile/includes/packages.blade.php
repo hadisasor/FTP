@@ -51,8 +51,8 @@ function chRemover($str){
                           </div>
                           <div class="row">
                               <div class="details"  data-aos="zoom-in" data-aos-delay="50">
-                              <div class="icontainer"><img class="icon" src="{{asset('img/Icons/kabah2.png')}}"> <img class="icon2" src="{{asset('img/Icons/madinah2.png')}}"> 
-                              <img class="icon3" src="{{asset('img/Icons/Group.png')}}"></div>
+                              <div class="icontainer"><img class="icon" src="{{asset('img/Icons/FTLPM-01.png')}}"> <img class="icon2" src="{{asset('img/Icons/FTLPT-02.png')}}"> 
+                              <img class="icon3" src="{{asset('img/Icons/FTLPG-03.png')}}"></div>
                               @foreach($umrahpackage->hotels as $hotel)
                               @if($hotel['location'] == 'Makkah')
                                <div class="hot-location pt-4"><p>Makkah hotel: {{$hotel['hotel_name']}}
@@ -96,7 +96,7 @@ function chRemover($str){
                       <div class="row mt-2">
                           <h3><a href="/profile/{{$umrahpackage['user_id']}}">{{$umrahpackage['groupLeader']}}</a></h3>
                           <div class="details"  data-aos="zoom-in" data-aos-delay="50">
-                              <div class="icontainer"><img class="icon" src="{{asset('img/Icons/kabah2.png')}}"> <img class="icon2" src="{{asset('img/Icons/madinah2.png')}}"> 
+                              <div class="icontainer"><img class="icon" src="{{asset('img/Icons/FTLPM-01.png')}}"> <img class="icon2" src="{{asset('img/Icons/madinah2.png')}}"> 
                                 <img class="icon3" src="{{asset('img/Icons/Group.png')}}">
                               </div>
                               @foreach($umrahpackage->hotels as $hotel)

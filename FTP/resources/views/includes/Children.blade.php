@@ -31,7 +31,7 @@ $hajjCount   = 0;
                 @if($hotel['location'] == 'Makkah')
                 <div class="row">
                   <div class="col-2 px-4">
-                    <img class="icon" src="{{asset('img/Icons/kabah2.png')}}">
+                    <img class="icon" src="{{asset('img/Icons/FTLPM-01.png')}}">
                   </div> <p class="col-3"> Makkah hotel: </p> <p class="col"> {{$hotel['hotel_name']}} </p>
                 </div>
                 @endif
@@ -39,7 +39,7 @@ $hajjCount   = 0;
                 @if($hotel['location'] == 'Madinah')
                 <div class="row">
                   <div class="col-2 px-4" >
-                    <img class="icon" src="{{asset('img/Icons/madinah2.png')}}">
+                    <img class="icon" src="{{asset('img/Icons/FTLPT-02.png')}}">
                   </div> <p class="col-3"> Madinah hotel: </p> <p class="col"> {{$hotel['hotel_name']}} </p>
                 </div>
                 @endif
@@ -47,7 +47,7 @@ $hajjCount   = 0;
                 @endforeach
                 <div class="row">
                   <div class="col-2 px-4">
-                    <img class="icon" src="{{asset('img/Icons/Group.png')}}">
+                    <img class="icon" src="{{asset('img/Icons/FTLPG-03.png')}}">
                   </div>
                 <p class="col-4"> Group: </p> <p class="col">{{$hajjpackage['groupNumber']}}</p>
                 </div>
@@ -101,7 +101,7 @@ $hajjCount   = 0;
                 @if($hotel['location'] == 'Makkah')
                 <div class="row">
                   <div class="col-2 pt-2 px-4">
-                    <img class="icon" src="{{asset('img/Icons/kabah2.png')}}">
+                    <img class="icon" src="{{asset('img/Icons/FTLPM-01.png')}}">
                   </div> <p class="col-3"> Makkah hotel: </p> <p class="col"> {{$hotel['hotel_name']}} </p>
                 </div>
                 @endif
@@ -109,7 +109,7 @@ $hajjCount   = 0;
                 @if($hotel['location'] == 'Madinah')
                 <div class="row">
                   <div class="col-2 pt-2 px-4" >
-                    <img class="icon" src="{{asset('img/Icons/madinah2.png')}}">
+                    <img class="icon" src="{{asset('img/Icons/FTLPT-02.png')}}">
                   </div> <p class="col-3"> Madinah hotel: </p> <p class="col"> {{$hotel['hotel_name']}} </p>
                 </div>
                 @endif
@@ -117,7 +117,7 @@ $hajjCount   = 0;
                 @endforeach
                 <div class="row">
                   <div class="col-2 pt-2 px-4">
-                    <img class="icon" src="{{asset('img/Icons/Group.png')}}">
+                    <img class="icon" src="{{asset('img/Icons/FTLPG-03.png')}}">
                   </div>
                 <p class="col-3"> Group: </p> <p class="col">{{$umrahpackage['groupNumber']}}</p>
                 </div>
@@ -162,7 +162,7 @@ $hajjCount   = 0;
             <div class="section-title pb-2 pt-2">
                 <h3 class="bottom_border">
                   <div class="airline-icon">
-                    <img src="{{asset('img/Icons/kabah2.png')}}"> 
+                    <img src="{{asset('img/Icons/FTLPM-01.png')}}"> 
                     </div> 
                   Makkah Hotels</h3>
               </div>
@@ -217,7 +217,7 @@ $hajjCount   = 0;
         <div class="section-title pb-2 pt-2">
           <h3 class="bottom_border">
             <div class="airline-icon">
-              <img src="{{asset('img/Icons/madinah3.png')}}" style="float:right; "> 
+              <img src="{{asset('img/Icons/FTLPT-02.png')}}" style="float:right; "> 
               </div> 
             Madinah Hotels
           </h3>      
