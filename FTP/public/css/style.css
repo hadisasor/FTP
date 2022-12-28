@@ -159,7 +159,7 @@ a h2:hover {
 .logo-container p{
   color: #000000;
   font-size: 13.3px;
-  font-weight: 200;
+  font-weight: 600;
 
 }
 
@@ -211,7 +211,7 @@ color: #dbb42c;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   color: #000000;
   white-space: nowrap;
   transition: 0.3s;
@@ -224,6 +224,40 @@ color: #dbb42c;
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #a47e1b;
 }
+
+
+
+
+.login{
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px 0px #a47d1b24;
+  
+}
+
+.login i, a{
+  color: #000000;
+  
+
+}
+
+.login label{
+  color: #000000;
+
+}
+
+.login button{
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
 
 /*register text font*/
 .navbar .getstarted, .navbar .getstarted:focus {
@@ -262,14 +296,14 @@ color: #dbb42c;
   font-size: 12px;
   text-transform: none;
   font-weight: 500;
-  color: #0c3c53;
+  color: #000000;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
 
-  color: #34B19D;
+  color: #a47e1b;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -1486,6 +1520,7 @@ padding: 10px;
   padding: 5px;
   border-radius: 7px;
   margin: 5px;
+  color: #fff;
 }
 
 .book:hover{
@@ -1811,7 +1846,7 @@ padding: 10px;
 }
 .pricing .box {
   padding: 60px 40px;
-  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  box-shadow: 0 3px 20px -2px rgba(148, 151, 158, 0.1);
   background: #fff;
   height: 100%;
   border-top: 4px solid #fff;
@@ -1821,11 +1856,11 @@ padding: 10px;
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #76520e;
 }
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #76520e;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1834,7 +1869,7 @@ padding: 10px;
   font-size: 28px;
 }
 .pricing h4 span {
-  color: #47b2e4;
+  color: #2c2c2c;
   font-size: 18px;
   display: block;
 }
@@ -1869,27 +1904,28 @@ padding: 10px;
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #000000;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #a47e1b;
 }
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #a47e1b;
   color: #fff;
 }
-.pricing .featured {
-  border-top-color: #47b2e4;
-}
+/* .pricing .featured {
+  border-top-color: #a47e1b;
+} */
 .pricing .featured .buy-btn {
-  background: #47b2e4;
-  color: #fff;
+  background: #fff;
+  color: rgb(0, 0, 0);
 }
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: #a47e1b;
+  color: #fff;
 }
 @media (max-width: 992px) {
   .pricing .box {
@@ -1983,8 +2019,8 @@ padding: 10px;
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #76520e;
+  border-bottom: 3px solid #76520e;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1992,11 +2028,11 @@ padding: 10px;
 }
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
-  background: #e7f5fb;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2008,13 +2044,13 @@ padding: 10px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #76520e;
 }
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #959595;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -2041,13 +2077,13 @@ padding: 10px;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #34B19D;
+  background: #a47e1b;
   color: #fff;
 }
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #76520e;
+  border-bottom: 3px solid #76520e;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -2121,15 +2157,15 @@ padding: 10px;
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #34B19D;
-  border: 0;
+  background: #fff;
+  border: 2px solid #a47e1b;
   padding: 12px 34px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #37B5AB;
+  background: #a47e1b;
 }
 @-webkit-keyframes animate-loading {
   0% {
