@@ -2,50 +2,56 @@
  <footer id="footer">
 
     <div class="footer-top ">
-      <div class="container top_border p-3">
+      <div class="container  top_border p-3">
         <div class="row ">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-5 col-md-6 footer-contact">
             <h3>Fatoni Travel</h3>
             <p>
-              A108 Adam Street <br>
-              Hatyai, 95000<br>
-              Thailan <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              1332 petchkasem Rd, Hatyai Sd, <br>
+              Hatyai, Songkhla, Thailand 90110<br>
+              
+              1332 ถ.เพชรเกษม ถ.หาดใหญ่ <br>
+              หาดใหญ่, สงขลา <br>
+              ประเทศไทย 90110<br>
+              <strong>Phone:</strong> +66 99-313-1166<br>
+              <strong>Email:</strong> fatoni.travel@gmail.com<br>
             </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Hajj Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Umrah Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Travel Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <p style="color: black">ห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล</p>
             <div class="social-links mt-3">
-              <a href="#" ><i class="bx bxl-twitter"></i></a>
+              <!-- <a href="#" ><i class="bx bxl-twitter"></i></a> -->
               <a href="#" ><i class="bx bxl-facebook"></i></a>
               <a href="#" ><i class="bx bxl-instagram"></i></a>
-              <a href="#" ><i class="bx bxl-skype"></i></a>
-              <a href="#" ><i class="bx bxl-linkedin"></i></a>
+              <!-- <a href="#" ><i class="bx bxl-skype"></i></a>
+              <a href="#" ><i class="bx bxl-linkedin"></i></a> -->
             </div>
           </div>
 
