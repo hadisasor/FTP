@@ -838,11 +838,11 @@ width: 1rem;
 }
 
 
-.topichajj ::-webkit-scrollbar-thumb{
-  background-color:#32a198;
+/* .topichajj ::-webkit-scrollbar-thumb{
+  background-color:#000000;
   border-radius: 20px;
 
-}
+} */
 
 
 
