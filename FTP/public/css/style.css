@@ -269,6 +269,38 @@ color: #dbb42c;
   border: 2px solid #a47e1b;
   font-weight: 600;
 }
+
+
+
+
+
+
+.container-reg {
+  background-color: #fff;
+  width: 120%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px 0px #a47d1b24;
+
+}
+
+.container-reg label{
+  color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
   background: #a47e1b;
