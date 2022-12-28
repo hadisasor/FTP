@@ -2330,7 +2330,7 @@ padding: 10px;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #294341;
+  color: #76520e;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -2342,7 +2342,7 @@ padding: 10px;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #294341;
+  color: #434343;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2381,19 +2381,20 @@ padding: 10px;
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #34B19D;
-  color: #fff;
+  background: #fff;
+  color: rgb(0, 0, 0);
   line-height: 1;
-  padding: 8px 0;
+  padding: 7px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
+  border: 2px solid #a47e1b;
   height: 36px;
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #41d8bf;
+  background: #a47e1b;
   color: #fff;
   text-decoration: none;
 }
