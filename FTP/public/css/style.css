@@ -124,7 +124,15 @@ a h2:hover {
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: #fff;
+  box-shadow: 0px 10px 50px 0px #a47d1b24;
 }
+
+#header.header-inner-pages {
+  background: #fff;
+  box-shadow: 0px 10px 50px 0px #a47d1b24;
+}
+
+
 #header .logo {
   font-size: 30px;
   margin: 0;

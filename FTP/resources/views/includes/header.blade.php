@@ -70,7 +70,7 @@
                 @endphp
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top border-bottom ">
     <div class="container d-flex align-items-center">
       <a href="{{route('Home')}}"><img src="{{asset('../../img/Flogo.png')}}" alt="" class="img-fluid"></a>
       <div class="logo-container">
