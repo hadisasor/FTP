@@ -1520,6 +1520,7 @@ padding: 10px;
   padding: 5px;
   border-radius: 7px;
   margin: 5px;
+  color: #fff;
 }
 
 .book:hover{
@@ -2156,15 +2157,15 @@ padding: 10px;
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #34B19D;
-  border: 0;
+  background: #fff;
+  border: 2px solid #a47e1b;
   padding: 12px 34px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.4s;
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #37B5AB;
+  background: #a47e1b;
 }
 @-webkit-keyframes animate-loading {
   0% {
