@@ -119,7 +119,7 @@
             <li><a class="nav-link scrollto" href="#team">Travel</a></li>
             <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-              <li><a href="{{route('buypackage')}}">Buy Packages</a></li>
+              <li><a href="#">Buy Packages</a></li>
                 <li><a href="#">Transportation</a></li>
                 <li class="dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>

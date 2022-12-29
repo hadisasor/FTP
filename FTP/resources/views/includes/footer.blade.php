@@ -48,7 +48,7 @@
             <p style="color: black">ห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล</p>
             <div class="social-links mt-3">
               <!-- <a href="#" ><i class="bx bxl-twitter"></i></a> -->
-              <a href="#" ><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.facebook.com/fatoni.travel" ><i class="bx bxl-facebook"></i></a>
               <a href="#" ><i class="bx bxl-instagram"></i></a>
               <!-- <a href="#" ><i class="bx bxl-skype"></i></a>
               <a href="#" ><i class="bx bxl-linkedin"></i></a> -->
