@@ -8,16 +8,20 @@
 
  
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-6 pt-lg-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           
           @if(Session::get('login'))
           <div class="alert alert-danger"> {{Session::get('login')}}</div>
           @endif
 
-          <h1 style="font-size: 270%;">Welcome to <br>Fatoni Travel Limited Partnership</h1> 
-          <p>convenience website for serving Thai pilgrims,
-             and this website is willing to try it’s best to accomplish the goal of making Hajj and Umrah process and procedures easier and more convenient, 
-             We will be there with you for every step of the way, from the moment you make your intention till the completion of your Hajj, Umrah and Travel.</p>
+          <h1 style="font-size: 220%;">FATONI…SERAMBI MAKKAH <br>ฟาตอนี...ระเบียงมหานครมักกะฮฺ</h1> 
+          <p>สหกรณ์อิสลามอัศศิดดีก จำกัด เป็นสถาบันการเงินที่เปิดบริการธุรกรรมทางการเงินตามหลักการอิสลามให้แก่สมาชิกและผู้ที่สนใจ 
+            หนึ่งในบริการทางการเงินที่เปิดให้บริการอยู่คือ บริการเงินฝากกองทุนฮัจญ์/อุมเราะฮฺ 
+            เพื่อส่งเสริมให้สมาชิกมีการวางแผนการออมเงินเพื่อเดินทางไปประกอบพิธีฮัจญ์</p>
+          <p>ปัจจุบันทางสหกรณ์ได้เปิดให้บริการฮัจญ์และอุมเราะฮฺ ในนามห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล (กิจการในเครือ) รวมทั้งจัดบริการอื่นๆ 
+            ที่เกี่ยวข้องกับพิธีฮัจญ์และอุมเราะฮฺ โดยนำพาสมาชิกและบุคคลทั่วไปเข้าสู่การประกอบพิธีฮัจญ์และอุมเราะฮฺตามแบบอย่าง 
+            (ซุนนะฮฺ) ของท่านรอซูล (ซล.) ซึ่งเป้าหมายสูงสุดคือ การที่จะให้ได้มาซึ่งฮัจญ์และอุมเราะฮฺที่ถูกตอบรับ 
+            (อินชาอัลลอฮฺ) อันเป็นความหวังของบรรดาผู้ประกอบพิธีฮัจญ์และอุมเราะฮฺทุกคน</p>
           <div class="d-flex justify-content-center justify-content-lg-start">
            
             <a href="#portfolio" class="btn-get-started scrollto">Get Started</a>
