@@ -155,7 +155,7 @@
             
         @else
         <li><a class="getstarted scrollto" href="{{route('login')}}">Login</a></li>
-        <li><a class="getstarted scrollto" href="{{route('signup')}}">Register</a></li>
+        <a class="" href="/signup">create new account?</a>
       </ul>
       
       @endif
