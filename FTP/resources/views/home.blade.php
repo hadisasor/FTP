@@ -231,6 +231,19 @@
 
     @yield('hotels')
 
+
+
+
+
+
+    </main><!-- End #main -->
+
+    @include ('includes/footer')
+
+
+
+
+    
     <!-- ======= Pricing Section ======= -->
     <!-- <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
@@ -365,7 +378,7 @@
     <!-- End Frequently Asked Questions Section --> --}}
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -433,8 +446,7 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>End Contact Section -->
 
-  </main><!-- End #main -->
 
-  @include ('includes/footer')
+
