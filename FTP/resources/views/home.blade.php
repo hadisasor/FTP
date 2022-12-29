@@ -24,7 +24,7 @@
             (อินชาอัลลอฮฺ) อันเป็นความหวังของบรรดาผู้ประกอบพิธีฮัจญ์และอุมเราะฮฺทุกคน</p>
           <div class="d-flex justify-content-center justify-content-lg-start">
            
-            <a href="#portfolio" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
           <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           --></div>
 
@@ -91,7 +91,9 @@
 
           
             <div class="content col-12 pt-4 pb-3">
-              <h3>Why Fatoni Travel Limited Partnership?</h3>
+              <h3>FATONI…SERAMBI MAKKAH
+                <br>ฟาตอนี...ระเบียงมหานครมักกะฮฺ
+              </h3>
               <p>
                 Fatoni Travel Limited Partnership have strong relationships around Thailand to make sure you have saticfy with your trip.
                 and for hajj & umarah we have different connections and cooporations with several organization that specialized in hajj & umrah. 
