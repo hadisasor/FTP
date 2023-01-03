@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #28a298;
+    --primary: #a47e1b;
     --light: #F3F6F9;
     --dark: #294341;
 }
@@ -47,7 +47,7 @@ color: white;
 
 .editbtn{
     background-color: transparent;
-    border: 2px solid #28a298;
+    border: 2px solid #a47e1b;
     color: #28a298;
 }
 
@@ -119,7 +119,7 @@ color: white;
 }
 
 .sidebar a, .sidebar p, .sidebar h1, .sidebar h2, .sidebar span, .sidebar h6{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -169,7 +169,7 @@ color: white;
 /*** Navbar ***/
 .sidebar .navbar .navbar-nav .nav-link {
     padding: 7px 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     border-left: 3px solid var(--light);
     outline: none;
@@ -177,9 +177,9 @@ color: white;
 
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
-    color: #28a298;
-    background: #FFFFFF;
-    border-color: #28a298;
+    color: rgb(0, 0, 0);
+    background: #a47d1b50;
+    border-color: #a47e1b;
 }
 
 .sidebar .navbar .navbar-nav .nav-link i {
@@ -196,7 +196,7 @@ color: white;
 .sidebar .navbar .navbar-nav .nav-link:hover i,
 .sidebar .navbar .navbar-nav .nav-link.active i {
     background: var(--light);
-    border: solid 2px #28a298;
+    border: solid 2px #a47e1b;
 }
 
 .sidebar .navbar .dropdown-toggle::after {
@@ -227,7 +227,7 @@ color: white;
 
 .content .navbar .navbar-nav .nav-link:hover,
 .content .navbar .navbar-nav .nav-link.active {
-    color: #28a298;
+    color: #a47e1b;
 }
 
 .content .navbar .sidebar-toggler,
@@ -282,11 +282,11 @@ color: white;
 
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
-    background: #28a298;
+    background: #a47e1b;
 }
 
 .bootstrap-datetimepicker-widget table td.today::before {
-    border-bottom-color: #28a298;
+    border-bottom-color: #a47e1b;
 }
 
 

@@ -1,14 +1,14 @@
 @php $route = Route::current()->getName();  @endphp
         <!-- Sidebar Start -->
-        <div class="sidebar" style="background-color: #294341; box-shadow: 1px 1px 30px 1px">
-            <nav class="navbar  navbar-light" style="background-color: #294341 1px 1px 30px 1px">
+        <div class="sidebar" style="background-color: #fff; box-shadow: 1px 1px 30px 1px">
+            <nav class="navbar  navbar-light" style="background-color: #a47e1b 1px 1px 30px 1px">
                 <a href="{{route('Home')}}" class="navbar-brand mx-4 mb-3">
                 <div class="row">    
-                    <div class="col-xl-6"  style="padding-top:15px; text-align:center;"><img src="{{asset('../../img/Yosr-02.png')}}" alt="" style="width: 70px; margin-left:auto margin-right:auto; align-content:center;" ></div>
-                    <div class="col-xl-2"  style="padding-top:20px; text-align:center;"> <h1>Yosr <p style="font-size:15px">dasahboard</p></h1> </div>
+                    <div class="col-xl-4"  style="padding-top:15px; text-align:center;"><img src="{{asset('../../img/FLogo.png')}}" alt="" style="width: 50px; margin-left:auto margin-right:auto; align-content:center;" ></div>
+                    <div class="col-xl-4"  style="padding-top:23px; text-align:center;"> <h1> <p style="font-size:15px">Fatoni Travel <br> Limited Partnership</p></h1> </div>
                 </div>
                 </a>
-                <div class="d-flex align-items-center  p-md-3" style="background-color:#28a298; width:100%; height:90px;">
+                <div class="d-flex align-items-center  p-md-3" style="background-color:#a47e1b; width:100%; height:90px;">
                     <div class="position-relative">
                         <img class="rounded-circle" src="{{asset('img/user.jpg')}}" alt="" style="width: 40px; height: 40px;">
                         <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
