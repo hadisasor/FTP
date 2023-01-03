@@ -1015,7 +1015,7 @@ border-radius: 10px;
 
 
 .info-table .flight-container h5{
-  color:#37B5AB;
+  color:#a47e1b;
 }
 
 
@@ -1056,9 +1056,9 @@ border-radius: 10px;
 }
 
 .date-container{
-  color: white;
+  color: a47e1b;
   border-radius: 25px;
-  background-color: #37B5AB;
+  background-color: #fff;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.1) ;
   
 }
@@ -1069,7 +1069,7 @@ border-radius: 10px;
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 100%;
+  width: 50%;
   padding-bottom: 5px;
 }
 
@@ -1117,7 +1117,7 @@ border-radius: 10px;
 
 
 .hotel-container h5{
-  color:#37B5AB;
+  color:#a47e1b;
 }
 
 
@@ -1168,7 +1168,7 @@ border-radius: 10px;
 
 
 .beds-details, .table-details, .beds-details .col-2 p, .hotel-details{
-  color: #32a198;
+  color: #a47e1b;
   font-weight: 700;
 }
 
@@ -1216,16 +1216,16 @@ border-radius: 10px;
 
 
 #pills-tab button{
-  color: #37B5AB;
+  color: #a47e1b;
 }
 
 #pills-tab button:hover, #pills-tab button:focus{
-  background-color: #37B5AB;
+  background-color: #a47e1b;
   color: white;
 }
 
 #pills-tab button.active{
-  background-color: #37B5AB;
+  background-color: #a47e1b;
   color: white;
 }
 
@@ -1266,7 +1266,7 @@ border-radius: 7px;
 .tab-content li::before{
   padding: 10px;
   content: "\2055 \00A0";
-  color: #37B5AB;
+  color: #a47e1b;
 }
 
 
@@ -1318,7 +1318,7 @@ width: 80px;
 .hotelsname p, .hotel-details h2{
   font-size: 20px;
   float: center;
-  color: #37B5AB;
+  color: #a47e1b;
   }
 
 

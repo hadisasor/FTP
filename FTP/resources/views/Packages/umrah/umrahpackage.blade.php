@@ -4,7 +4,7 @@
 
 <!-- ======= Hero Section ======= -->
   <section id="hero" class=" align-items-center">
-    <div class="container text-center" style="margin-top: 50px;">
+    <div class="container text-center" style="margin-top: 250px;">
 
       <div class="row text-center centering">
         <h1 style="font-size: 270%;">Booking <br>Umrah package</h1> 
@@ -30,7 +30,7 @@
 
   <main id="main">
 
-    @include('includes.clients')
+    {{-- @include('includes.clients') --}}
 
     <!-- ======= Hajj Section ======= -->
     <section id="package" class="about" style="background: url(/assets/img/bg.jpg);">
@@ -93,7 +93,7 @@
 
                   <div class="onepic col"><!--One image--> 
                     <div class="hotelsname col">
-                      <img src="{{asset('img/Icons/kabah2.png')}}"> <h2><p>Makkah hotel</p></h2>
+                      <img src="{{asset('img/Icons/FTLPM-01.png')}}"> <h2><p>Makkah hotel</p></h2>
                     </div>
                     @foreach($umrahpackage->hotels as $hotel)
                     @if($hotel['location'] == 'Makkah')
@@ -104,7 +104,7 @@
 
                   <div class="onepic col">
                     <div class="hotelsname col"> 
-                      <img src="{{asset('img/Icons/madinah2.png')}}"><h2><p>Madinah hotel</p></h2>
+                      <img src="{{asset('img/Icons/FTLPT-02.png')}}"><h2><p>Madinah hotel</p></h2>
                     </div>
                     @foreach($umrahpackage->hotels as $hotel)
                     @if($hotel['location'] == 'Madinah')      

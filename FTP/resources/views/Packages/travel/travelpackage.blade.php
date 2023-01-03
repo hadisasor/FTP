@@ -4,10 +4,10 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class=" align-items-center">
   
-  <div class="container text-center" style="margin-top: 250px;">
+  <div class="container text-center" style="margin-top: 50px;">
     
       <div class="row text-center centering">
-        <h1 style="font-size: 270%;">Booking <br>Hajj package</h1> 
+        <h1 style="font-size: 270%;">Booking <br>Travel package</h1> 
         </div>
 
         @if(Session::get('message'))
@@ -29,7 +29,7 @@
   </section><!-- End Hero -->
 
   <main id="main">
-    {{-- @include('includes.clients') --}}
+    @include('includes.clients')
 
     <!-- ======= Hajj Section ======= -->
     <section id="package" class="about" style="background: url(/assets/img/bg.jpg);">

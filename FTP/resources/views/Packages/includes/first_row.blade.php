@@ -22,7 +22,7 @@ if($url == ''){
           @default
           @endswitch
         </h3>
-      <img class="thumbnail" src="{{asset('img/FTLPM-01.jpg')}}">   
+      <img class="thumbnail" src="{{asset('img/Icons/FTLPM-01.png')}}">   
       <div><img class="icon" src="{{asset('img/Icons/Icons-12.png')}}">
         <h4>
           @switch($url)
@@ -106,7 +106,7 @@ if($url == ''){
           @switch($url)
               @case('hajjpackage')
               <div class="col">
-                <img src="{{asset('img/Icons/kabahicon.png')}}">
+                <img src="{{asset('img/Icons/FTLPM-01.png')}}">
                 <h5>Makkah Hotel</h5>
                 @foreach($hajjpackage->hotels as $hotel)
                 @if($hotel['location'] == "Makkah")
@@ -115,7 +115,7 @@ if($url == ''){
                 @endforeach
               </div>
               <div class="col">
-                <img src="{{asset('/img/Icons/madinahicon.png')}}
+                <img src="{{asset('/img/Icons/FTLPT-02.png')}}
                 "><h5>Madinah Hotel</h5>
                 @foreach($hajjpackage->hotels as $hotel)
                 @if($hotel['location'] == "Madinah")
@@ -126,7 +126,7 @@ if($url == ''){
           @break
           @case('umrahpackage')
               <div class="col">
-                <img src="{{asset('img/Icons/kabahicon.png')}}">
+                <img src="{{asset('img/Icons/FTLPM-01.png')}}">
                 <h5>Makkah Hotel</h5>
                 @foreach($umrahpackage->hotels as $hotel)
                 @if($hotel['location'] == "Makkah")
@@ -135,7 +135,7 @@ if($url == ''){
                 @endforeach
               </div>
               <div class="col">
-                <img src="{{asset('/img/Icons/madinahicon.png')}}
+                <img src="{{asset('/img/Icons/FTLPT-02.png')}}
                 "><h5>Madinah Hotel</h5>
                 @foreach($umrahpackage->hotels as $hotel)
                 @if($hotel['location'] == "Madinah")
