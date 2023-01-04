@@ -76,6 +76,13 @@ color: white;
 
 .btn.btn-primary {
     color: #000000;
+    background-color: #fff;
+    border: 2px solid #a47e1b;
+}
+
+.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #a47e1b;
 }
 
 .btn-square {
