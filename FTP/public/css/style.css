@@ -894,7 +894,7 @@ width: 1rem;
 
 .content{  
   background-color: white;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 25px 0 #a47d1b24;
   margin: 7px;
   margin-top: 10px;
   margin-bottom: 10px;
