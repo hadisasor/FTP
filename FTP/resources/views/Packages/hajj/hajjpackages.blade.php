@@ -13,7 +13,11 @@ $countSaver  = 0;
       
  
       <div class="row text-center centering">
-        <h1 style="font-size: 270%;">Booking <br>Hajj package</h1> 
+        
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{{asset('img/FTLPmain.png')}}" class="img-fluid animated" alt="">
+          <!-- <h1 style="font-size: 270%;">Booking <br>Hajj package</h1>  -->
+        </div>
         </div>
   </div>
            

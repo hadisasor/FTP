@@ -39,7 +39,13 @@ Route::get('/', function () {
     ]);
 })->name('Home');
 
+Route::get('/travelpackages', function(){
 
+      return view('includes/travelpackage',);
+
+
+
+});
 
 // login page path  ---------------------------------------------
 Route::get('/login',function(){
