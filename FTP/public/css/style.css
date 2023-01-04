@@ -708,6 +708,12 @@ section {
   position: relative;
   color: #76520e;
 }
+
+.pkg {
+  margin-top: 50px;
+}
+
+
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -822,6 +828,7 @@ label{
 .Hajj-container .row .col{
   border: 1px thin black ;
   padding: 20px;
+  width: 100%;
 }
 
 .boss{
@@ -888,10 +895,16 @@ width: 1rem;
 .content{  
   background-color: white;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  margin: 15px;
+  margin: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   transition: all ease-in-out 0.4s;
   padding: 10px;
+}
+
+.why-us {
+  margin: 30px;
 }
 
 .content .col-xl-5{

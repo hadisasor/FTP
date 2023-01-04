@@ -33,26 +33,40 @@ $countSaver  = 0;
           <div class="topichajj col-xl-9">
 
             <div class="row">
-            <section class="section-title"><h2>Deluxe packages</h2></section>
+            <section class="section-title"><h2>What is hajj?</h2></section>
                 
-                        <div class="hajjpackages">
+                        {{-- <div class="hajjpackages">
                           @foreach ($hajjpackages as $hajjpackage)
                           @if ($hajjpackage['packageName'] == 'Deluxe')
                             @php $countDeluxe++ @endphp
                             @include('packages.includes.packages_info')
                           @endif
                           @endforeach             
-                        </div>
+                        </div> --}}
                           
-                          @if ($countDeluxe == 0)
-                          <div class="col-12 null">
-                            <h4 class="text-center">Currently there's no Deluxe package available</h4>
+                          {{-- @if ($countDeluxe == 0) --}}
+                          <div class="col-12 border border-3 p-4">
+                            <h4 class="">hajj is:</h4>
+                            <p>
+                              ปัจจุบันทางสหกรณ์ได้เปิดให้บริการฮัจญ์และอุมเราะฮฺ ในนามห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล (กิจการในเครือ) 
+                รวมทั้งจัดบริการอื่นๆ ที่เกี่ยวข้องกับพิธีฮัจญ์และอุมเราะฮฺ 
+                โดยนำพาสมาชิกและบุคคลทั่วไปเข้าสู่การประกอบพิธีฮัจญ์และอุมเราะฮฺตามแบบอย่าง (ซุนนะฮฺ) ของท่านรอซูล (ซล.) 
+                ซึ่งเป้าหมายสูงสุดคือ การที่จะให้ได้มาซึ่งฮัจญ์และอุมเราะฮฺที่ถูกตอบรับ (อินชาอัลลอฮฺ) 
+                อันเป็นความหวังของบรรดาผู้ประกอบพิธีฮัจญ์และอุมเราะฮฺทุกคน
+                ปัจจุบันทางสหกรณ์ได้เปิดให้บริการฮัจญ์และอุมเราะฮฺ ในนามห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล (กิจการในเครือ) 
+                รวมทั้งจัดบริการอื่นๆ ที่เกี่ยวข้องกับพิธีฮัจญ์และอุมเราะฮฺ 
+                โดยนำพาสมาชิกและบุคคลทั่วไปเข้าสู่การประกอบพิธีฮัจญ์และอุมเราะฮฺตามแบบอย่าง (ซุนนะฮฺ) ของท่านรอซูล (ซล.) 
+                ซึ่งเป้าหมายสูงสุดคือ การที่จะให้ได้มาซึ่งฮัจญ์และอุมเราะฮฺที่ถูกตอบรับ (อินชาอัลลอฮฺ) 
+                อันเป็นความหวังของบรรดาผู้ประกอบพิธีฮัจญ์และอุมเราะฮฺทุกคน
+                            </p>
                           </div>
-                          @endif
+                          {{-- @endif --}}
+                  
+                  
                           
-                  <section class="section-title"><h2>Golden packages</h2></section>
+                  {{-- <section class="section-title"><h2>Golden packages</h2></section> --}}
                      
-                      <div class="row">
+                      {{-- <div class="row">
                         <div class="hajjpackages">
                           @foreach ($hajjpackages as $hajjpackage)
                           @if ($hajjpackage['packageName'] == 'Golden')
@@ -60,17 +74,17 @@ $countSaver  = 0;
                             @include('packages.includes.packages_info')
                           @endif  
                           @endforeach   
-                        </div>
+                        </div> --}}
                           
-                          @if ($countGolden == 0)
-                          <div class="col-12 null">
+                          {{-- @if ($countGolden == 0) --}}
+                          {{-- <div class="col-12 null">
                             <h4 class="text-center">Currently there's no Golden package available</h4>
-                          </div>
-                          @endif
-                      </div>
+                          </div> --}}
+                          {{-- @endif --}}
+                      {{-- </div> --}}
 
                         <div class="row">
-                        <section class="section-title"><h2>Silver packages</h2></section>
+                        <section class="section-title pkg"><h2>Silver packages</h2></section>
 
                         <div class="hajjpackages"> 
                           @foreach ($hajjpackages as $hajjpackage)
@@ -88,7 +102,7 @@ $countSaver  = 0;
                           @endif
                         </div>
 
-                    <div class="row">
+                    {{-- <div class="row">
                       <section class="section-title"><h2>Saver packages</h2></section>
 
                         <div class="hajjpackages">
@@ -108,7 +122,7 @@ $countSaver  = 0;
                         <h4 class="text-center">Currently there's no Saver package available</h4>
                       </div>
                         @endif
-                      </div>
+                      </div> --}}
 
 
       </div>

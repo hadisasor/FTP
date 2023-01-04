@@ -82,12 +82,12 @@
     <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row" class="">
+        <div class="row">
 
           <!-- <div class="col-lg-6 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"> -->
 
           
-            <div class="content col-12 pt-4 pb-3">
+            <div class="content col-12 pt-4 pb-3 ">
               <h3>FATONI…SERAMBI MAKKAH
                 <br>ฟาตอนี...ระเบียงมหานครมักกะฮฺ
               </h3>
