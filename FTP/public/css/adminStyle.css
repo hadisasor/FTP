@@ -46,9 +46,9 @@ color: white;
 }
 
 .editbtn{
-    background-color: transparent;
+    background-color: #fff;
     border: 2px solid #a47e1b;
-    color: #28a298;
+    color: #000000;
 }
 
 .deletebtn{
@@ -65,8 +65,9 @@ color: white;
 
 
 
+
 .editbtn:hover{
-    background-color: #28a298;
+    background-color: #a47e1b;
 }
 .deletebtn:hover{
     background-color: #d03131;
@@ -74,7 +75,7 @@ color: white;
 
 
 .btn.btn-primary {
-    color: #ffffff;
+    color: #000000;
 }
 
 .btn-square {
@@ -88,8 +89,15 @@ color: white;
 }
 
 .btn-lg-square {
+    background-color: #a47d1b49;
     width: 48px;
     height: 48px;
+    border: #a47e1b;
+}
+
+.btn-lg-square:hover {
+    background-color: #a47e1b;
+    color: #fff;
 }
 
 .btn-square,
@@ -218,6 +226,12 @@ color: white;
     padding-left: 25px;
 }
 
+.sidebar .navbar .dropdown-item:hover,
+.sidebar .navbar .dropdown-item.active {
+    background-color: #a47e1b;
+    color: #fff;
+}
+
 .content .navbar .navbar-nav .nav-link {
     margin-left: 25px;
     padding: 12px 0;
@@ -239,6 +253,7 @@ color: white;
     justify-content: center;
     background: #FFFFFF;
     border-radius: 40px;
+    color: #a47e1b;
 }
 
 .content .navbar .dropdown-toggle::after {
@@ -347,3 +362,17 @@ color: white;
     padding-bottom: 4px;
     object-fit:cover  ;
   }
+
+
+
+/** container-fluid **/
+.container-fluid a{
+    color: #000000;
+    font-weight: 600;
+}
+
+
+/** show all btn **/
+.container-fluid .show:hover {
+    color: #a47e1b;
+}
