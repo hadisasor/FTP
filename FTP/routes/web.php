@@ -39,13 +39,7 @@ Route::get('/', function () {
     ]);
 })->name('Home');
 
-Route::get('/travelpackages', function(){
 
-      return view('includes/travelpackage',);
-
-
-
-});
 
 // login page path  ---------------------------------------------
 Route::get('/login',function(){
@@ -213,6 +207,17 @@ Route::get('umrahpackage/{id}', function($id){
 
 })->name('umrahpackage{id}');
 
+
+
+
+//Travel page path-------------------------------------------------------
+
+Route::get('/travelpackages', function(){
+
+   return view('packages.travel.travelpackages',);
+
+
+});
 
 
 //hotels page path-------------------------------------------------------------
