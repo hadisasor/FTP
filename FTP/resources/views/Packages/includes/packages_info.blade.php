@@ -11,9 +11,9 @@ $url1 = URL::current();
 $url1 = strstr($url1,'profile');
 $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
 @endphp
-<div class="content col-xl-5">
+<div class="content col-xl-6">
     <div class="row" data-aos="zoom-in" data-aos-delay="50">
-      <div class="col-xl-12"><h3>
+      <div class="col-xl-6"><h3>
         @switch($url)
         @case('hajjpackages')
         {{$hajjpackage['stayingDays']}}
