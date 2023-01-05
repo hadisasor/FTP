@@ -96,9 +96,9 @@
           @if($route == 'Home')
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           {{-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> --}}
-          <li><a class="nav-link scrollto" href="#services">Hajj</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Umrah</a></li>
-          <li><a class="nav-link scrollto" href="#team">Travel</a></li>
+          <li><a class="nav-link scrollto" href="/hajjpackages">Hajj</a></li>
+          <li><a class="nav-link   scrollto" href="/umrahpackages">Umrah</a></li>
+          <li><a class="nav-link scrollto" href="/travelpackages">Travel</a></li>
               <li class="dropdown"><a href="#"><span>Services</span><i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="transortation">Transportation</a></li>

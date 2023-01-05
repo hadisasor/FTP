@@ -209,6 +209,17 @@ Route::get('umrahpackage/{id}', function($id){
 
 
 
+
+//Travel page path-------------------------------------------------------
+
+Route::get('/travelpackages', function(){
+
+   return view('packages.travel.travelpackages',);
+
+
+});
+
+
 //hotels page path-------------------------------------------------------------
 Route::get('/hotels', function(){
    return view('hotel.hotels',['hotels' => Hotel::all()]);
