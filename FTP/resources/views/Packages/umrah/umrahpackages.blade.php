@@ -32,7 +32,7 @@ $countSaver  = 0;
           <div class="topichajj col-xl-9">
 
             <div class="row">
-            <section class="section-title"><h2>Deluxe packages</h2></section>
+            {{-- <section class="section-title"><h2>Deluxe packages</h2></section>
                 
                         <div class="hajjpackages">
                           @foreach ($umrahpackages as $umrahpackage)
@@ -47,10 +47,10 @@ $countSaver  = 0;
                   <div class="col-12 null">
                  <h4 class="text-center">Currently there's no Deluxe package available</h4>
                   </div>
-                  @endif
+                  @endif --}}
 
                 <div class="row">      
-                  <section class="section-title"><h2>Golden packages </h2></section>
+                  <section class="section-title"><h2>Umrah </h2></section>
                         <div class="hajjpackages">
                           @foreach ($umrahpackages as $umrahpackage)
                           @if ($umrahpackage['packageName'] == 'Golden')
@@ -61,15 +61,19 @@ $countSaver  = 0;
                         </div>
                                     
                           @if ($countGolden == 0)
-                          <div class="col-12 null">
-                            <h4 class="text-center">Currently there's no Golden package available</h4>
+                          <div class="col-12 border border-3 p-4">
+                            <h4 class="">
+                              สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
+                              และเป็นไปตามสถานะของอิห์ราม
+                              ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
+                              ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
                           </div>
                           @endif
                           
                 </div><!--Golden end-->
                         
-        <div class="row">
-          <section class="section-title"><h2>Silver packages</h2></section>
+        <div class="row mt-4">
+          <section class="section-title"><h2>packages details</h2></section>
 
                         <div class="hajjpackages"> 
                           @foreach ($umrahpackages as $umrahpackage)
@@ -81,8 +85,12 @@ $countSaver  = 0;
                         </div>
              
              @if ($countSilver == 0)
-             <div class="col-12 null">
-               <h4 class="text-center">Currently there's no Silver package available</h4>
+             <div class="col-12 border border-3 p-4">
+               <h4 class="">
+                สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
+                และเป็นไปตามสถานะของอิห์ราม
+                ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
+                ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
              </div>
              @endif
       </div><!--Silver end-->
