@@ -116,7 +116,7 @@
             {{-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> --}}
             <li><a class="nav-link scrollto @if ($route == 'hajjpackages' || $route == 'hajjpackage') active @endif" href="/hajjpackages">Hajj</a></li>
             <li><a class="nav-link scrollto @if ($route1 == 'umrahpackages' || $route1 == 'umrahpackage') active @endif" href="/umrahpackages">Umrah</a></li>
-            <li><a class="nav-link scrollto" href="/travelpackages">Travel</a></li>
+            <li><a class="nav-link scrollto @if ($route1 == 'travelpackages' || $route1 == 'travelpackage') active @endif" href="/travelpackages">Travel</a></li>
             <li><a class="nav-link scrollto" href="/knowledge">knowledge</a></li>
 
             <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
