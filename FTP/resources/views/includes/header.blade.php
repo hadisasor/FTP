@@ -117,11 +117,12 @@
             <li><a class="nav-link scrollto @if ($route == 'hajjpackages' || $route == 'hajjpackage') active @endif" href="/hajjpackages">Hajj</a></li>
             <li><a class="nav-link scrollto @if ($route1 == 'umrahpackages' || $route1 == 'umrahpackage') active @endif" href="/umrahpackages">Umrah</a></li>
             <li><a class="nav-link scrollto" href="/travelpackages">Travel</a></li>
-            <li><a class="nav-link scrollto" href="">knowledge</a></li>
+            <li><a class="nav-link scrollto" href="/knowledge">knowledge</a></li>
 
             <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
               <li><a href="#">Buy Packages</a></li>
+              <li><a href="/aboutus">About us</a></li>
                 <li><a href="#">Transportation</a></li>
                 <li class="dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
@@ -130,7 +131,8 @@
                   </ul>
                 </li>
                 <li><a href="#">Attraction</a></li>
-                <li><a href="#">Visa</a></li>
+                <li><a href="/Visa">Visa</a></li>
+                
             </ul>
           </li>
           @endif

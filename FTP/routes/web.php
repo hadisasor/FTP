@@ -218,6 +218,29 @@ Route::get('/travelpackages', function(){
 
 
 });
+//Visa path page------------------------------------------------------------------
+Route::get('/Visa', function(){
+
+   return view  ('Visa.Visa');
+
+});
+//knowledge path page--------------------------------------------------------
+
+Route::get('/knowledge', function(){
+
+   return view  ('knowledge.knowledge');
+
+});
+
+//about us path page
+
+
+
+Route::get('/aboutus', function(){
+
+   return view  ('aboutus.aboutus');
+
+});
 
 
 //hotels page path-------------------------------------------------------------
