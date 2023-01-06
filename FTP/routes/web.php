@@ -236,13 +236,23 @@ Route::get('/knowledge', function(){
 
 
 
-Route::get('/aboutus', function(){
+Route::get('/Aboutus', function(){
 
    return view  ('aboutus.aboutus');
 
 });
+Route::get('/Aboutus/Gallary',function(){
+         return view('aboutus.gallary');
+
+});
 
 
+//Buy Package Page path-------------------------------------------------------
+Route::get('/buypackage', function(){
+
+   return view('Packages.hajj.buypackage');
+
+});
 //hotels page path-------------------------------------------------------------
 Route::get('/hotels', function(){
    return view('hotel.hotels',['hotels' => Hotel::all()]);
