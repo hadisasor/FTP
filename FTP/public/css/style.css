@@ -5,6 +5,12 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@font-face {
+  font-family: 'srira';
+  src: url(Font/Sriracha.ttf);
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -160,6 +166,8 @@ a h2:hover {
   color: #ddb892;
   position: relative;
   display: flex;
+  font-family: 'srira', sans-serif;
+  font-weight: 700;
 }
 .logo-container p{
   color: #000000;
