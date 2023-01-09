@@ -2726,6 +2726,7 @@ color:black;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .pcontainer .pheading {
@@ -2749,7 +2750,6 @@ color:black;
   display: flex;      
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .pcontainer .pbox .dream {
