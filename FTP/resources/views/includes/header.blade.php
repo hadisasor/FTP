@@ -74,7 +74,7 @@
     <div class="container d-flex align-items-center">
       <a href="{{route('Home')}}"><img src="{{asset('../../img/Flogo.png')}}" alt="" class="img-fluid"></a>
       <div class="logo-container">
-      <h4> <a href="{{route('Home')}}" style=" font-family: 'Cairo', sans-serif; font-weight: 700;">Fatoni Travel Limited Partnership<br> <p >convenience website for serving Thai pilgrims</p></a></h4>
+      <h4> <a href="{{route('Home')}}">ห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล<br> <p >convenience website for serving Thai pilgrims</p></a></h4>
     </div> 
    
       <!-- Uncomment below if you prefer to use an \ logo -->

@@ -5,6 +5,12 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@font-face {
+  font-family: 'srira';
+  src: url(Font/Sriracha.ttf);
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -160,6 +166,8 @@ a h2:hover {
   color: #ddb892;
   position: relative;
   display: flex;
+  font-family: 'srira', sans-serif;
+  font-weight: 700;
 }
 .logo-container p{
   color: #000000;
@@ -2690,3 +2698,49 @@ color:black;
   background-color:#0c3c53;
  }
  
+
+ /** about us section **/
+ .pcontainer {
+  margin: 40px 20px 0px 20px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pcontainer .pheading {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.pcontainer .pheading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  border-bottom: 3px solid #222;
+  padding-bottom: 10px;
+}
+
+.pcontainer .pheading h3 span{
+  font-weight: 100;
+}
+
+.pcontainer .pbox {
+  display: flex;      
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pcontainer .pbox .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  margin-bottom: 50px;
+}
+
+.pcontainer .pbox .dream img{
+  width: 100%;
+}

@@ -3,45 +3,79 @@
 <section id="hero" class="d-flex align-items-center">
 
 
-<div class="container">
+<div class="container mt-5">
 
 
-  <div class="row">
-    <div class="col-lg-6 d-flex flex-column justify-content-center pt-6 pt-lg-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-      
+  
       @if(Session::get('login'))
       <div class="alert alert-danger"> {{Session::get('login')}}</div>
       @endif
 
-      <h1 style="font-size: 220%;">ห้างหุ้นส่วนจํากัด ฟาตอนี แทรเวิล <br>กิจการฮัจญ์ อัศศิดดีก</h1> 
-      <p>"FATONI...SERAMBI MAKKAH <br>
-          ฟาตอนี...ระเบียงบนครมักกะฮฺ"</p>
-      <p>แพ็คเกจฮัจญ์...กับฟาตอนี แทรเวิล <br>
-        คิดจะทําฮัจญ์...มอบความไว้วางใจไปกับเรา</p>
-      <div class="d-flex justify-content-center justify-content-lg-start">
-       
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-      --></div>
-
-
-
-      <!-- change the photo in background -->
-    </div>
-    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-      <img src="{{asset('img/FTLPmain.png')}}" class="img-fluid animated" alt="">
-    </div>
-    <!-- change the photo -->
-
-
+      <!-- carousel atart -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/FTLPmain.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/FLogo.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/team/team-1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
 
   </div>
+
 </div>
 
 </section><!-- End Hero -->
 
 
-
+<!-- p refer to Photo and name of the class
+Gallery start
+-->
+<div class="pcontainer">
+  <div class="pheading">
+    <h3>Photo <span>Gallery</span></h3>
+  </div>
+  <div class="pbox">
+    <div class="dream">
+      <img src="img/FTLPmain.png" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+    <div class="dream">
+      <img src="img/FLogo.png" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+    <div class="dream">
+      <img src="img/team/team-1.jpg" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+  </div>
+</div>
+<!--
+Gallery end
+-->
 
 
 
