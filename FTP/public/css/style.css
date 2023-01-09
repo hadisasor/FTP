@@ -696,6 +696,13 @@ color: #dbb42c;
 hajjpackages hero section
 
 **/
+/** 
+
+arousel
+
+**/
+
+
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
   top: 35%;
@@ -726,8 +733,12 @@ hajjpackages hero section
   backface-visibility: hidden;
   transition: transform .6s ease-in-out;
   margin-left: 40%;
+ 
 }
 
+.carousel-item img {
+  border-radius: 5px;
+}
 
 .carousel-inner {
   position: relative;
@@ -1440,6 +1451,13 @@ width: 80px;
   color: #fff;
   text-decoration: none;
 }
+
+
+.about .section-title {
+  margin-top: 50px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -2707,7 +2725,6 @@ color:black;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -2717,9 +2734,10 @@ color:black;
 }
 
 .pcontainer .pheading h3{
+  color: #76520e;
   font-size: 3em;
   font-weight: bolder;
-  border-bottom: 3px solid #222;
+  border-bottom: 3px solid #76520e;
   padding-bottom: 10px;
 }
 
@@ -2743,4 +2761,8 @@ color:black;
 
 .pcontainer .pbox .dream img{
   width: 100%;
+  padding: 15;
+  border-radius: 5px;
 }
+
+/** about us section end **/
