@@ -80,7 +80,7 @@ Gallery start
     </div>
   </div>
   <div class="pbtn">
-    <a href="#">More</a>
+    <a href="/aboutus">More</a>
   </div>
 </div>
 <!--
