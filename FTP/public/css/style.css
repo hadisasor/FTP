@@ -2715,7 +2715,7 @@ color:black;
  }
  
 
- /** about us section **/
+ /** about us section gallery **/
  .pcontainer {
   margin: 40px 20px 0px 20px;
   padding: 0;
@@ -2763,6 +2763,32 @@ color:black;
   border-radius: 5px;
 }
 
+.pcontainer .pbtn {
+  margin: 40px 0 40px 0;
+  background-color: #a47e1b;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.pcontainer .pbtn a{
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.pcontainer .pbtn a:hover{
+  color: #fff;
+}
+
+@media (max-width: 769px){
+  .pcontainer .pbox {     
+    flex-direction: column;
+  }
+  .pcontainer .pbox .dream {
+    width: 100%;
+  }
+} 
 /** about us section end **/
 
 

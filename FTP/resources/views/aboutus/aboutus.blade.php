@@ -64,7 +64,7 @@
         <p>
           Fatoni Travel Limited Partnership, provides several services to help you attempt your Hajj & Umrah, and for who want to visit Thailand we also can take in an amazing trip in Thailand.
         </p>
-        <a href="#" class="btn-learn-more">Learn More</a>
+        
       </div>
     </div>
 
@@ -101,6 +101,9 @@ Gallery start
       <img src="" alt="">
       <img src="" alt="">
     </div>
+  </div>
+  <div class="pbtn">
+    <a href="#">More</a>
   </div>
 </div>
 <!--

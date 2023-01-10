@@ -23,7 +23,7 @@
             <h4>information</h4>
             <ul>
               
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/aboutus">About us</a></li>
               
             </ul>
           </div> 
