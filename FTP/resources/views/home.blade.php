@@ -79,6 +79,9 @@ Gallery start
       <img src="" alt="">
     </div>
   </div>
+  <div class="pbtn">
+    <a href="#">More</a>
+  </div>
 </div>
 <!--
 Gallery end

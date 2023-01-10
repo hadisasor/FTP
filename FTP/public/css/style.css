@@ -2789,6 +2789,17 @@ color:black;
     width: 100%;
   }
 } 
+
+@media (max-width: 643px){
+  .pcontainer .pheading {
+    width: 100%;
+  }
+  
+  .pcontainer .pheading h3{
+    color: #76520e;
+    font-size: 2em;
+  }
+} 
 /** about us section end **/
 
 
