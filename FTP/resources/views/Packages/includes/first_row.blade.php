@@ -23,7 +23,7 @@ if($url == ''){
           @endswitch
         </h3>
       <img class="thumbnail" src="{{asset('img/Icons/FTLPM-01.png')}}">   
-      <div><img class="icon" src="{{asset('img/Icons/Icons-12.png')}}">
+      <div><img class="icon" src="{{asset('img/Icons/FTLPicon-07.png')}}">
         <h4>
           @switch($url)
           @case('hajjpackage')
@@ -56,7 +56,7 @@ if($url == ''){
 <div class="col-xl-8 pb-4">
       <div class="flight-container row" >
           <div class="icon-flight col">
-            <img src="{{asset('img/Icons/departure.png')}}"> <h5>Departure</h5>
+            <img src="{{asset('img/Icons/FTLPicon-04.png')}}"> <h5>Departure</h5>
               <h4>
                 @switch($url)
                 @case('hajjpackage')
@@ -70,7 +70,7 @@ if($url == ''){
               </h4>
           </div>
           <div class="icon-flight col">
-              <img src="{{asset('img/Icons/arrival.png')}}"> <h5>Arrivals</h5>
+              <img src="{{asset('img/Icons/FTLPicon-05.png')}}"> <h5>Arrivals</h5>
               <h4>
                 @switch($url)
                 @case('hajjpackage')
@@ -85,7 +85,7 @@ if($url == ''){
           </div>
           <div class="row" style="background-color: rgb(249, 249, 249);">
             <div class="airline-icon col">
-              <img src="{{asset('img/Icons/airline.png')}}">
+              <img src="{{asset('img/Icons/FTLPicon-06.png')}}">
               <h5><br> Airlines</h5>
               <h4><br>
                 @switch($url)

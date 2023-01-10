@@ -29,7 +29,7 @@ if($url == ''){
     </div>
 
     <div class="icon-flight col"> 
-      <img src="{{asset('img/Icons/departure.png')}}">
+      <img src="{{asset('img/Icons/FTLPicon-04.png')}}">
       <h5>Departure</h5>
       <p>
         @switch($url)
@@ -45,7 +45,7 @@ if($url == ''){
     </div>
 
     <div class="icon-flight col"> 
-      <img src="{{asset('img/Icons/arrival.png')}}">
+      <img src="{{asset('img/Icons/FTLPicon-05.png')}}">
       <h5>Arrival</h5>
       <p>
         @switch($url)
@@ -61,7 +61,7 @@ if($url == ''){
     </div>
 
      <div class="icon-flight2 col pb-3"> 
-      <img src="{{asset('img/Icons/airline.png')}}">
+      <img src="{{asset('img/Icons/FTLPicon-06.png')}}">
       <h5>Airlines</h5>
       <p>
         @switch($url)
