@@ -76,7 +76,7 @@
 
                 <div class="book-container2 row"> 
                   <button type="button" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Child policy
+                    Book Now
                   </button>
                     {{-- <button type="button" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">
                      Book now
