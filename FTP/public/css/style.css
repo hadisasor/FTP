@@ -1083,7 +1083,7 @@ border-radius: 10px;
   justify-content: center;
   align-items: center;
   align-content: center;
-  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.1) ;
+  box-shadow: 0px 0px 25px 0 #a47d1b52;
 
 }
 
@@ -1133,7 +1133,7 @@ border-radius: 10px;
   color: a47e1b;
   border-radius: 25px;
   background-color: #fff;
-  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.1) ;
+  box-shadow: 0px 0px 25px 0 #a47d1b52;
   
 }
 
@@ -1149,7 +1149,7 @@ border-radius: 10px;
 
 .date-container .date{
   color: black;
- box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.1) ;
+ box-shadow: 0px 0px 25px 0 #a47d1b52;
   background-color: white;
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -1177,7 +1177,7 @@ border-radius: 10px;
   align-items: center;
   align-content: center;
   width: 90%;
-  box-shadow: 0px 5px 6px 0 rgba(0, 0, 0, 0.1) ;
+  box-shadow: 0px 5px 6px 0 #a47d1b52 ;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 
@@ -2715,7 +2715,7 @@ color:black;
  }
  
 
- /** about us section **/
+ /** about us section gallery **/
  .pcontainer {
   margin: 40px 20px 0px 20px;
   padding: 0;
@@ -2763,4 +2763,44 @@ color:black;
   border-radius: 5px;
 }
 
+.pcontainer .pbtn {
+  margin: 40px 0 40px 0;
+  background-color: #a47e1b;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.pcontainer .pbtn a{
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.pcontainer .pbtn a:hover{
+  color: #fff;
+}
+
+@media (max-width: 769px){
+  .pcontainer .pbox {     
+    flex-direction: column;
+  }
+  .pcontainer .pbox .dream {
+    width: 100%;
+  }
+} 
+
+@media (max-width: 643px){
+  .pcontainer .pheading {
+    width: 100%;
+  }
+  
+  .pcontainer .pheading h3{
+    color: #76520e;
+    font-size: 2em;
+  }
+} 
 /** about us section end **/
+
+
+

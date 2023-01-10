@@ -58,8 +58,7 @@ $hajjCount   = 0;
               </div>
             </div>
             <div class="book-container">
-              <a href="#about" class="book btn-get-started scrollto">Book now</a>
-              <a href="hajjpackage/{{$hajjpackage['id']}}" class="book btn-get-started scrollto">Details</a>
+              <a href="hajjpackage/{{$hajjpackage['id']}}" class="book btn-get-started scrollto">Book Now</a>
             </div>
           </div></center>
         @break ($hajjCount == 4)
@@ -128,8 +127,7 @@ $hajjCount   = 0;
               </div>
             </div>
             <div class="book-container">
-              <a href="#about" class="book btn-get-started scrollto">Book now</a>
-              <a href="umrahpackage/{{$umrahpackage['id']}}" class="book btn-get-started scrollto">Details</a>
+              <a href="umrahpackage/{{$umrahpackage['id']}}" class="book btn-get-started scrollto">Book Now</a>
             </div>
           </div>
         

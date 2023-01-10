@@ -51,7 +51,7 @@
                 {{-- @include('includes.leader_review') --}}
 
 
-            <div class="table-details row"><!--beginning of Mina details-->
+            {{-- <div class="table-details row"><!--beginning of Mina details-->
               <div class="col-xl-3">
               <img src="{{asset('img/Icons/minasign.png')}}">  <h5>Mina Tent Details</h5>
               </div>
@@ -62,9 +62,9 @@
                   @include('packages.includes.icons')
                 @endforeach
               </div>
-            </div><!--Ending of Mina details-->
+            </div><!--Ending of Mina details--> --}}
 
-            <div class="table-details row"><!--beginning of Arafat details-->
+            {{-- <div class="table-details row"><!--beginning of Arafat details-->
               <div class="col-xl-3">
                 <img src="{{asset('/img/Icons/Arafatsign.png')}}"> <h5>Arafat Tent Details</h5>
               </div>
@@ -75,7 +75,7 @@
                   @include('packages.includes.icons')
                 @endforeach
               </div>
-            </div><!--beginning of Arafat details-->
+            </div><!--beginning of Arafat details--> --}}
 
 
             <div class="table-details row"><!--beginning of transportation details-->
@@ -97,7 +97,7 @@
                   </div>
                 </div>
                 <div class="book-container2 row"> 
-                    <a href="HajjPackagePage.html" id="upgradePackage" class="book btn-get-started scrollto">Child policy</a>
+                    <a href="HajjPackagePage.html" id="upgradePackage" class="book btn-get-started scrollto">Book Now</a>
                     {{-- <button href="HajjPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button></div>     --}}
                 </div><!--Ending of booking-->
 

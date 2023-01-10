@@ -5,7 +5,7 @@
       <div class="container  top_border p-3">
         <div class="row ">
 
-          <div class="col-lg-5 col-md-6 footer-contact">
+          <div class="col-lg-6 col-md-6 footer-contact">
             <h3>Fatoni Travel</h3>
             <p>
               1332 petchkasem Rd, Hatyai Sd, <br>
@@ -19,17 +19,16 @@
             </p>
           </div>
 
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Links</h4>
+           <div class="col-lg-2 col-md-6 footer-links">
+            <h4>information</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              
+              <li><i class="bx bx-chevron-right"></i> <a href="/aboutus">About us</a></li>
+              
             </ul>
-          </div> -->
+          </div> 
 
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Hajj Package</a></li>
