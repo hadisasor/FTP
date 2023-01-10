@@ -13,7 +13,7 @@ if($url == ''){
   <div class="flight-container row">
 
     <div class="icon-flight col"> 
-      <img src="{{asset('img/Icons/Icons-12.png')}}">
+      <img src="{{asset('img/Icons/FTLPicon-07.png')}}">
       <h5>Days</h5>
      <p>
       @switch($url)
