@@ -382,7 +382,7 @@ color: #dbb42c;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #a47e1b;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -409,7 +409,7 @@ color: #dbb42c;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: #76520e;
   transition: 0.3s;
   z-index: 999;
 }
@@ -434,14 +434,14 @@ color: #dbb42c;
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #000000;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #a47e1b;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #000000;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -464,13 +464,11 @@ color: #dbb42c;
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #47b2e4;
+  color: #a47e1b;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
-
 
 
 
@@ -696,6 +694,13 @@ color: #dbb42c;
 hajjpackages hero section
 
 **/
+/** 
+
+arousel
+
+**/
+
+
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
   top: 35%;
@@ -726,8 +731,12 @@ hajjpackages hero section
   backface-visibility: hidden;
   transition: transform .6s ease-in-out;
   margin-left: 40%;
+ 
 }
 
+.carousel-item img {
+  border-radius: 5px;
+}
 
 .carousel-inner {
   position: relative;
@@ -1440,6 +1449,13 @@ width: 80px;
   color: #fff;
   text-decoration: none;
 }
+
+
+.about .section-title {
+  margin-top: 50px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -2707,8 +2723,8 @@ color:black;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
+  align-items: center;
 }
 
 .pcontainer .pheading {
@@ -2717,9 +2733,10 @@ color:black;
 }
 
 .pcontainer .pheading h3{
+  color: #76520e;
   font-size: 3em;
   font-weight: bolder;
-  border-bottom: 3px solid #222;
+  border-bottom: 3px solid #76520e;
   padding-bottom: 10px;
 }
 
@@ -2731,7 +2748,6 @@ color:black;
   display: flex;      
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 .pcontainer .pbox .dream {
@@ -2743,4 +2759,8 @@ color:black;
 
 .pcontainer .pbox .dream img{
   width: 100%;
+  padding: 15;
+  border-radius: 5px;
 }
+
+/** about us section end **/
