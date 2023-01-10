@@ -1,5 +1,6 @@
 @include('includes/header')
 
+
 <section id="hero" class="d-flex align-items-center">
 
 <div class="container text-center" style="margin-top: 100px;">
@@ -29,6 +30,39 @@
 </div>
        
 </section><!-- End Hero -->
+
+<div class="pcontainer">
+  <div class="pheading">
+    <h3>Photo <span>Gallery</span></h3>
+  </div>
+  <div class="pbox">
+    <div class="dream">
+      <img src="img/FTLPmain.png" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+    <div class="dream">
+      <img src="img/FLogo.png" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+    <div class="dream">
+      <img src="img/team/team-1.jpg" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+  </div>
+</div>
+<!--
+Gallery end
+-->
+
 
 
 @include ('includes/footer')

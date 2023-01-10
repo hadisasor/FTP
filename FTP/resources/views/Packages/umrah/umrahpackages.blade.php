@@ -6,20 +6,38 @@ $countGolden = 0;
 $countSilver = 0;
 $countSaver  = 0;
 @endphp
-<!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+<section id="hero" class="d-flex align-items-center">
 
-    <div class="container text-center" style="margin-top: 50px;">
-      
-      <div class="row text-center centering">
-          <h1 style="font-size: 270%;">Booking <br>Umrah package</h1> 
-          </div>
+<div class="container text-center" style="margin-top: 100px;">
+  
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/FTLPmain.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/FLogo.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/team/team-1.jpg" class="d-block w-100" alt="...">
+      </div>
     </div>
-                
-  </section><!-- End Hero -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+</div>
+       
+</section><!-- End Hero -->
 
   <main id="main">
-    {{-- @include('includes.clients') --}}
+
 
     <!-- ======= Hajj Section ======= -->
     <section id="hajj" class="about" style="background: url(/assets/img/bg.jpg);">
@@ -32,22 +50,7 @@ $countSaver  = 0;
           <div class="topichajj col-xl-9">
 
             <div class="row">
-            {{-- <section class="section-title"><h2>Deluxe packages</h2></section>
-                
-                        <div class="hajjpackages">
-                          @foreach ($umrahpackages as $umrahpackage)
-                          @if ($umrahpackage['packageName'] == 'Deluxe')
-                            @php $countDeluxe++; @endphp                          
-                            @include('packages.includes.packages_info')
-                          @endif
-                          @endforeach    
-                        </div>
 
-                  @if ($countDeluxe == 0)
-                  <div class="col-12 null">
-                 <h4 class="text-center">Currently there's no Deluxe package available</h4>
-                  </div>
-                  @endif --}}
 
                 <div class="row">      
                   <section class="section-title"><h2>Umrah </h2></section>
@@ -122,3 +125,22 @@ $countSaver  = 0;
 
 </main><!-- End #main -->
   @include ('includes/footer')
+
+
+
+  {{-- <section class="section-title"><h2>Deluxe packages</h2></section>
+                
+                <div class="hajjpackages">
+                  @foreach ($umrahpackages as $umrahpackage)
+                  @if ($umrahpackage['packageName'] == 'Deluxe')
+                    @php $countDeluxe++; @endphp                          
+                    @include('packages.includes.packages_info')
+                  @endif
+                  @endforeach    
+                </div>
+
+          @if ($countDeluxe == 0)
+          <div class="col-12 null">
+         <h4 class="text-center">Currently there's no Deluxe package available</h4>
+          </div>
+          @endif --}}
