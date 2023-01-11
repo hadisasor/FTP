@@ -58,23 +58,23 @@ Gallery start
   </div>
   <div class="pbox">
     <div class="dream">
-      <img src="img/FTLPmain.png" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </div>
-    <div class="dream">
-      <img src="img/FLogo.png" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+      <img src="img/FTimage/p02.jpg" alt="">
+      <img src="img/FTimage/p04.jpg" alt="">
+      <img src="img/FTimage/p05.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>
     <div class="dream">
-      <img src="img/team/team-1.jpg" alt="">
+      <img src="img/FTimage/p01.jpg" alt="">
+      <img src="img/FTimage/p06.jpg" alt="">
+      <img src="img/FTimage/p07.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
+    </div>
+    <div class="dream">
+      <img src="img/FTimage/p03.jpg" alt="">
+      <img src="img/FTimage/p08.jpg" alt="">
+      <img src="img/FTimage/p01.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>

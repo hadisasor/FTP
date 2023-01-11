@@ -316,3 +316,4 @@ const   star1 = document.getElementById('star_1'),
   star5.addEventListener('click',()=>{
     staRepeat(star5);  
   });
+

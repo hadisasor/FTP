@@ -1,43 +1,21 @@
 @include('includes/header')
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 <section id="hero" class="d-flex align-items-center">
 
 
-<div class="container mt-5">
 
-
-  
-      @if(Session::get('login'))
-      <div class="alert alert-danger"> {{Session::get('login')}}</div>
-      @endif
-
-      <!-- carousel atart -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/FTLPmain.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/FLogo.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/team/team-1.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- carousel end -->
-
-  </div>
-
-</div>
 
 </section><!-- End Hero -->
 
@@ -81,23 +59,23 @@ Gallery start
   </div>
   <div class="pbox">
     <div class="dream">
-      <img src="img/FTLPmain.png" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </div>
-    <div class="dream">
-      <img src="img/FLogo.png" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+      <img src="img/FTimage/p02.jpg" alt="">
+      <img src="img/FTimage/p04.jpg" alt="">
+      <img src="img/FTimage/p05.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>
     <div class="dream">
-      <img src="img/team/team-1.jpg" alt="">
+      <img src="img/FTimage/p01.jpg" alt="">
+      <img src="img/FTimage/p06.jpg" alt="">
+      <img src="img/FTimage/p07.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
+    </div>
+    <div class="dream">
+      <img src="img/FTimage/p03.jpg" alt="">
+      <img src="img/FTimage/p08.jpg" alt="">
+      <img src="img/FTimage/p01.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>
@@ -109,7 +87,6 @@ Gallery start
 <!--
 Gallery end
 -->
-
 
 
 @include ('includes/footer')
