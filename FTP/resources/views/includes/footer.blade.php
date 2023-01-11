@@ -23,8 +23,10 @@
             <h4>Information</h4>
             <ul>
               
-              <li><i class="bx bx-chevron-right"></i> <a href="/aboutus">About us</a></li>
-              
+              <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">1مثال</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">2مثال</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">3مثال</a></li>
             </ul>
           </div> 
 

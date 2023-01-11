@@ -253,6 +253,17 @@ Route::get('/buypackage', function(){
    return view('Packages.hajj.buypackage');
 
 });
+
+//FTBoard path
+
+Route::get('/Detail', function(){
+
+   return view('aboutus.ftboard');
+
+});
+
+
+
 //hotels page path-------------------------------------------------------------
 Route::get('/hotels', function(){
    return view('hotel.hotels',['hotels' => Hotel::all()]);
