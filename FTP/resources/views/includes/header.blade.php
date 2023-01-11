@@ -130,7 +130,7 @@
                   </ul>
                 </li>
 
-                <li><a href="#">Transportation</a></li>
+                <li><a href="/transortation">Transportation</a></li>
                 <li class="dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="#">Madinah</a></li>
