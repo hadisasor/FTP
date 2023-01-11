@@ -1522,6 +1522,7 @@ width: 80px;
 .why-us .accordion-list p {
   margin-bottom: 0;
   padding: 50px 0 0 0;
+  font-size: 18px;
 }
 .why-us .accordion-list .icon-show {
   display: none;
