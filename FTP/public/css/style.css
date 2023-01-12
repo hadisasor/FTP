@@ -2814,11 +2814,7 @@ color:black;
 /* album photo end */
 
 /* Board section start */
-.pcontainer .bbox {
-  display: flex;      
-  flex-direction: row;
-  justify-content: space-between;
-}
+
 
 .pcontainer .bbox .dream {
   display: flex;
@@ -2840,11 +2836,6 @@ color:black;
 /* Board section end */
 
 /* seh section start */
-.pcontainer .sbox {
-  display: flex;      
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 .pcontainer .sbox .dream {
   display: flex;
