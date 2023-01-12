@@ -5,7 +5,7 @@
       <div class="container  top_border p-3">
         <div class="row ">
 
-          <div class="col-lg-6 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Fatoni Travel</h3>
             <p>
               1332 petchkasem Rd, Hatyai Sd, <br>
@@ -19,6 +19,8 @@
             </p>
           </div>
 
+          <div class="col-lg-3 col-md-6 footer-contact">
+          </div>
            <div class="col-lg-2 col-md-6 footer-links">
             <h4>Information</h4>
             <ul>
