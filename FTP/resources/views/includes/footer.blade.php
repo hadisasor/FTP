@@ -24,20 +24,20 @@
             <ul>
               
               <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">1مثال</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">2مثال</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">3مثال</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">โครงสร้างคณะกรรมการ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">โครงสร้างคณะผู้นำกลุ่ม (แซะห์)</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">ทำเนียบฮุจญาต</a></li>
             </ul>
           </div> 
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Hajj Package</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Umrah Package</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Travel Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/hajjpackages">Hajj Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/umrahpackages">Umrah Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/travelpackages">Travel Package</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              
 
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->

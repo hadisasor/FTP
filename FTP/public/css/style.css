@@ -189,7 +189,8 @@ color: #dbb42c;
 #header img{
   position: relative;
   height: 80px;
-  padding-right: 10px;
+  padding: 5px;
+  width: 100%;
 }
 
 
@@ -210,8 +211,7 @@ color: #dbb42c;
   display: flex;
   list-style: none;
   align-items: center;
- 
-  padding-left: 44%;
+  padding-left: 20%;
 }
 .navbar li {
   position: relative;
@@ -224,7 +224,7 @@ color: #dbb42c;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 22px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   color: #000000;
   white-space: nowrap;
@@ -734,7 +734,8 @@ carousel
  
 }
 .carousel-item img {
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .carousel-inner {
@@ -992,7 +993,7 @@ width: 1rem;
 
 .content p{
   font-size: 15px;
-  font-weight: 600 ;
+  font-weight: 500 ;
 }
 
 .content h3{
@@ -1472,7 +1473,7 @@ width: 80px;
   margin-top: 5px;
 }
 .why-us .content p {
-  font-size: 15px;
+  font-size: 18px;
   color: #848484;
 }
 .why-us .img {
@@ -2595,7 +2596,7 @@ padding: 10px;
   
   
   .team ::-webkit-scrollbar-thumb{
-    background-color:#32a198;
+    background-color:#a47e1b;
     border-radius: 20px;
   
   }
@@ -2607,7 +2608,7 @@ padding: 10px;
     
     
     .hotels ::-webkit-scrollbar-thumb{
-      background-color:#32a198;
+      background-color:#a47e1b;
       border-radius: 20px;
     
     }
