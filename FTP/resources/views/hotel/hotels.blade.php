@@ -109,7 +109,7 @@
                           @endfor
                         </div>
                         <div class="row">
-                          <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
+                          <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
                         </div>
 
                        </div>
@@ -158,7 +158,7 @@
                       @endfor
                     </div>
                     <div class="row">
-                      <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
+                      <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
                     </div>
 
                    </div>

@@ -15,7 +15,9 @@
 <section id="hero" class="d-flex align-items-center">
 
 
-
+  <div class="Arow text-center centering">
+    <h1 style="font-size: 270%;">About us page</h1> 
+  </div>
 
 </section><!-- End Hero -->
 
@@ -84,6 +86,38 @@ Gallery start
     <a href="#">More</a>
   </div>
 </div>
+
+{{-- company board start --}}
+<div class="pcontainer">
+  <div class="pheading">
+    <h3>Faotoni travel <span>โครงสร้างคณะผู้นำกลุ่ม</span></h3>
+  </div>
+  <div class="bbox">
+    <div class="dream">
+      <img src="img/FTimage/B-FTLP.png" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+</div>
+{{-- company board end --}}
+
+{{-- company seh start --}}
+<div class="pcontainer">
+  <div class="pheading">
+    <h3>Faotoni travel <span>โครงสร้างคณะผู้นำกลุ่ม (แซะห์)</span></h3>
+  </div>
+  <div class="sbox">
+    <div class="dream">
+      <img src="img/FTimage/S-FTLP.jpg" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+</div>
+{{-- company seh end --}}
 <!--
 Gallery end
 -->

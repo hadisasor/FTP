@@ -189,13 +189,14 @@ $hajjCount   = 0;
                         @endfor
                       </div>
                       <div class="row">
-                        <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
+                        <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
                       </div>
                        
                     </div>
                   </div>
                       <div class="book-container">
-                        <a href="hajjpackage/{{...['id']}}" class="book btn-get-started scrollto">Details</a>
+                        <a href="#" class="book btn-get-started scrollto">Details</a>
+                        {{-- <a href="hajjpackage/{{...['id']}}" class="book btn-get-started scrollto">Details</a> --}}
                       </div>
                 </div>
             @endif
@@ -246,13 +247,13 @@ $hajjCount   = 0;
                     @endfor
                   </div>
                   <div class="row">
-                    <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
+                    <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
                   </div>
                   
                 </div>
               </div>
                   <div class="book-container">
-                    <a href="hajjpackage/{{...['id']}}" class="book btn-get-started scrollto">Details</a>
+                    <a href="#" class="book btn-get-started scrollto">Details</a>
                   </div>
             </div>
         @endif

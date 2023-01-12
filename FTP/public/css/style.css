@@ -153,7 +153,11 @@ a h2:hover {
 }
 
 #header .logo-container{
-  padding-top: 30px;
+  padding-top: 20px;
+}
+
+#header .container {
+  margin: 0px 0px 5px 90px;
 }
 
 /*text beside logo*/
@@ -189,7 +193,8 @@ color: #dbb42c;
 #header img{
   position: relative;
   height: 80px;
-  padding-right: 10px;
+  padding: 5px;
+  width: 100%;
 }
 
 
@@ -204,14 +209,14 @@ color: #dbb42c;
 .navbar {
   padding: 0;
 }
+
 .navbar ul {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
   align-items: center;
- 
-  padding-left: 44%;
+  padding-left: 20%;
 }
 .navbar li {
   position: relative;
@@ -224,7 +229,7 @@ color: #dbb42c;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 22px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   color: #000000;
   white-space: nowrap;
@@ -734,7 +739,8 @@ carousel
  
 }
 .carousel-item img {
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .carousel-inner {
@@ -992,7 +998,7 @@ width: 1rem;
 
 .content p{
   font-size: 15px;
-  font-weight: 600 ;
+  font-weight: 500 ;
 }
 
 .content h3{
@@ -1472,7 +1478,7 @@ width: 80px;
   margin-top: 5px;
 }
 .why-us .content p {
-  font-size: 15px;
+  font-size: 18px;
   color: #848484;
 }
 .why-us .img {
@@ -1522,6 +1528,7 @@ width: 80px;
 .why-us .accordion-list p {
   margin-bottom: 0;
   padding: 50px 0 0 0;
+  font-size: 18px;
 }
 .why-us .accordion-list .icon-show {
   display: none;
@@ -2594,7 +2601,7 @@ padding: 10px;
   
   
   .team ::-webkit-scrollbar-thumb{
-    background-color:#32a198;
+    background-color:#a47e1b;
     border-radius: 20px;
   
   }
@@ -2606,7 +2613,7 @@ padding: 10px;
     
     
     .hotels ::-webkit-scrollbar-thumb{
-      background-color:#32a198;
+      background-color:#a47e1b;
       border-radius: 20px;
     
     }
@@ -2713,7 +2720,12 @@ color:black;
  }
  
 
- /** about us section gallery **/
+ /** about us section **/
+
+ .Arow {
+  margin-left: 41%;
+ }
+
  .pcontainer {
   margin: 40px 20px 0px 20px;
   padding: 0;
@@ -2799,6 +2811,47 @@ color:black;
     font-size: 2em;
   }
 } 
+/* album photo end */
+
+/* Board section start */
+
+
+.pcontainer .bbox .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  margin-bottom: 50px;
+  margin-left: 34%;
+  border: 2px solid #76520e;
+  padding: 5px;
+}
+
+.pcontainer .bbox .dream img{
+  width: 100%;
+  padding: 15;
+  border-radius: 5px;
+  margin: 5px;
+  padding-right: 2px;
+}
+/* Board section end */
+
+/* seh section start */
+
+.pcontainer .sbox .dream {
+  display: flex;
+  flex-direction: column;
+  width: 60.5%;
+  margin-bottom: 50px;
+  margin-left: 20%;
+}
+
+.pcontainer .sbox .dream img{
+  width: 100%;
+  padding: 15;
+  border-radius: 5px;
+  margin: 5px;
+  padding-right: 2px;
+}
 /** about us section end **/
 
 

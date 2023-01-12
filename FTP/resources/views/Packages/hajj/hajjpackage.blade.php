@@ -8,7 +8,7 @@
     
       <div class="row text-center centering">
         <h1 style="font-size: 270%;">Booking <br>Hajj package</h1> 
-        </div>
+      </div>
 
         @if(Session::get('message'))
         <div class="alert alert-danger">
