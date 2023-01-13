@@ -5,9 +5,7 @@
 
 
     <div class="row" style="margin-top:7%; margin-left:30%; margin-bottom:2%;">
-    {{-- <div class="col-xl-6">
-      <div><img class="centering" src="{{asset('../../img/Yosr-02.png')}}" style="width:10cm"></div>
-    </div> --}}
+    
     <div class="col-ms-5 px-3 col-md-6">
     <form class="container-reg register"  action="store" method="post" >
 

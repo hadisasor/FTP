@@ -142,9 +142,7 @@ Gallery end
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Travel <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. 
-                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. 
-                      Urna molestie at elementum eu facilisis sed odio morbi quis
+                      สถานที่ท่องเที่ยวในประเทศไทยมีอยู่มากมาย ทั้งที่เที่ยวทะเล ภูเขา วัด หรือวิถีชีวิตของผู้คน การออกไปท่องเที่ยวพักผ่อนตามจังหวัดต่าง ๆ เพื่อชาร์จแบตฯ เพิ่มพลังชีวิตให้กับตัวเอง จึงไม่แปลกที่พอถึงเทศกาลหยุดยาวทีไร สถานที่ท่องเที่ยวทั่วประเทศจะเต็มไปด้วยผู้คนที่ไปสูดอากาศบริสุทธิ์ เสพวิวสวย ๆ ชมวิถีชีวิตของชาวบ้าน หรือชิมอาหารท้องถิ่นอร่อย ๆ
                     </p>
                   </div>
                 </li>
