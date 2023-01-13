@@ -1,5 +1,7 @@
 @include('includes/header')
 
+
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
 
@@ -65,7 +67,7 @@ Gallery start
       <img src="" alt="">
     </div>
     <div class="dream">
-      <img src="img/FTimage/p01.jpg" alt="">
+      <img src="img/FTimage/p1.jpg" alt="">
       <img src="img/FTimage/p06.jpg" alt="">
       <img src="img/FTimage/p07.jpg" alt="">
       <img src="" alt="">
