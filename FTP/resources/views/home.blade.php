@@ -76,7 +76,7 @@ Gallery start
     <div class="dream">
       <img src="img/FTimage/p03.jpg" alt="">
       <img src="img/FTimage/p08.jpg" alt="">
-      <img src="img/FTimage/p01.jpg" alt="">
+      <img src="img/FTimage/p1.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>

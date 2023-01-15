@@ -68,7 +68,7 @@ Gallery start
       <img src="" alt="">
     </div>
     <div class="dream">
-      <img src="img/FTimage/p01.jpg" alt="">
+      <img src="img/FTimage/p1.jpg" alt="">
       <img src="img/FTimage/p06.jpg" alt="">
       <img src="img/FTimage/p07.jpg" alt="">
       <img src="" alt="">
@@ -77,7 +77,7 @@ Gallery start
     <div class="dream">
       <img src="img/FTimage/p03.jpg" alt="">
       <img src="img/FTimage/p08.jpg" alt="">
-      <img src="img/FTimage/p01.jpg" alt="">
+      <img src="img/FTimage/p1.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>
@@ -94,7 +94,7 @@ Gallery start
   </div>
   <div class="bbox">
     <div class="dream">
-      <img src="img/FTimage/B-FTLP.png" alt="">
+      <img src="img/FTimage/FTLPB.jpg" alt="">
       <img src="" alt="">
       <img src="" alt="">
       <img src="" alt="">
