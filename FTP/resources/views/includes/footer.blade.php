@@ -26,6 +26,7 @@
             <ul>
               
               <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus#Gallery">Gallery</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/Detail">โครงสร้างคณะกรรมการ</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/Detail">โครงสร้างคณะผู้นำกลุ่ม (แซะห์)</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/Detail">ทำเนียบฮุจญาต</a></li>

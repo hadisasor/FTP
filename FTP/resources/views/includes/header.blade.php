@@ -37,6 +37,10 @@
  <!-- Template Main CSS File -->
  <link href="{{ asset('../../css/style.css') }}" rel="stylesheet">
 
+
+ {{-- active navbar src --}}
+ <script defer src="activePage.js"></script>
+
 </head>
 
 <body>
@@ -125,13 +129,6 @@
             <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
               <li><a href="/buypackage">Buy Packages</a></li>
-
-              <li class="dropdown"><a href="/Aboutus"><span>About Us</span> <i class="bi bi-chevron-right"></i></a>
-                  <ul>
-                    <li><a href="/Aboutus/Gallary">gallary</a></li>
-                    <li><a href="#">Makkah</a></li>
-                  </ul>
-                </li>
 
                 <li><a href="#">Transportation</a></li>
                 <li class="dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>

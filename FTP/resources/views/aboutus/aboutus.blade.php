@@ -57,7 +57,7 @@ Gallery start
 -->
 <div class="pcontainer">
   <div class="pheading">
-    <h3>Photo <span>Gallery</span></h3>
+    <h3 id="Gallery">Photo <span>Gallery</span></h3>
   </div>
   <div class="pbox">
     <div class="dream">

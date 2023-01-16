@@ -61,6 +61,18 @@
   onscroll(document, navbarlinksActive)
 
   /**
+   * Navbar links active state on scroll
+   */
+  const activePage = window.location.pathname;
+  const navLinks = document.querySelectorAll('nav a').forEach(link => {
+    if(link.href.includes(`${activePage}`)){
+      link.classList.add('active');
+    }
+  })
+
+
+
+  /**
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
