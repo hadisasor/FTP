@@ -97,19 +97,16 @@ $countSaver  = 0;
                         <div class="row">
                         <section class="section-title pkg"><h2>packages</h2></section>
 
-                        <div class="hajjpackages"> 
-                          @foreach ($hajjpackages as $hajjpackage)
-                          @if ($hajjpackage['packageName'] == 'Silver')
-                            @php $countSilver++ @endphp
-                            @include('packages.includes.packages_info')
-                          @endif                
-                          @endforeach        
-                        </div><!--Silver end-->
-          </div>  
-        </div>
-      </div>
-    </div>
-  </section><!-- End Hajj Section -->
+                          <div class="hajjpackages"> 
+                            @foreach ($hajjpackages as $hajjpackage)
+                            @if ($hajjpackage['packageName'] == 'Silver')
+                              @php $countSilver++ @endphp
+                              @include('packages.includes.packages_info')
+                            @endif                
+                            @endforeach        
+                          </div><!--Silver end-->
+                             
+                        </section><!-- End Hajj Section -->
 
 </main><!-- End #main -->
   @include ('includes/footer')

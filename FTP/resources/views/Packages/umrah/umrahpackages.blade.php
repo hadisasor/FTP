@@ -99,7 +99,7 @@ $countSaver  = 0;
       </div><!--Silver end-->
 
             <div class="row mt-4">
-              <section class="section-title"><h2>Saver packages</h2></section>
+              <section class="section-title"><h2>Silver packages</h2></section>
 
                             <div class="hajjpackages">
                               @foreach ($umrahpackages as $umrahpackage)
@@ -110,6 +110,7 @@ $countSaver  = 0;
                               @endforeach             
                             </div><!--Saver end-->
 
+                            
                 {{-- @if ($countSaver == 0)
                 <div class="col-12 null">
                   <h4 class="text-center">Currently there's no Saver package available</h4>
