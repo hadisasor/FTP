@@ -13,11 +13,11 @@ $countSaver  = 0;
       
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/FTLPmain.png" class="d-block w-100" alt="...">
+          <div class="carousel-item ">
+            <img src="img/FTimage/1.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/FLogo.png" class="d-block w-100" alt="...">
+            <img src="img/FTimage/2.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="img/FTimage/p03.jpg" class="d-block w-100" alt="...">
