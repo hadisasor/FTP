@@ -11,28 +11,42 @@ $countSaver  = 0;
 
     <div class="container text-center" style="margin-top: 100px;">
       
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item ">
-            <img src="img/FTimage/1.png" class="d-block w-100" alt="...">
+      {{-- image slides start --}}
+      <div class="slider">
+        <div class="slides">
+          {{-- radio button start --}}
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          {{-- radio btton end --}}
+          {{-- image start --}}
+          <div class="side first">
+            <img src="img/FTimage/1.png" alt="">
+            <img src="img/FTimage/2.png" alt="">
+            <img src="img/FTimage/1.png" alt="">
+            <img src="img/FTimage/2.png" alt="">
           </div>
-          <div class="carousel-item">
-            <img src="img/FTimage/2.png" class="d-block w-100" alt="...">
+          {{-- image end --}}
+          {{-- auto navigation start --}}
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
           </div>
-          <div class="carousel-item">
-            <img src="img/FTimage/p03.jpg" class="d-block w-100" alt="...">
-          </div>
+          {{-- auto navigation end --}}
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        {{-- manual navigation start --}}
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        {{-- manual navigation end --}}
       </div>
-      
+      {{-- image slides end --}}
   </div>
            
   </section><!-- End Hero -->
