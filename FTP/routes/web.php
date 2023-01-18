@@ -392,6 +392,16 @@ Route::group(['middleware' => ['auth','SuperAdmin']], function(){
       );})->name('adminPage');
 
 
+// Route for Admins settings-------------------------------------------------
+   Route::get('/admins/settings', function(){
+         return view('admin/settings.packagemanagement');
+
+
+   });
+
+
+
+
    //find all toksehs--------------------------------------------------
    Route::get('/admin/toksehs',function(){
       return view('admin.users_page.toksehs',
@@ -436,7 +446,7 @@ Route::group(['middleware' => ['auth','SuperAdmin']], function(){
 
       });
 
-
+      
       //booked packages -------------------------------------------------------------------------
       Route::get('admin/hajj_bookings', function(){
          return view('admin.bookings.hajj_bookings',

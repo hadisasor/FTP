@@ -232,8 +232,13 @@ Gallery end
   
     <!-- End Umrah Section -->
 
-    @yield('hotels')
 
+    
+    @yield('Travel')
+
+
+    
+    @yield('hotels')
 
 
 

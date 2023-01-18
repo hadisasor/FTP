@@ -54,16 +54,16 @@ $countSaver  = 0;
 
                 <div class="row">      
                   <section class="section-title"><h2>Umrah </h2></section>
-                        <div class="hajjpackages">
+                        <!-- <div class="hajjpackages">
                           @foreach ($umrahpackages as $umrahpackage)
                           @if ($umrahpackage['packageName'] == 'Golden')
                             @php $countGolden++; @endphp
                             @include('packages.includes.packages_info')
                           @endif  
                           @endforeach   
-                        </div>
+                        </div> -->
                                     
-                          @if ($countGolden == 0)
+                          <!-- @if ($countGolden == 0) -->
                           <div class="col-12 border border-3 p-4">
                             <h4 class="">
                               สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
@@ -71,23 +71,23 @@ $countSaver  = 0;
                               ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
                               ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
                           </div>
-                          @endif
+                          <!-- @endif -->
                           
                 </div><!--Golden end-->
                         
         <div class="row mt-4">
           <section class="section-title"><h2>packages details</h2></section>
 
-                        <div class="hajjpackages"> 
+                        <!-- <div class="hajjpackages"> 
                           @foreach ($umrahpackages as $umrahpackage)
                           @if ($umrahpackage['packageName'] == 'Silver')
                             @php $countSilver++; @endphp
                             @include('packages.includes.packages_info')
                           @endif                
                           @endforeach     
-                        </div>
+                        </div> -->
              
-             @if ($countSilver == 0)
+             <!-- @if ($countSilver == 0) -->
              <div class="col-12 border border-3 p-4">
                <h4 class="">
                 สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
@@ -95,15 +95,15 @@ $countSaver  = 0;
                 ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
                 ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
              </div>
-             @endif
+             <!-- @endif -->
       </div><!--Silver end-->
 
             <div class="row mt-4">
-              <section class="section-title"><h2>Silver packages</h2></section>
+              <section class="section-title"><h2>Umrah packages</h2></section>
 
                             <div class="hajjpackages">
                               @foreach ($umrahpackages as $umrahpackage)
-                              @if ($umrahpackage['packageName'] == 'Saver')
+                              @if ($umrahpackage['packageName'] == 'Ramadan')
                                 @php $countSaver++; @endphp
                                   @include('packages.includes.packages_info')
                               @endif              

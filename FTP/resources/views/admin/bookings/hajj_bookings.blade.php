@@ -42,7 +42,7 @@
                        <td>{{$booking['payment_status']}}</td>
                        <td>{{$booking['total']}}฿</td>
                        <td>{{$booking['paid_amount']}}฿</td>
-                       <td>{{$booking['left_amount']}}฿</td>
+                       <td>{{$booking['t_alefmount']}}฿</td>
                        <td><a href=""class="editbtn btn">Edit</a></td>
                    </tr>
 

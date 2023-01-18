@@ -1,1 +1,16 @@
-@include('includes/header')
+@include('admin.includes.header')
+
+    @include('admin.includes.sidebar')
+
+    
+    @include('admin.includes.navbar')
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>
+
+      
+
+@include('admin.includes.footer')

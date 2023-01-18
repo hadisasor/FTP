@@ -26,7 +26,9 @@ $url = preg_replace('/[^a-zA-Z\']/', "", $url );
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-note-tab" data-bs-toggle="pill" data-bs-target="#pills-note" type="button" role="tab" aria-controls="pills-note" aria-selected="false">Special notes</button>
       </li>
-
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-note-tab" data-bs-toggle="pill" data-bs-target="#pills-insurance" type="button" role="tab" aria-controls="pills-insurance" aria-selected="false">insurance</button>
+      </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-include" role="tabpanel" aria-labelledby="pills-include-tab">
@@ -80,7 +82,20 @@ $url = preg_replace('/[^a-zA-Z\']/', "", $url );
 
           </ul>
           </div>
+          <div class="tab-pane fade" id="pills-insurance" role="tabpanel" aria-labelledby="pills-note-tab">
+        <ul style="text-align:left;">  
+          <li>.</li>
+          <li>..</li>
+          <li>...</li>
+          <li>....</li>
+          <li>.....</li>
+          <li>......</li>
+          <li>.......</li>
+          <li>........</li>
+          <li>.........</li>
 
+          </ul>
+          </div>
     </div>
 
     </div><!--tabs of info Ending-->
