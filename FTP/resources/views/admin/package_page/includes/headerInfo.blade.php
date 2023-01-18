@@ -1,7 +1,7 @@
 @php 
 $hajjBookings =0;
 $umrahBookings=0;
-
+$travelBookings=0;
 if($webPath == 'hajjpackages' || $webPath == 'umrahpackages'){
     foreach ($bookings as $booking) {
         if($webPath == 'hajjpackages' && $booking['hajj_package_id'] != $hajjpackage['id']){
@@ -10,6 +10,9 @@ if($webPath == 'hajjpackages' || $webPath == 'umrahpackages'){
 
         if($webPath == 'umrahpackages' && $booking['umrah_package_id'] == $umrahpackage['id']){
             $umrahBookings++;
+        }
+        if($webPath == 'travelpackages' && $booking['travel_package_id'] == $travelpackage['id']){
+            $travelBookings++;
         }
     }
 }
@@ -101,23 +104,29 @@ if($webPath == 'hajjpackages' || $webPath == 'umrahpackages'){
                         <option>Open this select menu</option>
                         @switch($webPath) 
                             @case('hajjpackages')
-                            <option  value="Deluxe"@if ($hajjpackage['packageName'] == 'Deluxe') {{$selected}} @endif >Deluxe</option>
-                            <option  value="Golden" @if ($hajjpackage['packageName'] == 'Golden') {{$selected}} @endif>Golden</option>
-                            <option  value="Silver"@if ($hajjpackage['packageName'] == 'Silver') {{$selected}} @endif>Silver</option>
-                            <option  value="Saver"@if ($hajjpackage['packageName'] == 'Saver') {{$selected}} @endif>Saver</option>
+                            <option  value="Economy"@if ($hajjpackage['packageName'] == 'Economy') {{$selected}} @endif >Economy</option>
+                            <option  value="Premium" @if ($hajjpackage['packageName'] == 'Premium') {{$selected}} @endif>Premium</option>
+                            
                             @break
                             @case('umrahpackages')
-                            <option  value="Deluxe"@if ($umrahpackage['packageName'] == 'Deluxe') {{$selected}} @endif >Deluxe</option>
-                            <option  value="Golden" @if ($umrahpackage['packageName'] == 'Golden') {{$selected}} @endif>Golden</option>
-                            <option  value="Silver"@if ($umrahpackage['packageName'] == 'Silver') {{$selected}} @endif>Silver</option>
-                            <option  value="Saver"@if ($umrahpackage['packageName'] == 'Saver') {{$selected}} @endif>Saver</option>
+                            <option  value="Economy"@if ($umrahpackage['packageName'] == 'Economy') {{$selected}} @endif >Economy</option>
+                            <option  value="Ramadan" @if ($umrahpackage['packageName'] == 'Ramadan') {{$selected}} @endif>Ramadan</option>
                             @break
-                            @case('hajj'||'umrah')                        
-                                <option value="{{null}}">Open this select menu</option>
-                                <option value="Deluxe" >Deluxe</option>
-                                <option value="Golden">Golden</option>
-                                <option value="Silver">Silver</option>
-                                <option value="Saver">Saver</option>
+                            @case('travelpackages')
+                            <option  value="Deluxe"@if ($travelpackage['packageName'] == 'Deluxe') {{$selected}} @endif >Deluxe</option>
+                            <option  value="Golden" @if ($travelpackage['packageName'] == 'Golden') {{$selected}} @endif>Golden</option>
+                            <option  value="Silver"@if ($travelpackage['packageName'] == 'Silver') {{$selected}} @endif>Silver</option>
+                            <option  value="Saver"@if ($travelpackage['packageName'] == 'Saver') {{$selected}} @endif>Saver</option>
+                            @break
+                            @case('umrah')                        
+                                <!-- <option value="{{null}}">Open this select menu</option> -->
+                                <option value="Economy" >Economy</option>
+                                <option value="Ramadan">Ramadan</option>
+                            @break
+                            @case('hajj')                        
+                                <!-- <option value="{{null}}">Open this select menu</option> -->
+                                <option value="Economy" >Economy</option>
+                                <option value="Premium">Premium</option>
                             @break
                         @default
                         @endswitch

@@ -41,7 +41,7 @@
                             <th scope="col">Email</th>
                             <th scope="col">Edit</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">check</th>
+                            <!-- <th scope="col">check</th> -->
                         </tr>
                     </thead>
                     @foreach ($users as $user)
@@ -53,9 +53,10 @@
                             <td>{{$user['fstname']}}</td>
                             <td>{{$user['lstname']}}</td>
                             <td>{{$user['email']}}</td>
+                            <td>{{$user['mobile']}}</td>
                             <td><a href="/admin/pilgrims/{{$user['id']}}" class="editbtn btn-primary" type="submit">Edit</a></td>
                             <td><a class="deletebtn btn-primary" href="/delete_pilgrim/{{$user['id']}}">Delete</a></td>
-                            <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td>
+                            <!-- <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td> -->
                         </tr>
                     </tbody>
                     
