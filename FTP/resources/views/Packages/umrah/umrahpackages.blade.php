@@ -7,33 +7,7 @@ $countSilver = 0;
 $countSaver  = 0;
 @endphp
 
-<section id="slideshow" class="d-flex align-items-center">
-  <div class="container text-center" style="">
-    
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/FTimage/1.png" class="d-block w-100 " alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/FTimage/2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/FTimage/3.png" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    
-  </div>
-</section>       
+@include('includes.slide') <!-- this section in views/includes/slide   -->
 
   <main id="main">
 
@@ -52,17 +26,8 @@ $countSaver  = 0;
 
 
                 <div class="row">      
-                  <section class="section-title"><h2>Umrah </h2></section>
-                        <!-- <div class="hajjpackages">
-                          @foreach ($umrahpackages as $umrahpackage)
-                          @if ($umrahpackage['packageName'] == 'Golden')
-                            @php $countGolden++; @endphp
-                            @include('packages.includes.packages_info')
-                          @endif  
-                          @endforeach   
-                        </div> -->
-                                    
-                          <!-- @if ($countGolden == 0) -->
+                  <section class="section-title"><h2>What is Umrah? </h2></section>
+                       
                           <div class="col-12 border border-3 p-4">
                             <h4 class="">
                               สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
@@ -70,23 +35,14 @@ $countSaver  = 0;
                               ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
                               ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
                           </div>
-                          <!-- @endif -->
+                         
                           
-                </div><!--Golden end-->
+                </div>
                         
         <div class="row mt-4">
           <section class="section-title"><h2>packages details</h2></section>
 
-                        <!-- <div class="hajjpackages"> 
-                          @foreach ($umrahpackages as $umrahpackage)
-                          @if ($umrahpackage['packageName'] == 'Silver')
-                            @php $countSilver++; @endphp
-                            @include('packages.includes.packages_info')
-                          @endif                
-                          @endforeach     
-                        </div> -->
-             
-             <!-- @if ($countSilver == 0) -->
+                     
              <div class="col-12 border border-3 p-4">
                <h4 class="">
                 สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
@@ -94,11 +50,11 @@ $countSaver  = 0;
                 ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
                 ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
              </div>
-             <!-- @endif -->
-      </div><!--Silver end-->
+             
+      </div>
 
             <div class="row mt-4">
-              <section class="section-title"><h2>Umrah packages</h2></section>
+              <section class="section-title"><h2>Ramadan packages</h2></section>
 
                             <div class="hajjpackages">
                               @foreach ($umrahpackages as $umrahpackage)
@@ -110,29 +66,18 @@ $countSaver  = 0;
                             </div><!--Saver end-->
 
                             
-                {{-- @if ($countSaver == 0)
+                @if ($countSaver == 0)
                 <div class="col-12 null">
-                  <h4 class="text-center">Currently there's no Saver package available</h4>
+                  <h4 class="text-center">Currently there's no Ramadan package available</h4>
                 </div>
-                @endif --}}
-            </div>
-
-        </div>
-      </div>
-      </div>
-    </div>
-  </section><!-- End Hajj Section -->
-
-</main><!-- End #main -->
-  @include ('includes/footer')
+                @endif 
 
 
-
-  {{-- <section class="section-title"><h2>Deluxe packages</h2></section>
+                <section class="section-title"><h2>Economy packages</h2></section>
                 
                 <div class="hajjpackages">
                   @foreach ($umrahpackages as $umrahpackage)
-                  @if ($umrahpackage['packageName'] == 'Deluxe')
+                  @if ($umrahpackage['packageName'] == 'Economy')
                     @php $countDeluxe++; @endphp                          
                     @include('packages.includes.packages_info')
                   @endif
@@ -141,6 +86,54 @@ $countSaver  = 0;
 
           @if ($countDeluxe == 0)
           <div class="col-12 null">
-         <h4 class="text-center">Currently there's no Deluxe package available</h4>
+         <h4 class="text-center">Currently there's no Economy package available</h4>
           </div>
-          @endif --}}
+          @endif
+            </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+  </section><!-- End Hajj Section -->
+
+</main><!-- End #main -->
+  @include ('includes/footer')
+
+
+
+  
+
+
+
+
+
+   <!-- <div class="hajjpackages">
+                          @foreach ($umrahpackages as $umrahpackage)
+                          @if ($umrahpackage['packageName'] == 'Golden')
+                            @php $countGolden++; @endphp
+                            @include('packages.includes.packages_info')
+                          @endif  
+                          @endforeach   
+                        </div> -->
+                                    
+                          <!-- @if ($countGolden == 0) --> <!-- @endif --><!--Golden end-->
+
+
+
+
+
+
+          <!-- <div class="hajjpackages"> 
+                          @foreach ($umrahpackages as $umrahpackage)
+                          @if ($umrahpackage['packageName'] == 'Silver')
+                            @php $countSilver++; @endphp
+                            @include('packages.includes.packages_info')
+                          @endif                
+                          @endforeach     
+                        </div> -->
+             
+             <!-- @if ($countSilver == 0) --><!-- @endif --><!--Silver end-->
