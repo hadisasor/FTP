@@ -7,7 +7,6 @@
 
 
     <div class="container">
-
  
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-6 pt-lg-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
@@ -54,22 +53,24 @@
     <!-- p refer to Photo and name of the class
 Gallery start
 -->
+
+
 <div class="pcontainer">
   <div class="pheading">
     <h3>Photo <span>Gallery</span></h3>
   </div>
   <div class="pbox">
     <div class="dream">
-      <img src="img/FTimage/p02.jpg" alt="">
-      <img src="img/FTimage/p04.jpg" alt="">
-      <img src="img/FTimage/p05.jpg" alt="">
+      <img src="img/FTimage/p02.jpg" alt=""  data-bs-toggle="modal" data-bs-target="#exampleModal_1">
+      <img src="img/FTimage/p04.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_2">
+      <img src="img/FTimage/p05.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_3">
       <img src="" alt="">
       <img src="" alt="">
     </div>
     <div class="dream">
-      <img src="img/FTimage/p1.jpg" alt="">
-      <img src="img/FTimage/p06.jpg" alt="">
-      <img src="img/FTimage/p07.jpg" alt="">
+      <img src="img/FTimage/p1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_4">
+      <img src="img/FTimage/p06.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_5">
+      <img src="img/FTimage/p07.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_6">
       <img src="" alt="">
       <img src="" alt="">
     </div>
@@ -81,6 +82,13 @@ Gallery start
       <img src="" alt="">
     </div>
   </div>
+
+  @php 
+
+@include('includes.modals')
+
+
+
   <div class="pbtn">
     <a href="/aboutus">More</a>
   </div>

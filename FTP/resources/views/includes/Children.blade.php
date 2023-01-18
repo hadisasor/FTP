@@ -4,7 +4,7 @@
 $umrahCount  = 0;
 $hajjCount   = 0; 
 @endphp
-
+  
 @section('hajj')
 <section id="services" class="services section-bg">
     <div class="row px-5" data-aos="fade-up" data-aos-delay="10">

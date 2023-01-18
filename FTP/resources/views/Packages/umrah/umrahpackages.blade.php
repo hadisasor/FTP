@@ -1,10 +1,10 @@
 @include('includes/header')
 @php 
 //for counting packages separatly 
-$countDeluxe = 0;
+$countEconomy = 0;
 $countGolden = 0; 
 $countSilver = 0;
-$countSaver  = 0;
+$countpremium  = 0;
 @endphp
 
 @include('includes.slide') <!-- this section in views/includes/slide   -->
@@ -59,14 +59,14 @@ $countSaver  = 0;
                             <div class="hajjpackages">
                               @foreach ($umrahpackages as $umrahpackage)
                               @if ($umrahpackage['packageName'] == 'Ramadan')
-                                @php $countSaver++; @endphp
+                                @php $countpremium++; @endphp
                                   @include('packages.includes.packages_info')
                               @endif              
                               @endforeach             
                             </div><!--Saver end-->
 
                             
-                @if ($countSaver == 0)
+                @if ($countpremium == 0)
                 <div class="col-12 null">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
                 </div>
@@ -78,13 +78,13 @@ $countSaver  = 0;
                 <div class="hajjpackages">
                   @foreach ($umrahpackages as $umrahpackage)
                   @if ($umrahpackage['packageName'] == 'Economy')
-                    @php $countDeluxe++; @endphp                          
+                    @php $countEconomy++; @endphp                          
                     @include('packages.includes.packages_info')
                   @endif
                   @endforeach    
                 </div>
 
-          @if ($countDeluxe == 0)
+          @if ($countEconomy == 0)
           <div class="col-12 null">
          <h4 class="text-center">Currently there's no Economy package available</h4>
           </div>

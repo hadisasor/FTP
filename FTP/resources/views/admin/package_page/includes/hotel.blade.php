@@ -300,6 +300,7 @@ $url2 =preg_replace('/[^a-zA-Z\']/', "", $url2 );
 
 @elseif ($url == 'hajj' || $url1 == 'umrah')
 
+
 <div class="row">
 
     <div class="row pb-2">
