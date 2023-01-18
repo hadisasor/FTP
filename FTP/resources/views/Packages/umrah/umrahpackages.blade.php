@@ -8,7 +8,7 @@ $countSaver  = 0;
 @endphp
 
 <section id="slideshow" class="d-flex align-items-center">
-  <div class="container text-center" style="margin-top: 30px;">
+  <div class="container text-center" style="">
     
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
