@@ -1,25 +1,8 @@
 @include('includes/header')
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700,800" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-	<link rel="stylesheet" type="text/css" href="css/gallery.css">
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-<section id="hero" class="d-flex align-items-center">
+@include('includes.slide')
 
-
-  <div class="Arow text-center centering">
-    <h1 style="font-size: 270%;">About us page</h1> 
-  </div>
-
-</section><!-- End Hero -->
 
 <!-- Start About Us Section -->
 <section id="about" class="about">
@@ -61,16 +44,16 @@ Gallery start
   </div>
   <div class="pbox">
     <div class="dream">
-      <img src="img/FTimage/p02.jpg" alt="">
-      <img src="img/FTimage/p04.jpg" alt="">
-      <img src="img/FTimage/p05.jpg" alt="">
+    <img src="img/FTimage/p02.jpg" alt=""  data-bs-toggle="modal" data-bs-target="#exampleModal_1">
+      <img src="img/FTimage/p04.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_2">
+      <img src="img/FTimage/p05.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_3">
       <img src="" alt="">
       <img src="" alt="">
     </div>
     <div class="dream">
-      <img src="img/FTimage/p01.jpg" alt="">
-      <img src="img/FTimage/p06.jpg" alt="">
-      <img src="img/FTimage/p07.jpg" alt="">
+      <img src="img/FTimage/p01.jpg"  data-bs-toggle="modal" data-bs-target="#exampleModal_4"alt="">
+      <img src="img/FTimage/p06.jpg"  data-bs-toggle="modal" data-bs-target="#exampleModal_4"alt="">
+      <img src="img/FTimage/p07.jpg"  data-bs-toggle="modal" data-bs-target="#exampleModal_4"alt="">
       <img src="" alt="">
       <img src="" alt="">
     </div>
@@ -82,6 +65,7 @@ Gallery start
       <img src="" alt="">
     </div>
   </div>
+  @include('includes.modals')
   <div class="pbtn">
     <a href="#">More</a>
   </div>

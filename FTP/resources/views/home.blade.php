@@ -83,14 +83,13 @@ Gallery start
     </div>
   </div>
 
-  @php 
 
 @include('includes.modals')
 
 
 
   <div class="pbtn">
-    <a href="/aboutus">More</a>
+    <a href="/Aboutus">More</a>
   </div>
 </div>
 <!--
