@@ -140,11 +140,11 @@ $hajjCount   = 0;
   @endsection
 
 
-
+  <!-- ======= Hotel Section ======= -->
 
   @section('hotels')
 
-      <!-- ======= Team Section ======= -->
+    
       <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up" data-aos-delay="10">
   
