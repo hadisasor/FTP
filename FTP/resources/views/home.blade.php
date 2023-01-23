@@ -1,6 +1,6 @@
 @include('includes/header')
 
-
+@include('includes.slide')
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -29,10 +29,10 @@
 
 
           <!-- change the photo in background -->
-        </div>
+        {{-- </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="{{asset('img/FTLPmain.png')}}" class="img-fluid animated" alt="">
-        </div>
+        </div> --}}
         <!-- change the photo -->
 
 

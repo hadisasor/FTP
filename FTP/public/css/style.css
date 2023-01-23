@@ -2889,7 +2889,17 @@ color:black;
 }
 /** about us section end **/
 
-/* slide start */
-
-
-/* slide start */
+/* modal content */
+.modal-content{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 13px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    margin-left: -20%;
+}
