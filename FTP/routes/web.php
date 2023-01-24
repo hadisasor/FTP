@@ -376,6 +376,16 @@ Route::post('edit_umrah/{id}', [CrudPackage::class,'editingUmrah']);
 //Delete the Umrah package
 Route::get('delete_umrah/{id}', 
 [CrudPackage::class, 'deleteUmrah']);
+
+
+// //Create new Hajj package
+// Route::post('createTravel',[CrudPackage::class,'createTravel']);
+// //Editing for updating the Hajj
+// Route::post('edit_Travel/{id}', [CrudPackage::class,'editingTravel']);
+// //Delete the Hajj package
+// Route::get('delete_Travel/{id}', [CrudPackage::class, 'deleteTravel']);
+
+
 //-----------------------------------------------------------------------------------------------------------------------
 
 Route::group(['middleware' => ['auth','SuperAdmin']], function(){
