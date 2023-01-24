@@ -2894,12 +2894,16 @@ color:black;
   position: relative;
     display: flex;
     flex-direction: column;
-    width: 140%;
+    width: 120%;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
     border: 13px solid rgba(0,0,0,.2);
     border-radius: 0.3rem;
     outline: 0;
-    margin-left: -20%;
+    margin-left: -10%;
+}
+
+.modal-content img{
+  width: 80%;
 }
