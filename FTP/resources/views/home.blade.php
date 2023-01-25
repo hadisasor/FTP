@@ -9,7 +9,7 @@
     <div class="container">
  
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-6 pt-lg-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class=" justify-content-center pt-6 pt-lg-4 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           
           @if(Session::get('login'))
           <div class="alert alert-danger"> {{Session::get('login')}}</div>
@@ -50,7 +50,8 @@
     <br><br><br><br><br>
 
 
-@include('includes.gallery')
+@include('includes.gallery
+')
 
 
 @include('includes.modals')

@@ -9,6 +9,9 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  {{-- js --}}
+  <script defer src="activePage.js"></script>
+
   <!-- Favicons -->
   <link href="{{ asset('../../img/FLogo.png') }}" rel="icon">
   <link href="{{ asset('../../img/FLogo.png') }}" rel="apple-touch-icon">
@@ -69,7 +72,6 @@
                 }
               }
                
-          
                 @endphp
 
   <!-- ======= Header ======= -->
@@ -92,13 +94,14 @@
       $route1 = strstr($route1,'umrah');
       $route1 =preg_replace('/[^a-zA-Z\']/', "", $route1 );
 
-
+      
+      // return dd($route)
       @endphp
       <nav id="navbar" class="navbar">
         <ul>
           @if($route == 'Home')
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          {{-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> --}}
+          {{-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="/hajjpackages">Hajj</a></li>
           <li><a class="nav-link   scrollto" href="/umrahpackages">Umrah</a></li>
           <li><a class="nav-link scrollto" href="/travelpackages">Travel</a></li>
@@ -113,16 +116,18 @@
                   </li>
                   <li><a href="#">Attraction</a></li>
                 </ul>
-              </li>
+              </li> --}}
             @else
             <li><a class="nav-link scrollto" href="/">Home</a></li>
             {{-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> --}}
-            <li><a class="nav-link scrollto @if ($route == 'hajjpackages' || $route == 'hajjpackage') active @endif" href="/hajjpackages">Hajj</a></li>
-            <li><a class="nav-link scrollto @if ($route1 == 'umrahpackages' || $route1 == 'umrahpackage') active @endif" href="/umrahpackages">Umrah</a></li>
-            <li><a class="nav-link scrollto @if ($route1 == 'travelpackages' || $route1 == 'travelpackage') active @endif" href="/travelpackages">Travel</a></li>
+            <li><a class="nav-link scrollto" href="/hajjpackages">Hajj</a></li>
+            <li><a class="nav-link scrollto " href="/umrahpackages">Umrah</a></li>
+            <li><a class="nav-link scrollto " href="/travelpackages">Travel</a></li>
             <li><a class="nav-link scrollto" href="/knowledge">knowledge</a></li>
+{{-- 
+            @if ($route1 == 'travelpackages' || $route1 == 'travelpackage') active @endif" --}}
 
-            <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="headerdropdown dropdown"><a class="headerdropdown"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
               <li><a href="/buypackage">Buy Packages</a></li>
 
@@ -134,7 +139,7 @@
                 </li>
 
                 <li><a href="/transortation">Transportation</a></li>
-                <li class="dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
+                <li class=" dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="#">Madinah</a></li>
                     <li><a href="#">Makkah</a></li>
@@ -149,7 +154,7 @@
         {{-- User profile navagator --}}
           @if (auth()->check())
    
-          <li class="dropdown"><a href="#"><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="headerdropdown dropdown"><a href="/my_profile" class="headerdropdown"><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/Yosr-02.png')}}"></a>
                 <span>{{auth()->user()->userType}}</span>

@@ -40,6 +40,37 @@
     el.addEventListener('scroll', listener)
   }
 
+
+  // navbar active
+  const activePage = window.location.pathname;
+  const navbarlink = document.querySelectorAll('nav .scrollto'),
+        navdropdown = document.querySelectorAll('nav .headerdropdown .headerdropdown');
+  
+  
+  navbarlink.forEach((link) => {
+    
+    const navlinkactive = new URL(link.href).pathname,
+          droplinkactive = new URL(navdropdown[1]).pathname;
+
+    if(navlinkactive === activePage){
+      link.classList.add('active');
+    }
+
+    if(droplinkactive === activePage ){
+
+      navdropdown[1].classList.add('active');
+
+    }
+    
+    console.log('nav'+navlinkactive)
+    console.log('drop'+droplinkactive)
+    console.log('page'+activePage)
+
+  
+  })
+
+ 
+
   /**
    * Navbar links active state on scroll
    */
