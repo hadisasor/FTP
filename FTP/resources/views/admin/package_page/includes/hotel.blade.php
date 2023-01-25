@@ -29,68 +29,12 @@ $url2 =preg_replace('/[^a-zA-Z\']/', "", $url2 );
 
 <div class="row">
 
-    <div class="row pb-2">
-        <div class="col-2">
-            <input type="radio" class="form-check-input" id="custom" name="hotels">
-            <label for="custom">Custom</label>
-        </div>
+        
         <div class="col-2">
             <input type="radio" class="form-check-input" id="existed" name="hotels" checked>
             <label for="existed">Existed</label>
         </div>
-    </div>
 
-</div>
-
-<div id="custom-inputs" style="display: none">
-<div class="row pb-3">
-    <div class="col-6">
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput"
-            name="makkaHotel" value="{{old('makkaHotel')}}">
-            <label for="floatingInput">Makkah hotel @error('makkaHotel') <span style="color:red">{{'required'}}@enderror</span></label>           
-        </div>
-
-        <div class="row">
-            <center>
-            <img class="col-9 centering" src="{{asset('img/Ka3bah.jpg')}}">
-            </center>
-        </div>
-        
-          <div class="centering">
-            <center>
-              <img class="col-3" src="{{asset('img/Ka3bah.jpg')}}">
-              <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}} ">
-              <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}}"> 
-            </center>
-        </div>
-
-    </div>
-
-    <div class="col-6">
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput"
-            name="madinaHotel"value="{{old('madinaHotel')}}">
-            <label for="floatingInput">Madinah hotel @error('madinaHotel') <span style="color:red">{{'required'}}@enderror</span></label>           
-        </div>
-
-        <div class="row">
-            <center>
-            <img class="col-9 centering" src="{{asset('img/Ka3bah.jpg')}}">
-            </center>
-        </div>
-        
-          <div class="centering">
-            <center>
-              <img class="col-3" src="{{asset('img/Ka3bah.jpg')}}">
-              <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}} ">
-              <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}}"> 
-            </center>
-        </div>
-
-    </div>
-
-</div>
 </div>
 
 
@@ -303,71 +247,16 @@ $url2 =preg_replace('/[^a-zA-Z\']/', "", $url2 );
 
 <div class="row">
 
-    <div class="row pb-2">
-        <div class="col-2">
-            <input type="radio" class="form-check-input" id="custom" name="hotels">
-            <label for="custom">Custom</label>
-        </div>
         <div class="col-2">
             <input type="radio" class="form-check-input" id="existed" name="hotels" checked>
             <label for="existed">Existed</label>
         </div>
-    </div>
 
 </div>
 
 
 
-<div id="custom-inputs" style="display: none">
-    <div class="row pb-3">
-        <div class="col-6">
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput"
-                name="makkaHotel" value="{{old('makkaHotel')}}">
-                <label for="floatingInput">Makkah hotel @error('makkaHotel') <span style="color:red">{{'required'}}@enderror</span></label>           
-            </div>
-    
-            <div class="row">
-                <center>
-                <img class="col-9 centering" src="{{asset('img/Ka3bah.jpg')}}">
-                </center>
-            </div>
-            
-              <div class="centering">
-                <center>
-                  <img class="col-3" src="{{asset('img/Ka3bah.jpg')}}">
-                  <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}} ">
-                  <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}}"> 
-                </center>
-            </div>
-    
-        </div>
-    
-        <div class="col-6">
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput"
-                name="madinaHotel"value="{{old('madinaHotel')}}">
-                <label for="floatingInput">Madinah hotel @error('madinaHotel') <span style="color:red">{{'required'}}@enderror</span></label>           
-            </div>
-    
-            <div class="row">
-                <center>
-                <img class="col-9 centering" src="{{asset('img/Ka3bah.jpg')}}">
-                </center>
-            </div>
-            
-              <div class="centering">
-                <center>
-                  <img class="col-3" src="{{asset('img/Ka3bah.jpg')}}">
-                  <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}} ">
-                  <img class="col-3"  src="{{asset('img/Ka3bah.jpg')}}"> 
-                </center>
-            </div>
-    
-        </div>
-    
-    </div>
-    </div>
+
 
 
 <div id="existed-inputs">
