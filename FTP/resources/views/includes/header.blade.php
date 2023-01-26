@@ -127,14 +127,6 @@
             <li class="headerdropdown dropdown"><a class="headerdropdown"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
               <li><a href="/buypackage">Buy Packages</a></li>
-
-              <li class="dropdown"><a href="/Aboutus"><span>About Us</span> <i class="bi bi-chevron-right"></i></a>
-                  <ul>
-                    <li><a href="/Aboutus/Gallary">gallary</a></li>
-                    <li><a href="#">Makkah</a></li>
-                  </ul>
-                </li>
-
                 <li><a href="/transortation">Transportation</a></li>
                 <li class=" dropdown"><a href="{{route('hotels')}}"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
