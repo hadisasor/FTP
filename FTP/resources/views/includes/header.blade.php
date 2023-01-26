@@ -87,12 +87,9 @@
       @php 
 
       $route= URL::current();
-      $route = strstr($route,'hajj');
-      $route =preg_replace('/[^a-zA-Z\']/', "", $route );
-
-      $route1= URL::current();
-      $route1 = strstr($route1,'umrah');
-      $route1 =preg_replace('/[^a-zA-Z\']/', "", $route1 );
+      $route = explode('/',$route);
+    
+      // return dd($route[3])
 
       
       // return dd($route)
@@ -118,12 +115,12 @@
                 </ul>
               </li> --}}
             @else
-            <li><a class="nav-link scrollto" href="/">Home</a></li>
+            <li><a class="nav-link scrollto @if($route[3] == "home") active @endif" href="/">Home</a></li>
             {{-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> --}}
-            <li><a class="nav-link scrollto" href="/hajjpackages">Hajj</a></li>
-            <li><a class="nav-link scrollto " href="/umrahpackages">Umrah</a></li>
-            <li><a class="nav-link scrollto " href="/travelpackages">Travel</a></li>
-            <li><a class="nav-link scrollto" href="/knowledge">knowledge</a></li>
+            <li><a class="nav-link scrollto @if($route[3] == 'hajjpackages' )active  @endif" href="/hajjpackages">Hajj</a></li>
+            <li><a class="nav-link scrollto  @if($route[3] == 'umrahpackages' ) active @endif" href="/umrahpackages">Umrah</a></li>
+            <li><a class="nav-link scrollto  @if($route[3] == 'travelpackages' ) active @endif" href="/travelpackages">Travel</a></li>
+            <li><a class="nav-link scrollto @if($route[3] == 'knowledge' ) active @endif" href="/knowledge">knowledge</a></li>
 {{-- 
             @if ($route1 == 'travelpackages' || $route1 == 'travelpackage') active @endif" --}}
 
@@ -154,7 +151,7 @@
         {{-- User profile navagator --}}
           @if (auth()->check())
    
-          <li class="headerdropdown dropdown"><a href="/my_profile" class="headerdropdown"><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="headerdropdown dropdown "><a href="/my_profile" class="headerdropdown @if($route[3] == 'my_profile' ) active @endif "><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/Yosr-02.png')}}"></a>
                 <span>{{auth()->user()->userType}}</span>

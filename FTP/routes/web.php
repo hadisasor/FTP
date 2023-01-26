@@ -32,6 +32,12 @@ use Illuminate\Support\Facades\Auth;
 
 // hajj package path which include within it the children file also all hajjpackages pages model to include hajj pages-------
 Route::get('/', function () {
+
+   return redirect()->to('/home');
+})->name('Home');
+
+
+Route::get('/home', function () {
     return view('includes/Children',[
         'hajjpackages' => HajjPackage::all(),
         'umrahpackages' => UmrahPackage::all(),
