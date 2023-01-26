@@ -9,7 +9,7 @@
     
     <div class="row gx-5">
       <div class="col-3">
-          <img style="width:200px" class="px-4" src="{{asset('../../img/Yosr-02.png')}}">
+          <img style="width:200px" class="px-4" src="{{asset('../../img/FLogo.png')}}">
       </div>
       @switch($myprofile)
       @case('true')

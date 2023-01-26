@@ -1665,11 +1665,11 @@ width: 80px;
   margin-right: auto;
   align-content: center;
   text-align: center;
-  padding: 5px;
+  padding: 0;
 }
 
 .profilecontainer img{
-  width: 10cm;
+  width: 100%;
 }
 
 .profilecontainer a{

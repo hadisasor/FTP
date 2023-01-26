@@ -153,7 +153,7 @@
    
           <li class="headerdropdown dropdown "><a href="/my_profile" class="headerdropdown @if($route[3] == 'my_profile' ) active @endif "><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/Yosr-02.png')}}"></a>
+              <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/circle-01.png')}}"></a>
                 <span>{{auth()->user()->userType}}</span>
                 <h5>{{auth()->user()->fstname}} {{auth()->user()->lstname}}</h5>
               </li>
