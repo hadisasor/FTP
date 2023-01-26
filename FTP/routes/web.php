@@ -258,11 +258,11 @@ Route::get('services/buypackage', function(){
 });
 
 //hotels page path-------------------------------------------------------------
-Route::get('/hotels', function(){
+Route::get('services/hotels', function(){
    return view('hotel.hotels',['hotels' => Hotel::all()]);
 })->name('hotels');
 
-Route::get('/hotels/{id}', function(){
+Route::get('services/hotels/{id}', function(){
    return view('hotel.hotel');
 })->name('hotel');
 
