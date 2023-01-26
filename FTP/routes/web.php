@@ -239,9 +239,6 @@ Route::get('/knowledge', function(){
 });
 
 //about us path page
-
-
-
 Route::get('/Aboutus', function(){
 
    return view  ('aboutus.aboutus');
@@ -254,21 +251,11 @@ Route::get('/Aboutus/Gallary',function(){
 
 
 //Buy Package Page path-------------------------------------------------------
-Route::get('/buypackage', function(){
+Route::get('services/buypackage', function(){
 
    return view('Packages.hajj.buypackage');
 
 });
-
-//FTBoard path
-
-Route::get('/Detail', function(){
-
-   return view('aboutus.ftboard');
-
-});
-
-
 
 //hotels page path-------------------------------------------------------------
 Route::get('/hotels', function(){
@@ -281,11 +268,11 @@ Route::get('/hotels/{id}', function(){
 
 
 //transportation page path-------------------------------------------------------------
-Route::get('/transortation', function(){
+Route::get('/services/transortation', function(){
    return view('transportation.transports');
 })->name('transpors');
 
-Route::get('/transortation/{id}', function(){
+Route::get('/services/transortation/{id}', function(){
    return view('transportation.transport');
 })->name('transport');
 

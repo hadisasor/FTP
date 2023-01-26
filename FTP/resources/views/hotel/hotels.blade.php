@@ -1,15 +1,17 @@
 @include('includes/header')
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
 
-    <div class="container text-center" style="margin-top: 50px;">
-      
+<!-- ======= Hero Section ======= -->
+
+
+    <div class="container text-center" style="margin-top: 1%;">
+      @include('includes.slide')
       <div class="row text-center">
           <h1 style="font-size: 270%;">Information of <br>Hotels</h1> 
-          </div>
+      </div>
+        
     </div>
                 
-  </section><!-- End Hero -->
+  
 
 
 
@@ -80,7 +82,7 @@
             
             <div class="row"> <!-- start of makkah hotel row -->
             <div class="section-title">
-                <h2>Makkah Hotels</h2>
+                <h2 id="mhotel">Makkah Hotels</h2>
               </div>
 
             <div class="scrollable-x">

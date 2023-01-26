@@ -15,7 +15,7 @@
           <div class="alert alert-danger"> {{Session::get('login')}}</div>
           @endif
 
-          <h1 style="font-size: 220%;">ห้างหุ้นส่วนจํากัด ฟาตอนี แทรเวิล <br>กิจการฮัจญ์ อัศศิดดีก</h1> 
+          <h1 style="font-size: 220%; font-family: 'Noto Sans Thai', sans-serif;">ห้างหุ้นส่วนจํากัด ฟาตอนี แทรเวิล <br>กิจการฮัจญ์ อัศศิดดีก</h1> 
           <p>"FATONI...SERAMBI MAKKAH <br>
               ฟาตอนี...ระเบียงบนครมักกะฮฺ"</p>
           <p>แพ็คเกจฮัจญ์...กับฟาตอนี แทรเวิล <br>

@@ -60,7 +60,7 @@
                                 <a href="#" class="nav-link dropdown-toggle  @if($route == 'hajj_bookings' || $route == 'umrah_bookings') active show"  aria-expanded="true" @endif aria-expanded="none" data-bs-toggle="dropdown"><i class="bi bi-gear-fill"></i>Settings</a>
                                 <div class="dropdown-menu bg-transparent border-0  @if ($route == 'hajj_bookings' || $route == 'umrah_bookings') active show @endif">
 
-                                    <a href="{{route('hajj_bookings')}}" class="dropdown-item  @if ($route == 'hajj_bookings') active @endif">Gallary</a>
+                                    <a href="/admins/settings" class="dropdown-item ">Gallary</a>
                                     <a href="/admins/settings" class="dropdown-item ">Package settings</a>
                                     
                                 </div>
