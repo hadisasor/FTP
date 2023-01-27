@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\HajjPackage;
+use App\Models\travel;
 use App\Models\UmrahPackage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -106,24 +107,24 @@ class CrudPackage extends Controller
                 }}
     
                 // Mina details inputs *--------------------------
-                if($minaDetails){
-                for ($i=0; $i < count($minaDetails); $i ++){
-                    $dataSave = [
-                        'hajj_package_id' => $id,
-                        'information' => $minaDetails[$i],
-                    ];
-                    DB::table('minas')->insert($dataSave);
-                }}
+                // if($minaDetails){
+                // for ($i=0; $i < count($minaDetails); $i ++){
+                //     $dataSave = [
+                //         'hajj_package_id' => $id,
+                //         'information' => $minaDetails[$i],
+                //     ];
+                //     DB::table('minas')->insert($dataSave);
+                // }}
     
                 // Arafat details inputs *--------------------------
-                if($arafatDetails){
-                for ($i=0; $i < count($arafatDetails); $i ++){
-                    $dataSave = [
-                        'hajj_package_id' => $id,
-                        'information' => $arafatDetails[$i],
-                    ];
-                    DB::table('arafats')->insert($dataSave);
-                }}
+                // if($arafatDetails){
+                // for ($i=0; $i < count($arafatDetails); $i ++){
+                //     $dataSave = [
+                //         'hajj_package_id' => $id,
+                //         'information' => $arafatDetails[$i],
+                //     ];
+                //     DB::table('arafats')->insert($dataSave);
+                // }}
 
             DB::insert('insert into hajj_package_hotel (hajj_package_id, hotel_id) values(?,?)',
             [$id,$makkaHotel]);    
@@ -249,24 +250,24 @@ class CrudPackage extends Controller
             }}
 
             // Mina details inputs *--------------------------
-            if($minaDetails){
-            for ($i=0; $i < count($minaDetails); $i ++){
-                $dataSave = [
-                    'hajj_package_id' => $id,
-                    'information' => $minaDetails[$i],
-                ];
-                DB::table('minas')->insert($dataSave);
-            }}
+            // if($minaDetails){
+            // for ($i=0; $i < count($minaDetails); $i ++){
+            //     $dataSave = [
+            //         'hajj_package_id' => $id,
+            //         'information' => $minaDetails[$i],
+            //     ];
+            //     DB::table('minas')->insert($dataSave);
+            // }}
 
             // Arafat details inputs *--------------------------
-            if($arafatDetails){
-            for ($i=0; $i < count($arafatDetails); $i ++){
-                $dataSave = [
-                    'hajj_package_id' => $id,
-                    'information' => $arafatDetails[$i],
-                ];
-                DB::table('arafats')->insert($dataSave);
-            }}
+            // if($arafatDetails){
+            // for ($i=0; $i < count($arafatDetails); $i ++){
+            //     $dataSave = [
+            //         'hajj_package_id' => $id,
+            //         'information' => $arafatDetails[$i],
+            //     ];
+            //     DB::table('arafats')->insert($dataSave);
+            // }}
 
                
      
@@ -478,7 +479,7 @@ class CrudPackage extends Controller
             DB::insert('insert into hotel_umrah_package (umrah_package_id, hotel_id) values(?,?)',
             [$id,$makkaHotel]);        
             DB::insert('insert into hotel_umrah_package (umrah_package_id, hotel_id) values(?,?)',
-         [$id,$madinaHotel]); 
+            [$id,$madinaHotel]); 
 
             if($packageDetails){
             for ($i=0; $i < count($packageDetails); $i ++){
@@ -499,6 +500,24 @@ class CrudPackage extends Controller
 }
 
 
+public function createTravel(Request $request){
+
+   traveling = new travel;
+
+}
+
+
+ public function editingTravel(Request $request){
+
+
+
+ }
+
+ public function deleteTravel(Request $request){
+
+    
+
+ }
 
 //------------------------------------------------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------------------------------

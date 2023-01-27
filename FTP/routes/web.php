@@ -254,7 +254,9 @@ Route::get('/Aboutus/Gallary',function(){
 //Buy Package Page path-------------------------------------------------------
 Route::get('services/buypackage', function(){
 
-   return view('Packages.hajj.buypackage');
+   return view('Packages.hajj.buypackage',   ['hajjpackages' => Hajjpackage::all(),
+                                             'umrahpackages' => Umrahpackage::all()    
+                                                                                    ]);
 
 });
 
@@ -373,11 +375,11 @@ Route::get('delete_umrah/{id}',
 
 
 // //Create new Hajj package
-// Route::post('createTravel',[CrudPackage::class,'createTravel']);
-// //Editing for updating the Hajj
-// Route::post('edit_Travel/{id}', [CrudPackage::class,'editingTravel']);
-// //Delete the Hajj package
-// Route::get('delete_Travel/{id}', [CrudPackage::class, 'deleteTravel']);
+Route::post('createTravel',[CrudPackage::class,'createTravel']);
+//Editing for updating the Hajj
+Route::post('edit_Travel/{id}', [CrudPackage::class,'editingTravel']);
+//Delete the Hajj package
+Route::get('delete_Travel/{id}', [CrudPackage::class, 'deleteTravel']);
 
 
 //-----------------------------------------------------------------------------------------------------------------------
