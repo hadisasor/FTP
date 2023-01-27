@@ -259,21 +259,21 @@ Route::get('services/buypackage', function(){
 });
 
 //hotels page path-------------------------------------------------------------
-Route::get('services/hotels', function(){
+Route::get('/hotels', function(){
    return view('hotel.hotels',['hotels' => Hotel::all()]);
 })->name('hotels');
 
-Route::get('services/hotels/{id}', function(){
+Route::get('/hotels/{id}', function(){
    return view('hotel.hotel');
 })->name('hotel');
 
 
 //transportation page path-------------------------------------------------------------
-Route::get('/services/transortation', function(){
+Route::get('services/transportation', function(){
    return view('transportation.transports');
 })->name('transpors');
 
-Route::get('/services/transortation/{id}', function(){
+Route::get('services/transportation/{id}', function(){
    return view('transportation.transport');
 })->name('transport');
 
