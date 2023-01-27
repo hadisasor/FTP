@@ -397,13 +397,14 @@ Route::group(['middleware' => ['auth','SuperAdmin']], function(){
 
 
 // Route for Admins settings-------------------------------------------------
-   Route::get('/admins/settings', function(){
-         return view('admin/settings.packagemanagement');
+   Route::get('/admins/gallery', function(){
+         return view('admin/settings.gallery');
+   })->name('gallery_set');
 
-
-   });
-
-
+   Route::get('/admins/package_managment', function(){
+      return view('admin/settings.package_managment');
+})->name('package_managment');
+   
 
 
    //find all toksehs--------------------------------------------------
