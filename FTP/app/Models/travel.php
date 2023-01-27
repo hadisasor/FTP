@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class HajjPackage extends Model
 {
     use HasFactory;
-    protected $table = 'hajj_packages';
+    protected $table = 'travel';
     protected $primaryKey = 'id';
     //Many packages can belong to one user function
     public function user()
