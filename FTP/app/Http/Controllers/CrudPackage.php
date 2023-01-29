@@ -502,7 +502,7 @@ class CrudPackage extends Controller
 
 public function createTravel(Request $request){
 
-   traveling = new travel;
+   
 
 }
 
