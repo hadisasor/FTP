@@ -22,12 +22,12 @@ $url = preg_replace('/[^a-zA-Z\']/', "", $url );
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-cancel-tab" data-bs-toggle="pill" data-bs-target="#pills-cancel" type="button" role="tab" aria-controls="pills-cancel" aria-selected="false">Cancellation</button>
       </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-note-tab" data-bs-toggle="pill" data-bs-target="#pills-insurance" type="button" role="tab" aria-controls="pills-insurance" aria-selected="false">insurance</button>
+      </li>
 
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-note-tab" data-bs-toggle="pill" data-bs-target="#pills-note" type="button" role="tab" aria-controls="pills-note" aria-selected="false">Special notes</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-note-tab" data-bs-toggle="pill" data-bs-target="#pills-insurance" type="button" role="tab" aria-controls="pills-insurance" aria-selected="false">insurance</button>
       </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
