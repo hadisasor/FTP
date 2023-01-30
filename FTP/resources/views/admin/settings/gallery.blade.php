@@ -16,7 +16,7 @@
                             <th scope="col">Image location</th>
                             <th scope="col">Edit</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">check</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -28,7 +28,7 @@
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
                           <td><a  href="#" class="pt-1 deletebtn btn">Delete</a></td>
-                          <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td>
+                          
                       </tr>
           </tbody>
                 </table>
@@ -50,7 +50,7 @@
                             <th scope="col">Image location</th>
                             <th scope="col">Edit</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">check</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -62,7 +62,7 @@
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
                           <td><a  href="#" class="pt-1 deletebtn btn">Delete</a></td>
-                          <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td>
+                          
                       </tr>
           </tbody>
                 </table>
@@ -84,7 +84,7 @@
                             <th scope="col">Image location</th>
                             <th scope="col">Edit</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">check</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -96,7 +96,7 @@
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
                           <td><a  href="#" class="pt-1 deletebtn btn">Delete</a></td>
-                          <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td>
+                          
                       </tr>
           </tbody>
                 </table>
@@ -117,7 +117,7 @@
                             <th scope="col">Image location</th>
                             <th scope="col">Edit</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">check</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -129,7 +129,7 @@
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
                           <td><a  href="#" class="pt-1 deletebtn btn">Delete</a></td>
-                          <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td>
+                          
                       </tr>
           </tbody>
                 </table>
@@ -151,7 +151,7 @@
                             <th scope="col">Image location</th>
                             <th scope="col">Edit</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">check</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -163,7 +163,7 @@
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
                           <td><a  href="#" class="pt-1 deletebtn btn">Delete</a></td>
-                          <td style="padding: 10px;"><input class="form-check-input" type="checkbox"></td>
+                          
                       </tr>
           </tbody>
                 </table>
