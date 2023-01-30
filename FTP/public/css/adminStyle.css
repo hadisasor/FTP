@@ -413,3 +413,15 @@ input[type="file"] {
 
 
   /* image setting change */
+  .image-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 5px;
+    border: 1px solid #a47e1b;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
