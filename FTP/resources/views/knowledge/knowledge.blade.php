@@ -60,4 +60,10 @@
 
     </div>
   </section>
+
+
+  @include ('knowledge.knowledge_gallery')
+
+  @include('includes.modals')
+
 @include ('includes/footer')
