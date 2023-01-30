@@ -24,7 +24,7 @@
                       <tr>
                           <th scope="row"></th>
                           <td>
-                            <div class="image-container"><img src="img/FLogo.png" alt=""></div>
+                            <div class="image-container"><img src="{{asset('img/FLogo.png')}}" alt=""></div>
                           </td>
                           <td>banner</td>
                           <td>test</td>
