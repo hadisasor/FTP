@@ -49,7 +49,7 @@ if($url == ''){
             @default
             @endswitch  
           </h4>
-        <span>thul hijjah 1</span>
+        <!-- <span>thul hijjah 1</span> -->
       </div>
     </div>    
 </div>
