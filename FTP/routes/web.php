@@ -493,6 +493,21 @@ Route::group(['middleware' => ['auth','SuperAdmin']], function(){
   
    });
 
+// settings routes packages levels start
+Route::get('/admin/settings/create_hajj_lvl', function(){
+   return view('admin.settings.create_hajj_lvl');
+});
+
+Route::get('/admin/settings/create_umrah_lvl', function(){
+   return view('admin.settings.create_umrah_lvl');
+});
+
+Route::get('/admin/settings/create_travel_lvl', function(){
+   return view('admin.settings.create_travel_lvl');
+});
+// settings routes packages levels end
+
+
 
 
 

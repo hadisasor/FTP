@@ -552,3 +552,6 @@ i=0, c=0;
    
  }
 
+  /* banner setting change */
+
+  /* banner setting change end */
