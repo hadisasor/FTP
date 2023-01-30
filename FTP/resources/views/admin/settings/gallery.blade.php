@@ -23,7 +23,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FLogo.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -57,7 +59,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -91,7 +95,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -124,7 +130,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -158,7 +166,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -193,7 +203,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -227,7 +239,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -261,7 +275,9 @@
       
       <tr>
           <th scope="row"></th>
-          <td>test</td>
+          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
           <td>banner</td>
           <td>test</td>
           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -295,7 +311,9 @@
                       
                       <tr>
                           <th scope="row"></th>
-                          <td>test</td>
+                          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
                           <td>banner</td>
                           <td>test</td>
                           <td><a href="#"class="editbtn btn">Edit</a></td>
@@ -329,7 +347,9 @@
       
       <tr>
           <th scope="row"></th>
-          <td>test</td>
+          <td>
+                            <div class="image-container"><img src="img/FTimage/B-FTLP.png" alt=""></div>
+                          </td>
           <td>banner</td>
           <td>test</td>
           <td><a href="#"class="editbtn btn">Edit</a></td>
