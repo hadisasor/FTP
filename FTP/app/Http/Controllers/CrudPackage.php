@@ -562,6 +562,7 @@ public function createTravel(Request $request){
  
  
   }
+  
  
   public function deleteimages(Request $request){
  
