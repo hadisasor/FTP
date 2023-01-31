@@ -508,9 +508,11 @@ Route::get('/admin/settings/create_travel_lvl', function(){
 // settings routes packages levels end
 
 
-
-
-
+// route for gallery detail start
+Route::get('/admins/settings/gallery_detail', function(){
+   return view('admin.settings.includes.gallery_detail');
+});
+// route for gallery detail end
 
    // Route::get('404',function(){
       //    return view('admin.404');
