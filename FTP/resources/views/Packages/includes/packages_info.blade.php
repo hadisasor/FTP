@@ -112,7 +112,7 @@ $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
           @break
           @default
           @endswitch
-          class="book btn-get-started scrollto">view details
+          class="book btn-get-started scrollto">Book now
         </a>
     </div>
     </div>    

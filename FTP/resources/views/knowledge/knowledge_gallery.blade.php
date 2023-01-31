@@ -49,7 +49,7 @@ Gallery start
         </div>
       </div>
 
-      <div class="pcontainer">
+      {{-- <div class="pcontainer">
         <div class="pheading">
           <h3>Travel <span>Gallery</span></h3>
         </div>
@@ -70,4 +70,4 @@ Gallery start
             <img src="img/FTimage/F6.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_7">
             <img src="img/FTimage/F7.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal_8">
           </div>
-        </div>
+        </div> --}}
