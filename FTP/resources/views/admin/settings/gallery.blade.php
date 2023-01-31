@@ -28,7 +28,7 @@
                           </td>
                           <td>banner</td>
                           <td>test</td>
-                          <td><a href="/admins/settings/gallery_detail"class="editbtn btn">Edit</a></td>
+                          <td><a href="/admins/settings/edit_gallery"class="editbtn btn">Edit</a></td>
                           <td><a  href="#" class="pt-1 deletebtn btn">Delete</a></td>
                           
                       </tr>
