@@ -101,19 +101,20 @@ $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
         @endswitch</p></div>
           {{-- <div class="hot-name"><p>Al-Janadiryah<br>Al-Tayibah<br> 3 </p></div> --}}
       </div>
-    </div>    
       <div class="book-container">
-          <a 
-            @switch($url)
-            @case('hajjpackages')
-            href="hajjpackage/{{$hajjpackage['id']}}"
-            @break
-            @case('umrahpackages')
-            href="umrahpackage/{{$umrahpackage['id']}}"
-            @break
-            @default
-            @endswitch
-            class="book btn-get-started scrollto">view details
-          </a>
-      </div>
+        <a 
+          @switch($url)
+          @case('hajjpackages')
+          href="hajjpackage/{{$hajjpackage['id']}}"
+          @break
+          @case('umrahpackages')
+          href="umrahpackage/{{$umrahpackage['id']}}"
+          @break
+          @default
+          @endswitch
+          class="book btn-get-started scrollto">view details
+        </a>
+    </div>
+    </div>    
+      
   </div>

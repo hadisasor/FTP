@@ -24,12 +24,12 @@
            
             <a href="/login" class="btn-get-started scrollto">Get Started</a>
           <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          --></div>
+    -->   </div>
 
 
-
+      </div>  
           <!-- change the photo in background -->
-        {{-- </div>
+        {{-- 
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="{{asset('img/FTLPmain.png')}}" class="img-fluid animated" alt="">
         </div> --}}
@@ -37,8 +37,8 @@
 
 
 
+        </div>
       </div>
-    </div>
 
   </section><!-- End Hero -->
 

@@ -195,8 +195,8 @@ class CrudPackage extends Controller
 
             //get array values from inputs
             $packageDetails = $request->packageDetails; // request for array valie gotta be like this 
-            $minaDetails = $request->minaDetails;
-            $arafatDetails = $request->arafatDetails;
+            // $minaDetails = $request->minaDetails;
+            // $arafatDetails = $request->arafatDetails;
 
 
          DB::update('update hajj_packages set 
@@ -518,6 +518,59 @@ public function createTravel(Request $request){
     
 
  }
+
+
+//  images database start
+ public function createimgaes(Request $request){
+    $this->validate(request(), [ 
+        'imgPath'=>'required',
+        'imgType'=>'required',
+        'imgLocation'=>'required',
+        ]);
+
+
+        
+        $imgPath = $request->input('imgPath');
+        $imgType = $request->input('imgType');
+        $imgLocation = $request->input('imgLocation');
+
+
+        DB::update('update images set 
+                imgPath= ?,
+                imgType = ?,              
+                imgLocation = ?, 
+                ', [
+               $imgPath,
+               $imgType, 
+               $imgLocation,  
+               $id]);
+
+            DB::insert('insert into images
+            ( 
+            imgPath, 
+            imgType,
+            imgLocation,) values(?,?,?,?)',
+            [ 
+            $imgPath,
+            $imgType,
+            $imgLocation]);
+ }
+ 
+ 
+  public function editingimages(Request $request){
+ 
+ 
+ 
+  }
+  
+ 
+  public function deleteimages(Request $request){
+ 
+     
+ 
+  }
+  //  images database end
+
 
 //------------------------------------------------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------------------------------
