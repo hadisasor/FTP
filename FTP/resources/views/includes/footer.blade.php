@@ -37,8 +37,8 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/hajjpackages">Hajj Package</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/umrahpackages">Umrah Package</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/travelpackages">Travel Package</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="/travelpackages">Travel Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li> -->
               
 
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
