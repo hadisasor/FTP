@@ -1,10 +1,10 @@
 @include('includes/header')
 @php 
 //for counting packages separatly 
-$countDeluxe = 0;
+$countEconomy = 0;
 $countGolden = 0; 
 $countSilver = 0;
-$countSaver  = 0;
+$countPremium  = 0;
 @endphp
 
      @include('includes.slide')
@@ -39,7 +39,7 @@ $countSaver  = 0;
                           
                 </div>
                         
-        <div class="row mt-4">
+        <!-- <div class="row mt-4">
           <section class="section-title"><h2>packages details</h2></section>
 
                      
@@ -51,7 +51,7 @@ $countSaver  = 0;
                 ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
              </div>
              
-      </div>
+      </div> -->
 
             <div class="row mt-4">
               <section class="section-title"><h2>Premium packages</h2></section>
@@ -59,14 +59,14 @@ $countSaver  = 0;
                             <div class="hajjpackages">
                               @foreach ($hajjpackages as $hajjpackage)
                               @if ($hajjpackage['packageName'] == 'Premium')
-                                @php $countSaver++; @endphp
+                                @php $countPremium++; @endphp
                                   @include('packages.includes.packages_info')
                               @endif              
                               @endforeach             
-                            </div><!--Saver end-->
-
+                            </div>
+<!--Premium end-->
                             
-                @if ($countSaver == 0)
+                @if ($countPremium == 0)
                 <div class="col-12 null">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
                 </div>
@@ -78,13 +78,13 @@ $countSaver  = 0;
                 <div class="hajjpackages">
                   @foreach ($hajjpackages as $hajjpackage)
                   @if ($hajjpackage['packageName'] == 'Economy')
-                    @php $countDeluxe++; @endphp                          
+                    @php $countEconomy++; @endphp                          
                     @include('packages.includes.packages_info')
                   @endif
                   @endforeach    
                 </div>
 
-          @if ($countDeluxe == 0)
+          @if ($countEconomy == 0)
           <div class="col-12 null">
          <h4 class="text-center">Currently there's no Economy package available</h4>
           </div>

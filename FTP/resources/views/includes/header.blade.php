@@ -119,12 +119,12 @@
             {{-- <li><a class="nav-link scrollto" href="#about">About Us</a></li> --}}
             <li><a class="nav-link scrollto @if($route[3] == 'hajjpackages' )active  @endif" href="/hajjpackages">Hajj</a></li>
             <li><a class="nav-link scrollto  @if($route[3] == 'umrahpackages' ) active @endif" href="/umrahpackages">Umrah</a></li>
-            <li><a class="nav-link scrollto  @if($route[3] == 'travelpackages' ) active @endif" href="/travelpackages">Travel</a></li>
-            <li><a class="nav-link scrollto @if($route[3] == 'knowledge' ) active @endif" href="/knowledge">knowledge</a></li>
+            <!-- <li><a class="nav-link scrollto  @if($route[3] == 'travelpackages' ) active @endif" href="/travelpackages">Travel</a></li> -->
+            <!-- <li><a class="nav-link scrollto @if($route[3] == 'knowledge' ) active @endif" href="/knowledge">knowledge</a></li> -->
 {{-- 
             @if ($route1 == 'travelpackages' || $route1 == 'travelpackage') active @endif" --}}
 
-            <li class="headerdropdown dropdown"><a class="headerdropdown @if($route[3] == 'services') active @endif"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <!-- <li class="headerdropdown dropdown"><a class="headerdropdown @if($route[3] == 'services') active @endif"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
               <li><a href="services/buypackage" >Buy Packages</a></li>
                 <li><a href="services/transportation">Transportation</a></li>
@@ -138,7 +138,7 @@
                 <li><a href="/Visa">Visa</a></li>
                 
             </ul>
-          </li>
+          </li> -->
           @endif
         {{-- User profile navagator --}}
           @if (auth()->check())

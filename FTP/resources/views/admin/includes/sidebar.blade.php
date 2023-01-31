@@ -60,7 +60,7 @@
                                 <a href="#" class="nav-link dropdown-toggle  @if($route == 'gallery_set' || $route == 'package_managment') active show"  aria-expanded="true" @endif aria-expanded="none" data-bs-toggle="dropdown"><i class="bi bi-gear-fill"></i>Settings</a>
                                 <div class="dropdown-menu bg-transparent border-0  @if ($route == 'gallery_set' || $route == 'package_managment') active show @endif">
 
-                                    <a href="{{route('gallery_set')}}" class="dropdown-item @if ($route == 'gallery_set') active show @endif">Gallery</a>
+                                    <a href="{{route('gallery_set')}}" class="dropdown-item @if ($route == 'gallery_set') active show @endif">Image</a>
                                     <a href="{{route('package_managment')}}" class="dropdown-item @if ($route == 'package_managment') active show @endif">Package settings</a>
                                     
                                     </div>
