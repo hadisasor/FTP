@@ -47,49 +47,24 @@
                 @include('packages.includes.first_row')
                   
 
-                {{-- @include('includes.leader_review') --}}
 
 
-            {{-- <div class="table-details row"><!--beginning of Mina details-->
-              <div class="col-xl-3">
-              <img src="{{asset('img/Icons/minasign.png')}}">  <h5>Mina Tent Details</h5>
-              </div>
-              
-              <div class="row specfic col-xl-9">
-                @foreach($hajjpackage->minas as $mina)
-                @php $package = 'mina'; @endphp 
-                  @include('packages.includes.icons')
-                @endforeach
-              </div>
-            </div><!--Ending of Mina details--> --}}
+         
+        <!--beginning of transportation details-->  
 
-            {{-- <div class="table-details row"><!--beginning of Arafat details-->
-              <div class="col-xl-3">
-                <img src="{{asset('/img/Icons/Arafatsign.png')}}"> <h5>Arafat Tent Details</h5>
-              </div>
-              
-              <div class="row specfic col-xl-9">
-                @foreach($hajjpackage->arafats as $arafat)
-                @php $package = 'arafat'; @endphp 
-                  @include('packages.includes.icons')
-                @endforeach
-              </div>
-            </div><!--beginning of Arafat details--> --}}
-
-
-            <div class="table-details row"><!--beginning of transportation details-->
+            <div class="table-details row">
               <div class="col-xl-3">
                <h5>Transportation details</h5>
               </div>
               <div class="specfic col-xl-9">
                 {{$hajjpackage['transportDetails']}}
               </div>
-            </div><!--Ending of transportation details-->
-           
+            </div>
+           <!--Ending of transportation details-->
               
-            
+            <!--Beginning of booking-->
 
-              <div class="table-details row"><!--Beginning of booking-->
+              <!-- <div class="table-details row">
                 <div class="specfic row">
                   <div class="col"> 
                     <P>Note:<br>asasaas </P>
@@ -98,8 +73,8 @@
                 <div class="book-container2 row"> 
                     <a href="HajjPackagePage.html" id="upgradePackage" class="book btn-get-started scrollto">Book Now</a>
                     {{-- <button href="HajjPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button></div>     --}}
-                </div><!--Ending of booking-->
-
+                </div> -->
+                <!-- Ending of booking -->
 
 
               <h2 style="margin-top: 50px;">Hotels Details</h2>
@@ -146,3 +121,32 @@
 </main><!-- End #main -->
 
 @include ('includes/footer')
+
+
+
+
+   <!-- {{-- <div class="table-details row"><!--beginning of Mina details
+              <div class="col-xl-3">
+              <img src="{{asset('img/Icons/minasign.png')}}">  <h5>Mina Tent Details</h5>
+              </div>
+              
+              <div class="row specfic col-xl-9">
+                @foreach($hajjpackage->minas as $mina)
+                @php $package = 'mina'; @endphp 
+                  @include('packages.includes.icons')
+                @endforeach
+              </div>
+            </div>Ending of Mina details--> --}} -->
+
+            <!-- {{-- <div class="table-details row"><!--beginning of Arafat details
+              <div class="col-xl-3">
+                <img src="{{asset('/img/Icons/Arafatsign.png')}}"> <h5>Arafat Tent Details</h5>
+              </div>
+              
+              <div class="row specfic col-xl-9">
+                @foreach($hajjpackage->arafats as $arafat)
+                @php $package = 'arafat'; @endphp 
+                  @include('packages.includes.icons')
+                @endforeach
+              </div>
+            </div>beginning of Arafat details--> --}} -->

@@ -32,7 +32,7 @@ $counter = 0;
       
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-target="pbox">Next</button>
+        <!-- <button type="button" class="btn btn-secondary" data-bs-target="pbox">Next</button> -->
       </div>
     </div>
   </div>
