@@ -62,11 +62,17 @@ $hajjCount   = 0;
           </div></center>
         @break ($hajjCount == 4)
         @endforeach
+        @if ($hajjCount == 0)
+          <div class="col-12 null">
+         <h4 class="text-center">Currently there's no Economy package available</h4>
+          </div>
+          @endif
       </div>
 
     </div>
   </section>
 
+ 
   @endsection
 
   
@@ -132,6 +138,11 @@ $hajjCount   = 0;
         
         @break ($umrahCount == 4)
       @endforeach
+      @if ($umrahCount == 0)
+          <div class="col-12 null">
+         <h4 class="text-center">Currently there's no Economy package available</h4>
+          </div>
+          @endif
       </div>
 
     </div>

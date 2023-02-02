@@ -158,9 +158,10 @@ Route::post('create-checkout-session',[PaypalController::class,'checkout'])
 
 //hajj packages page path ---------------------------------------------
 //mentioning all hajjpackages pages and including hajj package model ---------------------------------------------
-Route::get('/hajjpackages',function(){
+Route::get('/packages',function(){
     return view('packages/hajj/hajjpackages',[
-        'hajjpackages' => HajjPackage::all()]);   
+        'hajjpackages' => HajjPackage::all(),
+        'umrahpackages' => UmrahPackage::all()]);   
 })->name('hajjpackages');
 
 //single hajjpackage page and each page paths including hajj package model ---------------------------------------------
@@ -306,13 +307,16 @@ Route::get('admin', function(){
 //find all hajj packages to CRUD-----------------------------------------------
 Route::get('/admin/hajjpackages', function(){
    return view('admin.package_page.hajjpackages',
-               ['hajjpackages'=>HajjPackage::all()]);
+               ['hajjpackages'=>HajjPackage::all(),
+               'umrahpackages'=>UmrahPackage::all()]);
 })->name('hajjpackages');
 //find specific hajj packages CRUD-----------------------------------------------
 Route::get('/admin/hajjpackages/{id}',function($id){
    return view('admin.package_page.edit_hajj',
    ['hajjpackage'=>HajjPackage::find($id),
+   'umrahpackage'=>UmrahPackage::find($id), 
           'webPath' => 'hajjpackages',
+          'webPath' => 'umrahpackages',
           'bookings' => Booking::all(),
           'hotels'=>Hotel::all()
          ]);
