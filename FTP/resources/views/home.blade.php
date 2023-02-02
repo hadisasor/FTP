@@ -52,9 +52,9 @@
 
 @include('includes.gallery')
 
-
+{{-- 
 @include('includes.modals')
-
+ --}}
 
 
   <!-- <div class="pbtn">
