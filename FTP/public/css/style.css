@@ -803,10 +803,13 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  
   position: relative;
   color: #76520e;
 }
+
+.section-title h2, h3, h4 {
+  font-family: 'Noto Sans Thai', sans-serif;
+  }
 
 .pkg {
   margin-top: 50px;
@@ -993,7 +996,7 @@ width: 1rem;
 
 .content{  
   background-color: white;
-  box-shadow: 0px 0 25px 0 #a47d1b24;
+  box-shadow: 0px 0 25px 0 #a47d1b12;
   margin: 7px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1449,6 +1452,10 @@ width: 80px;
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {
+  background-color: #f3f5fa;
+}
+
 .about .content h2 {
   font-weight: 600;
   font-size: 26px;
@@ -1996,22 +2003,36 @@ padding: 10px;
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq .section-title h4, h3{
+  color: #76520e;
+}
+
+.faq {
+  background-color: #f3f5fa;
+}
+
 .faq .faq-list {
   padding: 0 100px;
 }
+
 .faq .faq-list ul {
   padding: 0;
   list-style: none;
 }
+
 .faq .faq-list li + li {
   margin-top: 15px;
 }
+
 .faq .faq-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
   position: relative;
+  box-shadow: 0px 0 25px 0 #a47d1b10;
+  margin: 15px;
 }
+
 .faq .faq-list a {
   display: block;
   position: relative;
@@ -2023,39 +2044,49 @@ padding: 10px;
   outline: none;
   cursor: pointer;
 }
+
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: #76520e;
 }
+
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
+
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  font-size: 20px;
 }
+
 .faq .faq-list .icon-show {
   display: none;
 }
+
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #76520e;
   transition: 0.3s;
 }
+
 .faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #a47e1b;
 }
+
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
 }
+
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
@@ -2778,63 +2809,4 @@ color:black;
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-
-/* Board section start */
-
-
-.pcontainer .bbox .dream {
-  display: flex;
-  flex-direction: column;
-  width: 32.5%;
-  margin-bottom: 50px;
-  margin-left: 34%;
-  border: 2px solid #76520e;
-  padding: 5px;
-}
-
-.pcontainer .bbox .dream img{
-  width: 100%;
-  padding: 15;
-  border-radius: 5px;
-  margin: 5px;
-  padding-right: 2px;
-}
-/* Board section end */
-
-/* seh section start */
-
-.pcontainer .sbox .dream {
-  display: flex;
-  flex-direction: column;
-  width: 60.5%;
-  margin-bottom: 50px;
-  margin-left: 20%;
-}
-
-.pcontainer .sbox .dream img{
-  width: 100%;
-  padding: 15;
-  border-radius: 5px;
-  margin: 5px;
-  padding-right: 2px;
-}
-/** about us section end **/
-
-/* modal content */
-.modal-content{
-  position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 120%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 13px solid rgba(0,0,0,.2);
-    border-radius: 0.3rem;
-    outline: 0;
-    margin-left: -10%;
-}
-
-.modal-content img{
-  width: 80%;
 }

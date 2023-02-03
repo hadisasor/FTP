@@ -33,6 +33,7 @@
   </div>
 </section><!-- End About Us Section -->
 
+  @include('includes.faq')
 
   @include('includes.gallery')
 

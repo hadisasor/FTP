@@ -8,39 +8,31 @@ $countPremium  = 0;
 
 @endphp
 
-     @include('includes.slide')
+@include('includes.cta')
 
   <main id="main">
 
 
     <!-- ======= Hajj Section ======= -->
-    <section id="hajj" class="about" style="background: url(/assets/img/bg.jpg);">
-      <div class="Hajj-container" data-aos="fade-up">
-
-        <div class="row">
-
-          @include('packages.includes.navbar')
-        
-          <div class="topichajj col-xl-9">
-
-            <div class="row">
-
-
-                <div class="row">      
-                  <section class="section-title"><h2>What is hajj? </h2></section>
-                       
-                          <div class="col-12 border border-3 p-4">
-                            <h4 class="">
-                            การประกอบพิธีฮัจญ์ คือ การเดินทางไปปฏิบัติศาสนกิจที่นครมักกะฮฺ ประเทศซาอุดิอารเบีย 
-                            ในเดือนซุลฮิจญะฮฺของทุกปี ซึ่งศาสนกิจข้อนี้เป็นหน้าที่สำหรับมุสลิมทั้งชายและหญิงทุกคนที่มีความสามารถทางด้านร่างกาย 
-                            ทรัพย์สิน โดยก่อนที่จะเดินทางสู่นครมักกะฮฺ จำเป็นจะต้องมีการเนียตอิหฺรอม พร้อมสวมชุดอิหฺรอม (ผ้าขาวสองผืน) ที่มีกอต (จุดที่ถูกกำหนดไว้แล้ว)
-                          </h4>
-                          </div>
-                         
-                          
+    <section id="faq" class="faq section-bg pb-4 mb-4">
+      <div class="container" data-aos="fade-up">
+          
+          <div class="section-title mt-4 mb-4">
+            <h2>Hajj</h2>
+          </div>
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx  icon-help"></i> <a style="color: #76520e" data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is Hajj?<i class="bx bx-chevron-down icon-show"></i><i class=""></i></a>
+                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                  <p>
+                    การประกอบพิธีฮัจญ์ คือ การเดินทางไปปฏิบัติศาสนกิจที่นครมักกะฮฺ ประเทศซาอุดิอารเบีย 
+                    ในเดือนซุลฮิจญะฮฺของทุกปี ซึ่งศาสนกิจข้อนี้เป็นหน้าที่สำหรับมุสลิมทั้งชายและหญิงทุกคนที่มีความสามารถทางด้านร่างกาย 
+                    ทรัพย์สิน โดยก่อนที่จะเดินทางสู่นครมักกะฮฺ จำเป็นจะต้องมีการเนียตอิหฺรอม พร้อมสวมชุดอิหฺรอม (ผ้าขาวสองผืน) ที่มีกอต (จุดที่ถูกกำหนดไว้แล้ว)
+                  </p>
                 </div>
-                        
-
+              </li>
+          </div>
 
             <div class="row mt-4">
               <section class="section-title"><h2>Hajj Premium packages</h2></section>
@@ -80,20 +72,23 @@ $countPremium  = 0;
           @endif
             </div>
 
-            <div class="row">      
-                  <section class="section-title"><h2>What is Umrah? </h2></section>
-                       
-                          <div class="col-12 border border-3 p-4">
-                            <h4 class="">
-                              สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
-                              และเป็นไปตามสถานะของอิห์ราม
-                              ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
-                              ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง</h4>
-                          </div>
-                         
-                          
-                </div>
-                        
+            <div class="section-title mt-4">
+              <h2>Umrah</h2>
+            </div>
+            <div class="faq-list">
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx  icon-help"></i> <a style="color: #76520e" data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is Umrah<i class="bx bx-chevron-down icon-show"></i><i class=""></i></a>
+                  <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                    <p>
+                      สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
+                      และเป็นไปตามสถานะของอิห์ราม
+                      ทำได้โดยการเวียนรอบกะบะห์ และเดินไปมาระหว่างซอฟาและมัรวะห์
+                      ปฏิบัติตามเงื่อนไขที่กำหนดก่อนทำอุมเราะห์ เช่น การโกนผมหรือตัดผมให้สั้นลง
+                    </p>
+                  </div>
+                </li>
+            </div>
 
             <div class="row mt-4">
               <section class="section-title"><h2>Ramadan packages</h2></section>
