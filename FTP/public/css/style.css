@@ -2689,6 +2689,7 @@ color:black;
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
   height: 300px;
+  padding: 8px;
 }
 
 .portfolio .portfolio-item .portfolio-img img {

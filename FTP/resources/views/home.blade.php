@@ -136,6 +136,7 @@
     </section>
     
     <!-- End Skills Section --> --}}
+    <div style="background-color: #f3f5fa">
     <!-- ======= Hajj Section ======= -->
     
   
@@ -165,7 +166,7 @@
 
 
     </main><!-- End #main -->
-
+  </div>
     @include ('includes/footer')
 
 
