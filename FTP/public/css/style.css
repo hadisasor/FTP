@@ -129,6 +129,7 @@ a h2:hover {
   z-index: 997;
   padding: 8px 0px 0px 0;
   box-shadow: 0px 5px 50px 0px #a47d1b24;
+  background-color: #fff;
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: #fff;
@@ -1001,6 +1002,17 @@ width: 1rem;
   padding: 14px;
 }
 
+.services .content {
+  height: 580px;
+  width: 400px;
+  margin: 20px;
+}
+
+.hajjpackages {
+  display: flex;
+  justify-content: center;
+}
+
 .why-us {
   margin: 30px;
 }
@@ -1437,7 +1449,7 @@ width: 80px;
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-.about .content h3 {
+.about .content h2 {
   font-weight: 600;
   font-size: 26px;
 }
@@ -1463,34 +1475,14 @@ width: 80px;
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+
+.about .content p {
   font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 4px;
-  transition: 0.3s;
-  line-height: 1;
-  color: #76520e;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  margin-top: 6px;
-  border: 2px solid #76520e;
+  font-size: 18px;
 }
-.about .content .btn-learn-more:hover {
-  background: #a47e1b;
-  border: 2px solid #a47e1b;
-  color: #fff;
-  text-decoration: none;
-}
-
-
 .about .section-title {
   margin-top: 50px;
 }
-
 
 
 /*--------------------------------------------------------------
@@ -1761,18 +1753,24 @@ padding: 10px;
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), 
-  url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
+  url("../img/FTimage/FTLP Banner.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
+  height: 100vh;
 }
 .cta h3 {
   color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 150px;
+  margin-left: 120px;
 }
 .cta p {
   color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 120px;
 }
 .cta .cta-btn {
   font-family: "Jost", sans-serif;

@@ -126,14 +126,14 @@
 
             <li class="headerdropdown dropdown"><a class="headerdropdown @if($route[3] == 'services') active @endif"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-              <li><a href="services/buypackage" >Buy Packages</a></li>
+              {{-- <li><a href="services/buypackage" >Buy Packages</a></li>
                 <li><a href="services/transportation">Transportation</a></li>
                 <li class=" dropdown"><a href="/hotels"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="/hotels #mhotel">Madinah</a></li>
                     <li><a href="/hotels">Makkah</a></li>
                   </ul>
-                </li>
+                </li> --}}
                 {{-- <li><a href="#">Attraction</a></li> --}}
                 <li><a href="/Visa">Visa</a></li>
                 
