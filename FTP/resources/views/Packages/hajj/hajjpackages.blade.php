@@ -148,7 +148,20 @@ $countPremium  = 0;
       </div>
     </div>
 
-
+    <div class="section-title mt-4">
+      <h2>Umrah</h2>
+    </div>
+    <div class="faq-list">
+      <ul>
+        <li data-aos="fade-up" data-aos-delay="100">
+          <i class="bx  icon-help"></i> <a style="color: #76520e" data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is Travel<i class="bx bx-chevron-down icon-show"></i><i class=""></i></a>
+          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+            <p>
+              สถานที่ท่องเที่ยวในประเทศไทยมีอยู่มากมาย ทั้งที่เที่ยวทะเล ภูเขา วัด หรือวิถีชีวิตของผู้คน การออกไปท่องเที่ยวพักผ่อนตามจังหวัดต่าง ๆ เพื่อชาร์จแบตฯ เพิ่มพลังชีวิตให้กับตัวเอง จึงไม่แปลกที่พอถึงเทศกาลหยุดยาวทีไร สถานที่ท่องเที่ยวทั่วประเทศจะเต็มไปด้วยผู้คนที่ไปสูดอากาศบริสุทธิ์ เสพวิวสวย ๆ ชมวิถีชีวิตของชาวบ้าน หรือชิมอาหารท้องถิ่นอร่อย ๆ
+            </p>
+          </div>
+        </li>
+    </div>
 
   </section><!-- End Hajj Section -->
 
