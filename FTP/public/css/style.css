@@ -2572,6 +2572,9 @@ color:black;
   width: 80%;
   border: 2px solid #a47e1b;
   margin-bottom: 20px;
+}
+
+.nopkg h4 {
   color: #ed3c0d;
 }
 
