@@ -12,6 +12,7 @@ use App\Http\Controllers\SessionController;
 use App\Http\Controllers\LogOut;
 use App\Http\Controllers\PaypalController;
 use App\Http\Controllers\RatingController;
+use App\Http\Controllers\UploadImagesController;
 use App\Models\Booking;
 use App\Models\Hotel;
 use App\Models\Review;
@@ -389,7 +390,12 @@ Route::get('delete_Travel/{id}', [CrudPackage::class, 'deleteTravel']);
 //-----------------------------------------------------------------------------------------------------------------------
 
 Route::group(['middleware' => ['auth','SuperAdmin']], function(){
-  
+
+      //Upload banner
+      Route::post('admins/upload_banner',[UploadImagesController::class,'upload_banner']);
+
+
+
    //find All admins--------------------------------------------------
    Route::get('/admin/admins', function(){
       return view('admin.users_page.admins', 
