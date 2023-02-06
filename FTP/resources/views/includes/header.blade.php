@@ -11,11 +11,12 @@
 
   {{-- js --}}
   <script defer src="activePage.js"></script>
-
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
   <!-- Favicons -->
   <link href="{{ asset('../../img/FLogo.png') }}" rel="icon">
   <link href="{{ asset('../../img/FLogo.png') }}" rel="apple-touch-icon">
-
+  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +24,18 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- owl carousel SLIDER -->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <!-- end awesome icons -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <!-- lightbox -->
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  
+  <!-- Animation Effect CSS -->
+  <link rel="stylesheet" href="css/animation.css">
+
+  <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
   <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 @livewireStyles
@@ -126,14 +139,14 @@
 
             <li class="headerdropdown dropdown"><a class="headerdropdown @if($route[3] == 'services') active @endif"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-              <li><a href="services/buypackage" >Buy Packages</a></li>
+              {{-- <li><a href="services/buypackage" >Buy Packages</a></li>
                 <li><a href="services/transportation">Transportation</a></li>
                 <li class=" dropdown"><a href="/hotels"><span>Hotels</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="/hotels #mhotel">Madinah</a></li>
                     <li><a href="/hotels">Makkah</a></li>
                   </ul>
-                </li>
+                </li> --}}
                 {{-- <li><a href="#">Attraction</a></li> --}}
                 <li><a href="/Visa">Visa</a></li>
                 

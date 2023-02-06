@@ -129,6 +129,7 @@ a h2:hover {
   z-index: 997;
   padding: 8px 0px 0px 0;
   box-shadow: 0px 5px 50px 0px #a47d1b24;
+  background-color: #fff;
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: #fff;
@@ -802,10 +803,13 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  
   position: relative;
   color: #76520e;
 }
+
+.section-title h2, h3, h4 {
+  font-family: 'Noto Sans Thai', sans-serif;
+  }
 
 .pkg {
   margin-top: 50px;
@@ -992,13 +996,24 @@ width: 1rem;
 
 .content{  
   background-color: white;
-  box-shadow: 0px 0 25px 0 #a47d1b24;
+  box-shadow: 0px 0 25px 0 #a47d1b12;
   margin: 7px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   transition: all ease-in-out 0.4s;
   padding: 14px;
+}
+
+.services .content {
+  height: 580px;
+  width: 400px;
+  margin: 20px;
+}
+
+.hajjpackages {
+  display: flex;
+  justify-content: center;
 }
 
 .why-us {
@@ -1437,7 +1452,11 @@ width: 80px;
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-.about .content h3 {
+.about {
+  background-color: #f3f5fa;
+}
+
+.about .content h2 {
   font-weight: 600;
   font-size: 26px;
 }
@@ -1463,34 +1482,14 @@ width: 80px;
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+
+.about .content p {
   font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 4px;
-  transition: 0.3s;
-  line-height: 1;
-  color: #76520e;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  margin-top: 6px;
-  border: 2px solid #76520e;
+  font-size: 18px;
 }
-.about .content .btn-learn-more:hover {
-  background: #a47e1b;
-  border: 2px solid #a47e1b;
-  color: #fff;
-  text-decoration: none;
-}
-
-
 .about .section-title {
   margin-top: 50px;
 }
-
 
 
 /*--------------------------------------------------------------
@@ -1761,18 +1760,24 @@ padding: 10px;
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), 
-  url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
+  url("../img/FTimage/FTLP Banner.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
+  height: 100vh;
 }
 .cta h3 {
   color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 150px;
+  margin-left: 120px;
 }
 .cta p {
   color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 120px;
 }
 .cta .cta-btn {
   font-family: "Jost", sans-serif;
@@ -1998,22 +2003,36 @@ padding: 10px;
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq .section-title h4, h3{
+  color: #76520e;
+}
+
+.faq {
+  background-color: #f3f5fa;
+}
+
 .faq .faq-list {
   padding: 0 100px;
 }
+
 .faq .faq-list ul {
   padding: 0;
   list-style: none;
 }
+
 .faq .faq-list li + li {
   margin-top: 15px;
 }
+
 .faq .faq-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
   position: relative;
+  box-shadow: 0px 0 25px 0 #a47d1b10;
+  margin: 15px;
 }
+
 .faq .faq-list a {
   display: block;
   position: relative;
@@ -2025,39 +2044,49 @@ padding: 10px;
   outline: none;
   cursor: pointer;
 }
+
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: #76520e;
 }
+
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
+
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  font-size: 20px;
 }
+
 .faq .faq-list .icon-show {
   display: none;
 }
+
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #76520e;
   transition: 0.3s;
 }
+
 .faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #a47e1b;
 }
+
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
 }
+
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
@@ -2660,6 +2689,7 @@ color:black;
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
   height: 300px;
+  padding: 8px;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
@@ -2780,63 +2810,4 @@ color:black;
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-
-/* Board section start */
-
-
-.pcontainer .bbox .dream {
-  display: flex;
-  flex-direction: column;
-  width: 32.5%;
-  margin-bottom: 50px;
-  margin-left: 34%;
-  border: 2px solid #76520e;
-  padding: 5px;
-}
-
-.pcontainer .bbox .dream img{
-  width: 100%;
-  padding: 15;
-  border-radius: 5px;
-  margin: 5px;
-  padding-right: 2px;
-}
-/* Board section end */
-
-/* seh section start */
-
-.pcontainer .sbox .dream {
-  display: flex;
-  flex-direction: column;
-  width: 60.5%;
-  margin-bottom: 50px;
-  margin-left: 20%;
-}
-
-.pcontainer .sbox .dream img{
-  width: 100%;
-  padding: 15;
-  border-radius: 5px;
-  margin: 5px;
-  padding-right: 2px;
-}
-/** about us section end **/
-
-/* modal content */
-.modal-content{
-  position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 120%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 13px solid rgba(0,0,0,.2);
-    border-radius: 0.3rem;
-    outline: 0;
-    margin-left: -10%;
-}
-
-.modal-content img{
-  width: 80%;
 }
