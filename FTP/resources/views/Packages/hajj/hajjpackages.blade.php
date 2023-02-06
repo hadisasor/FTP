@@ -41,32 +41,38 @@ $countPremium  = 0;
                               @foreach ($hajjpackages as $hajjpackage)
                               @if ($hajjpackage['packageName'] == 'Premium')
                                 @php $countPremium++; @endphp
+                                  <div class="hajjpackages">
                                   @include('packages.includes.packages_info')
                               @endif              
+                                  </div>
                               @endforeach             
                             </div>
 <!--Premium end-->
                             
                 @if ($countPremium == 0)
-                <div class="col-12 null">
+                <div class="nopkg ">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
                 </div>
                 @endif 
 
 
-                <section class="section-title"><h2>Economy Hajj packages</h2></section>
+                <section class="section-title mt-4"><h2>Economy Hajj packages</h2></section>
                 
                 <div class="hajjpackages">
                   @foreach ($hajjpackages as $hajjpackage)
                   @if ($hajjpackage['packageName'] == 'Economy')
-                    @php $countEconomy++; @endphp                          
+                    @php $countEconomy++; @endphp           
+                    <div class="hajjpackages">
+                      <div class="hajjpackages">
                     @include('packages.includes.packages_info')
                   @endif
+                  </div>
+                    </div>
                   @endforeach    
                 </div>
 
           @if ($countEconomy == 0)
-          <div class="col-12 null">
+          <div class="nopkg ">
          <h4 class="text-center">Currently there's no Economy package available</h4>
           </div>
           @endif
@@ -97,35 +103,41 @@ $countPremium  = 0;
                               @foreach ($umrahpackages as $umrahpackage)
                               @if ($umrahpackage['packageName'] == 'Ramadan')
                                 @php $countRamadan++; @endphp
+                                  <div class="hajjpackages">
                                   @include('packages.includes.packages_info')
-                              @endif              
+                              @endif
+                                  </div>
                               @endforeach             
                             </div><!--Saver end-->
 
                             
                 @if ($countRamadan == 0)
-                <div class="col-12 null">
+                <div class="nopkg ">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
                 </div>
                 @endif 
 
 
-                <section class="section-title"><h2>Economy packages</h2></section>
+                <section class="section-title mt-4"><h2>Economy Umrah packages</h2></section>
                 
                 <div class="hajjpackages">
                   @foreach ($umrahpackages as $umrahpackage)
                   @if ($umrahpackage['packageName'] == 'Economy')
-                    @php $countEconomy++; @endphp                          
+                    @php $countEconomy++; @endphp                     
+                    <div class="hajjpackages">
+                      <div class="hajjpackages">
                     @include('packages.includes.packages_info')
                   @endif
+                  </div>
+                </div>
                   @endforeach    
                 </div>
 
-          @if ($countEconomy == 0)
-          <div class="col-12 null">
-         <h4 class="text-center">Currently there's no Economy package available</h4>
-          </div>
-          @endif
+              @if ($countEconomy == 0)
+              <div class="nopkg ">
+              <h4 class="text-center">Currently there's no Economy package available</h4>
+              </div>
+              @endif
             </div>
 
 
@@ -136,7 +148,20 @@ $countPremium  = 0;
       </div>
     </div>
 
-
+    <div class="section-title mt-4">
+      <h2>Travel</h2>
+    </div>
+    <div class="faq-list">
+      <ul>
+        <li data-aos="fade-up" data-aos-delay="100">
+          <i class="bx  icon-help"></i> <a style="color: #76520e" data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is Travel<i class="bx bx-chevron-down icon-show"></i><i class=""></i></a>
+          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+            <p>
+              สถานที่ท่องเที่ยวในประเทศไทยมีอยู่มากมาย ทั้งที่เที่ยวทะเล ภูเขา วัด หรือวิถีชีวิตของผู้คน การออกไปท่องเที่ยวพักผ่อนตามจังหวัดต่าง ๆ เพื่อชาร์จแบตฯ เพิ่มพลังชีวิตให้กับตัวเอง จึงไม่แปลกที่พอถึงเทศกาลหยุดยาวทีไร สถานที่ท่องเที่ยวทั่วประเทศจะเต็มไปด้วยผู้คนที่ไปสูดอากาศบริสุทธิ์ เสพวิวสวย ๆ ชมวิถีชีวิตของชาวบ้าน หรือชิมอาหารท้องถิ่นอร่อย ๆ
+            </p>
+          </div>
+        </li>
+    </div>
 
   </section><!-- End Hajj Section -->
 
@@ -155,7 +180,7 @@ $countPremium  = 0;
           <section class="section-title"><h2>packages details</h2></section>
 
                      
-             <div class="col-12 border border-3 p-4">
+             <div class="nopkg border border-3 p-4">
                <h4 class="">
                 สำหรับอุมเราะห์ในกฎหมายอิสลาม: เป็นการเยี่ยมเยียนบ้านอันศักดิ์สิทธิ์ของพระเจ้าเพื่อนมัสการพระเจ้าผู้ทรงฤทธานุภาพ 
                 และเป็นไปตามสถานะของอิห์ราม
