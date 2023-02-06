@@ -7,8 +7,8 @@
     <div class="col-ms-5 px-3 col-md-6">
     <form class="container-reg register"  action="store" method="post" >
             <div class="row mb-3 mt-2 col-9 centering">
-              <label for="email" class="form-label text-start">Email:</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="" >
+              <label for="email" class="form-label text-start">ID Number:</label>
+              <input type="email" class="form-control" id="email" placeholder="ID Number" value="" >
               <span style="color: #e34646;"></span>
             </div>
             
@@ -27,26 +27,26 @@
             </div>
 
             <div class="row mb-3 col-9 centering">
-              <label for="password" class="form-label text-start">Password:</label>
-              <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" pattern="(?=.*\d).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
+              <label for="password" class="form-label text-start">Passport:</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter Passport" name="password" pattern="(?=.*\d).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
               <span style="color: #e34646;"></span>
 
             </div>
 
             <div class="row mb-3 col-9 centering">
-            <label for="confirm_password" class="form-label text-start">Confirm password:</label>
-            <input type="password" class="form-control" id="confirm_pwd" placeholder="Confirm password" name="confirm_password">
+            <label for="confirm_password" class="form-label text-start">Reason</label>
+            <input type="password" class="form-control" id="confirm_pwd" placeholder="Reason" name="confirm_password">
             <span style="color: #e34646;"></span>
             </div>    
             
 
             <div class="row mb-3 col-9 centering">
                 <label for="phone" class="form-label text-start">phone number:</label>
-                <input type="number" class="form-control" id="phone" placeholder="enter phone number" name="phone" value="{{old('phone')}}">
+                <input type="number" class="form-control" id="phone" placeholder="enter phone number" name="phone" value="">
                 <span style="color: #e34646;"></span>
               </div>
             <br>
-            <button type="submit" class="btn-get-started mb-4">signup</button>
+            <button type="submit" class="btn-get-started mb-4">Confirm</button>
     </form>  
     </div>  
    </div>
