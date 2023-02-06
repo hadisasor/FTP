@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\HajjPackage;
+use App\Models\images;
 use App\Models\travel;
 use App\Models\UmrahPackage;
 use Illuminate\Http\Request;
@@ -528,22 +529,13 @@ public function createTravel(Request $request){
         'imgLocation'=>'required',
         ]);
 
-
         
         $imgPath = $request->input('imgPath');
         $imgType = $request->input('imgType');
         $imgLocation = $request->input('imgLocation');
 
 
-        DB::update('update images set 
-                imgPath= ?,
-                imgType = ?,              
-                imgLocation = ?, 
-                ', [
-               $imgPath,
-               $imgType, 
-               $imgLocation,  
-               $id]);
+ 
 
             DB::insert('insert into images
             ( 
@@ -558,7 +550,17 @@ public function createTravel(Request $request){
  
  
   public function editingimages(Request $request){
- 
+
+
+    DB::update('update images set 
+    imgPath= ?,
+    imgType = ?,              
+    imgLocation = ?, 
+    ', [
+   $imgPath,
+   $imgType, 
+   $imgLocation,  
+   $id]);
  
  
   }
