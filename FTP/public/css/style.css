@@ -159,7 +159,7 @@ a h2:hover {
 }
 
 #header .container {
-  margin: 0px 0px 5px 90px;
+  margin: 0px 0px 5px 50px;
 }
 
 /*text beside logo*/
@@ -210,6 +210,7 @@ color: #dbb42c;
 */
 .navbar {
   padding: 0;
+  margin-left: auto;
 }
 
 .navbar ul {
@@ -229,7 +230,6 @@ color: #dbb42c;
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px 0 10px 22px;
   font-size: 16px;
   font-weight: 700;
