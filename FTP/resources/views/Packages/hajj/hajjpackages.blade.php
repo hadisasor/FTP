@@ -149,7 +149,7 @@ $countPremium  = 0;
     </div>
 
     <div class="section-title mt-4">
-      <h2>Umrah</h2>
+      <h2>Travel</h2>
     </div>
     <div class="faq-list">
       <ul>
