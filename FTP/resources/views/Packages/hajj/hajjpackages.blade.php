@@ -148,7 +148,7 @@ $countPremium  = 0;
       </div>
     </div>
 
-    <div class="section-title mt-4">
+    {{-- <div class="section-title mt-4">
       <h2>Travel</h2>
     </div>
     <div class="faq-list">
@@ -161,7 +161,7 @@ $countPremium  = 0;
             </p>
           </div>
         </li>
-    </div>
+    </div> --}}
 
   </section><!-- End Hajj Section -->
 
