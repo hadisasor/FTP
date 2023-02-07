@@ -38,12 +38,13 @@
   @include('includes.gallery')
 
 {{-- company board start --}}
-  <div class="pcontainer">
+  
   <div class="section-title mt-4">
-    <h2>Faotoni travel <span>โครงสร้างคณะผู้นำกลุ่ม</span></h2>
+    <h2>Fatoni travel <span>โครงสร้างคณะผู้นำกลุ่ม</span></h2>
   </div>
-  <div class="m-4 border border-2">
-    <img style="height:100%; width:100%; object-fit: cover;" id="img_edit"src="{{asset('img/FTimage/B-FTLP.png')}}" alt=""></div>
+  <div class="pcontainer">
+    <img style="height:100%; width:100%; object-fit: cover;" id="img_edit"src="{{asset('img/FTimage/B-FTLP.png')}}" alt="">
+  </div>
   {{-- </td> 
   <div class="bbox">
     <div class="dream">
@@ -57,14 +58,14 @@
 {{-- company board end --}}
 
 {{-- company seh start --}}
-<div class="pcontainer">
-  <div class="section-title">
+
+  <div class="section-title mt-4">
     <h2>Faotoni travel <span>โครงสร้างคณะผู้นำกลุ่ม (แซะห์)</span></h2>
   </div>
-</div>
-  <div class="m-4 border border-2">
-    <img style="height:100%; width:100%; object-fit: cover;" id="img_edit"src="{{asset('img/FTimage/S-FTLP.jpg')}}" alt=""></div>
+<div class="pcontainer mb-4" >
   
+    <img style="height:100%; width:100%; object-fit: cover;" id="img_edit"src="{{asset('img/FTimage/S-FTLP.jpg')}}" alt="">
+</div>
 {{-- company seh end --}}
 <!--
 Gallery end

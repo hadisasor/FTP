@@ -2515,6 +2515,7 @@ color:black;
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.6s;
+  object-fit: cover;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -2533,7 +2534,6 @@ color:black;
   font-size: 18px;
   color: #fff;
   font-weight: 600;
-  color: #fff;
   margin-bottom: 0px;
 }
 
@@ -2657,3 +2657,12 @@ color:black;
   background-color: #76520e;
 }
 
+/* pcontainer */
+
+.pcontainer {
+  width: 30%;
+  object-fit: scale-down;
+  margin: auto;
+  border: 2px solid #a47e1b;
+  border-radius: 5px;
+}

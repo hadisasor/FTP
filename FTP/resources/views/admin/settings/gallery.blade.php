@@ -24,7 +24,7 @@
                     {{-- <a  href="#" class="pt-1 deletebtn btn">Delete</a> --}}
                 </form>
                 
-
+{{-- 
                 <br>
                 <h3 class="mb-4">images Table</h3>
                 <table class="table table-hover">
@@ -350,8 +350,8 @@
     <label class="editbtn btn-primary" for="upload">Add new Image</label>
     <input id="upload" type="file">
 </form>
-    </div>
-
+    </div> --}}
+</div>
     <script type="text/JavaScript">
 
 

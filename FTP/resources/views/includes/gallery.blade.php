@@ -6,7 +6,9 @@
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-img"><img src="img/FTimage/F1.jpg" class="img-fluid" alt=""></div>
+          <div class="portfolio-img">
+            <img src="img/FTimage/F1.jpg" class="img-fluid" alt="">
+          </div>
           <div class="portfolio-info">
             <h4>Image 1</h4>
             <a href="img/FTimage/F1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Image 1">Open</a>
