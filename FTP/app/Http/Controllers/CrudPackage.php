@@ -522,7 +522,7 @@ public function createTravel(Request $request){
 
 
 //  images database start
- public function createimgaes(Request $request){
+ public function createImgaes(Request $request){
     $this->validate(request(), [ 
         'imgPath'=>'required',
         'imgType'=>'required',
@@ -549,7 +549,7 @@ public function createTravel(Request $request){
  }
  
  
-  public function editingimages(Request $request){
+  public function editingImages(Request $request){
 
 
     DB::update('update images set 
@@ -566,7 +566,7 @@ public function createTravel(Request $request){
   }
   
  
-  public function deleteimages(Request $request){
+  public function deleteImages(Request $request){
  
      
  

@@ -377,6 +377,11 @@ Route::post('edit_umrah/{id}', [CrudPackage::class,'editingUmrah']);
 Route::get('delete_umrah/{id}', 
 [CrudPackage::class, 'deleteUmrah']);
 
+Route::post('createImages',[CrudPackage::class,'createImages']);
+//Editing for updating the Hajj
+Route::post('edit_Images/{id}', [CrudPackage::class,'editingImages']);
+//Delete the Hajj package
+Route::get('delete_Images/{id}', [CrudPackage::class, 'deleteImages']);
 
 // //Create new Hajj package
 Route::post('createTravel',[CrudPackage::class,'createTravel']);
