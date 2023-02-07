@@ -200,6 +200,16 @@ color: #dbb42c;
   width: 100%;
 }
 
+#header li img{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  border: solid 3px #a47e1b;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 0%;
+}
+
 
 
 
@@ -332,7 +342,7 @@ color: #dbb42c;
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: -30px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -353,6 +363,9 @@ color: #dbb42c;
   text-transform: none;
   font-weight: 500;
   color: #000000;
+}
+.navbar img {
+  width: 100%;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -1663,10 +1676,6 @@ width: 80px;
   align-content: center;
   text-align: center;
   padding: 0;
-}
-
-.profilecontainer img{
-  width: 100%;
 }
 
 .profilecontainer a{

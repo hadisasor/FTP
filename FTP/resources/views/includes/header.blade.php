@@ -156,12 +156,12 @@
         {{-- User profile navagator --}}
           @if (auth()->check())
    
-          <li class="headerdropdown dropdown "><a href="/my_profile" class="headerdropdown @if($route[3] == 'my_profile' ) active @endif "><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="headerdropdown dropdown "><a href="/my_profile" class="headerdropdown @if($route[3] == 'my_profile' ) active @endif "><span>{{auth()->user()->fstname}}</span> <i class="bi bi-chevron-down"></i><img src="{{asset('../../img/user.jpg')}}"></a>
             <ul>
-              <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/circle-01.png')}}"></a>
+              {{-- <li class="profilecontainer"><a href="#" ><img src="{{asset('../../img/user.jpg')}}"></a>
                 <span>{{auth()->user()->userType}}</span>
                 <h5>{{auth()->user()->fstname}} {{auth()->user()->lstname}}</h5>
-              </li>
+              </li> --}}
               <li><a href="{{route('my_profile')}}">profile</a></li>
               @if (auth()->user()->userType == "Admin" || auth()->user()->userType == "Tokseh" )
               <li><a href="{{route('dash')}}">packages management</a></li>
