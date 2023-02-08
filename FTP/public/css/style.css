@@ -1825,18 +1825,24 @@ padding: 10px;
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 12px;
   border-radius: 5px;
   background: #fff;
   transition: 0.5s;
+  height: 40vh;
+  width: 70%;
+  margin: auto;
 }
+
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto;
 }
 .team .member .pic img {
   transition: ease-in-out 0.3s;
+  
 }
 .team .member:hover {
   transform: translateY(-10px);
@@ -1844,11 +1850,16 @@ padding: 10px;
 .team .member .member-info {
   padding-left: 30px;
 }
+
+.team .member .member-info1 {
+  padding-left: 30px;
+}
+
 .team .member h4 {
   font-weight: 700;
-  margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #76520e;
+  margin: auto;
 }
 .team .member span {
   display: block;
@@ -1888,12 +1899,12 @@ padding: 10px;
   background: #eff2f8;
 }
 .team .member .social a i {
-  color: #37517e;
+  color: #76520e;
   font-size: 16px;
   margin: 0 2px;
 }
 .team .member .social a:hover {
-  background: #34B19D;
+  background: #a47e1b;
 }
 .team .member .social a:hover i {
   color: #fff;
