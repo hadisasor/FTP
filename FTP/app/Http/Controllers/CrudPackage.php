@@ -521,56 +521,56 @@ public function createTravel(Request $request){
  }
 
 
-//  images database start
- public function createImgaes(Request $request){
-    $this->validate(request(), [ 
-        'imgPath'=>'required',
-        'imgType'=>'required',
-        'imgLocation'=>'required',
-        ]);
+// //  images database start
+//  public function createImgaes(Request $request){
+//     $this->validate(request(), [ 
+//         'imgPath'=>'required',
+//         'imgType'=>'required',
+//         'imgLocation'=>'required',
+//         ]);
 
         
-        $imgPath = $request->input('imgPath');
-        $imgType = $request->input('imgType');
-        $imgLocation = $request->input('imgLocation');
+//         $imgPath = $request->input('imgPath');
+//         $imgType = $request->input('imgType');
+//         $imgLocation = $request->input('imgLocation');
 
 
  
 
-            DB::insert('insert into images
-            ( 
-            imgPath, 
-            imgType,
-            imgLocation,) values(?,?,?,?)',
-            [ 
-            $imgPath,
-            $imgType,
-            $imgLocation]);
- }
+//             DB::insert('insert into images
+//             ( 
+//             imgPath, 
+//             imgType,
+//             imgLocation,) values(?,?,?,?)',
+//             [ 
+//             $imgPath,
+//             $imgType,
+//             $imgLocation]);
+//  }
  
  
-  public function editingImages(Request $request){
+//   public function editingImages(Request $request){
 
 
-    DB::update('update images set 
-    imgPath= ?,
-    imgType = ?,              
-    imgLocation = ?, 
-    ', [
-   $imgPath,
-   $imgType, 
-   $imgLocation,  
-   $id]);
+//     DB::update('update images set 
+//     imgPath= ?,
+//     imgType = ?,              
+//     imgLocation = ?, 
+//     ', [
+//    $imgPath,
+//    $imgType, 
+//    $imgLocation,  
+//    $id]);
  
  
-  }
+//   }
   
  
-  public function deleteImages(Request $request){
+//   public function deleteImages(Request $request){
  
      
  
-  }
+//   }
   //  images database end
 
 
