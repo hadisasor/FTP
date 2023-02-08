@@ -230,7 +230,7 @@ color: #dbb42c;
   display: flex;
   list-style: none;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 .navbar li {
   position: relative;
@@ -2664,5 +2664,22 @@ color:black;
   object-fit: scale-down;
   margin: auto;
   border: 2px solid #a47e1b;
-  border-radius: 5px;
+  height: 30vh;
 }
+
+.oib {
+  margin-left: 45%;
+}
+
+@media (max-width: 1245px) {
+  .oib {
+    max-width: 43%;
+  }
+}
+
+@media (max-width: 670px) {
+  .oib {
+    max-width: 38%;
+  }
+}
+

@@ -43,8 +43,15 @@
     <h2>Fatoni travel <span>โครงสร้างคณะผู้นำกลุ่ม</span></h2>
   </div>
   <div class="pcontainer">
-    <img style="height:100%; width:100%; object-fit: cover;" id="img_edit"src="{{asset('img/FTimage/B-FTLP.png')}}" alt="">
+    <img style="width:100%; height:29.5vh; object-fit: cover;" id="img_edit" src="{{asset('img/FTimage/B-FTLP.png')}}" alt="">
   </div>
+  
+<div id="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.812);">
+  <img id="modalImage" style="max-width: 80%; max-height: 80%; margin: 10% auto; display: block;" src="{{asset('img/FTimage/B-FTLP.png')}}">
+</div>
+
+  <button class="edit-btn oib" id="openImageButton">Open Image</button>
+  
   {{-- </td> 
   <div class="bbox">
     <div class="dream">
@@ -64,12 +71,50 @@
   </div>
 <div class="pcontainer mb-4" >
   
-    <img style="height:100%; width:100%; object-fit: cover;" id="img_edit"src="{{asset('img/FTimage/S-FTLP.jpg')}}" alt="">
+    <img style="width:100%; height:29.5vh; object-fit: cover;" id="img_edit" src="{{asset('img/FTimage/S-FTLP.jpg')}}" alt="">
 </div>
+<div id="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.812);">
+  <img id="modalImage" style="max-width: 80%; max-height: 80%; margin: 10% auto; display: block;" src="{{asset('img/FTimage/S-FTLP.jpg')}}">
+</div>
+
+  <button class="edit-btn oib" id="openImageButton1">Open Image</button>
 {{-- company seh end --}}
 <!--
 Gallery end
 -->
+<script>
+  const button = document.getElementById("openImageButton");
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modalImage");
 
+  button.addEventListener("click", function() {
+    modalImage.src = "{{asset('img/FTimage/B-FTLP.png')}}";
+    modal.style.display = "block";
+  });
+
+  modal.addEventListener("click", function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
+
+
+<script>
+  const button = document.getElementById("openImageButton1");
+  const modal = document.getElementById("modal");
+  const modalImage = document.getElementById("modalImage");
+
+  button.addEventListener("click", function() {
+    modalImage.src = "{{asset('img/FTimage/S-FTLP.jpg')}}";
+    modal.style.display = "block";
+  });
+
+  modal.addEventListener("click", function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
 
 @include ('includes/footer')
