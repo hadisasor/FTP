@@ -17,7 +17,7 @@ $countPremium  = 0;
     <section id="faq" class="faq section-bg pb-4 mb-4">
       <div class="container" data-aos="fade-up">
           
-          <div class="section-title mt-4 mb-4">
+          <div class="section-title mt-4 mb-4" id="hajj">
             <h2>Hajj</h2>
           </div>
           <div class="faq-list">
@@ -78,7 +78,7 @@ $countPremium  = 0;
           @endif
             </div>
 
-            <div class="section-title mt-4">
+            <div class="section-title mt-4" id="umrah">
               <h2>Umrah</h2>
             </div>
             <div class="faq-list">

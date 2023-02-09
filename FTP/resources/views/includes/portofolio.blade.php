@@ -26,7 +26,7 @@
               </div>
 
               <div class="swiper-slide">
-                <img src="/img/FTimage/FBanner.png" alt="">
+                <img src="/img/FTimage/FTLP Banner.png" alt="">
               </div>
 
             </div>
