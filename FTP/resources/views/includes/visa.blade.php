@@ -1,4 +1,4 @@
-<section class="visa">
+<section class="visa" id="team">
     <form class="credit-card">
         <div class="form-header">
         <h4 class="title">Visa</h4>

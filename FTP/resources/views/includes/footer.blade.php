@@ -26,21 +26,15 @@
             <ul>
               
               <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/Detail">ทำเนียบฮุจญาต</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus#team">ทำเนียบฮุจญาต</a></li>
             </ul>
           </div> 
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/hajjpackages">Hajj Package</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/umrahpackages">Umrah Package</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="/travelpackages">Travel Package</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li> -->
-              
-
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a href="/packages#hajj">Hajj Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/packages#umrah">Umrah Package</a></li>
             </ul>
           </div>
 
@@ -48,11 +42,8 @@
             <h4>Our Social Networks</h4>
             <p style="color: black">ห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล</p>
             <div class="social-links mt-3">
-              <!-- <a href="#" ><i class="bx bxl-twitter"></i></a> -->
               <a href="https://www.facebook.com/fatoni.travel" ><i class="bx bxl-facebook"></i></a>
               <a href="#" ><i class="bx bxl-instagram"></i></a>
-              <!-- <a href="#" ><i class="bx bxl-skype"></i></a>
-              <a href="#" ><i class="bx bxl-linkedin"></i></a> -->
             </div>
           </div>
 
@@ -60,18 +51,6 @@
       </div>
     </div>
 
-   {{-- <div class="container footer-bottom clearfix" id="hero">
-       <div class="copyright">
-        <!-- &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-         All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-       <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div> 
-    </div>--}}
   </footer> 
 
   <div id="preloader"></div>
