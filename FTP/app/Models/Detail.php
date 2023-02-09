@@ -23,6 +23,10 @@ class Detail extends Model
     public function umrahpackage(){
         return $this->BelongsTo(UmrahPackage::class);
     }
+    public function travelpackage(){
+        return $this->BelongsTo(travel::class);
+    }
+
 
 }
 

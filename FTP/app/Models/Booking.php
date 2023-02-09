@@ -16,7 +16,9 @@ class Booking extends Model
     public function umrahPackage(){
         return $this->belongsTo(UmrahPackage::class);  
     }
-
+    public function travelPackage(){
+        return $this->belongsTo(travel::class);  
+    }
     public function booker(){
         return $this->belongsTo(User::class);  
     }

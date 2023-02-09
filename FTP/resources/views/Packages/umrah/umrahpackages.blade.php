@@ -7,7 +7,7 @@ $countEconomy = 0;
 $countpremium  = 0;
 @endphp
 
-@include('includes.slide') <!-- this section in views/includes/slide   -->
+<!-- this section in views/includes/slide   -->
 
   <main id="main">
 
@@ -108,7 +108,7 @@ $countpremium  = 0;
 
 
 
-    {{ -- <!-- <div class="hajjpackages">
+    {{-- {{ -- <!-- <div class="hajjpackages">
                               @foreach ($umrahpackages as $umrahpackage)
                               @if ($umrahpackage['packageName'] == 'Golden')
                                 @php $countGolden++; @endphp
@@ -133,4 +133,4 @@ $countpremium  = 0;
                               @endforeach     
                             </div> -->
                 
-                <!-- @if ($countSilver == 0) --><!-- @endif --><!--Silver end-->--}}
+                <!-- @if ($countSilver == 0) --><!-- @endif --><!--Silver end-->--}} --}}
