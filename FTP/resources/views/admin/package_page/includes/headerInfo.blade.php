@@ -292,6 +292,17 @@ if($webPath == 'hajjpackages' || $webPath == 'umrahpackages'){
         </div>
 
 </section>
-
-
-
+{{-- 
+<script>
+    const input = document.getElementById("Th_departmentDate");
+    const display = document.getElementById("Th_departmentDate");
+  
+    input.addEventListener("change", function() {
+      const date = new Date(input.value);
+      const day = date.getDate().toString().padStart(2, "0");
+      const month = (date.getMonth() + 1).toString().padStart(2, "0");
+      const year = date.getFullYear().toString().slice(-2);
+      const newFormat = `${day}/${month}/${year}`;
+      display.textContent = newFormat;
+    });
+  </script> --}}

@@ -22,11 +22,11 @@
               </div>
 
               <div class="swiper-slide">
-                <img src="/img/FTimage/2.png" alt="">
+                <img src="/img/FTimage/FTLP Banner.png" alt="">
               </div>
 
               <div class="swiper-slide">
-                <img src="/img/FTimage/3.png" alt="">
+                <img src="/img/FTimage/FBanner.png" alt="">
               </div>
 
             </div>

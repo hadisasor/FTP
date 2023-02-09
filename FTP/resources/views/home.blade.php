@@ -48,8 +48,8 @@
     <!-- End Umrah Section -->
 
 
-    
-    @yield('Travel')
+{{--     
+    @yield('Travel') --}}
 
 
     

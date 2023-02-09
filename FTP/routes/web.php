@@ -352,7 +352,9 @@ Route::get('admin/create_hajj', function(){
           'webPath' => 'hajj',
           'hotels'=>Hotel::all()
          ]);
-  })->name('create_hajj');
+         {return redirect()->to('create_hajj');}
+      })->name('create_hajj');
+  
 
 //Create Umrah page ---------------------------------------------
 Route::get('admin/create_umrah', function(){
@@ -360,6 +362,7 @@ Route::get('admin/create_umrah', function(){
    ['umrahpackage'=>UmrahPackage::all(),
           'webPath' => 'umrah',
           'hotels'=>Hotel::all()]);
+          {return redirect()->to('create_umrah');}
 })->name('create_umrah');
 
 // Controllers --------------------------------------------------------------------------------------------------------
