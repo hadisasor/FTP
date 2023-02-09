@@ -12,7 +12,7 @@
                 <div class="navbar-nav align-items-center ms-auto">
                     <div class="nav-item home">
                         <a href="/home">
-                            <span class="d-none d-lg-inline-flex">Home</span>
+                            <span class="d-flex m-2">Home</span>
                         </a>
                     </div>
                     <div class="nav-item dropdown">

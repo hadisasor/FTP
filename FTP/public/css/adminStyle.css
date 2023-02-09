@@ -290,6 +290,14 @@ color: white;
     width: 60px;
 }
 
+.home a {
+    color: #000000;
+}
+
+.home a:hover {
+    color: #a47e1b;
+}
+
 /*** Date Picker ***/
 .bootstrap-datetimepicker-widget.bottom {
     top: auto !important;

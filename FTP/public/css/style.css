@@ -2433,8 +2433,16 @@ color:black;
       border: 2px solid #28a298;
       color: #28a298;
   }
-      
   
+  .btn {
+    border: 2px solid #a47e1b;
+  }
+  
+  .btn:hover {
+    background-color: #a47e1b;
+    border: 2px solid #a47e1b;
+    color: #fff;
+  }
   
   .editbtn:active, .deletebtn:active{
       background: white;
@@ -2698,13 +2706,12 @@ color:black;
 # Visa
 --------------------------------------------------------------*/
 .visa {
-  height: 100vh;
   background: #f3f5fa;
 }
 /* Credit Card */
 .credit-card {
   width: 600px;
-  margin: 180px auto 0;
+  margin: 150px auto 35px;
   border: 1px solid #ddd;
   border-radius: 6px;
   background-color: #fff;

@@ -34,7 +34,8 @@
     <!-- ======= Hajj Section ======= -->
     
   
-    @yield('hajj')
+    
+    @include('includes.hajj')
 
   
     <!-- End Hajj Section -->
