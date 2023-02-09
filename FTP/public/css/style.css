@@ -2444,12 +2444,12 @@ color:black;
   
   
   .editbtn:hover{
-      background-color: #28a298;
+      background-color: #a47e1b;
   }
 
 
  .btn:hover{
-  border: 1px solid #28a298;
+  border: 2px solid #a47e1b;
  }
 
  
@@ -2694,3 +2694,30 @@ color:black;
   }
 }
 
+/*--------------------------------------------------------------
+# Visa
+--------------------------------------------------------------*/
+.visa {
+  height: 100vh;
+  background: #f3f5fa;
+}
+/* Credit Card */
+.credit-card {
+  width: 600px;
+  margin: 190px auto 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 1px 2px 3px 0 #a47d1b24;
+}
+
+.form-header {
+  height: 60px;
+  padding: 20px 30px 0;
+  border-bottom: 1px solid #e1e8ee;
+}
+
+.form-body {
+  height: 340px;
+  padding: 30px 30px 20px;
+}
