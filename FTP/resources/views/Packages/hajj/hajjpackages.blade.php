@@ -4,6 +4,8 @@
 $countEconomy = 0;
 $countRamadan = 0 ;
 $countPremium  = 0;
+$hajjCount = 0;
+
 //here will be count from database after next line in next time
 
 @endphp
@@ -42,7 +44,7 @@ $countPremium  = 0;
                               @if ($hajjpackage['packageName'] == 'Premium')
                                 @php $countPremium++; @endphp
                                   <div class="hajjpackages">
-                                  @include('packages.includes.packages_info')
+                                  @include('.includes.hajj')
                               @endif              
                                   </div>
                               @endforeach             
@@ -95,7 +97,7 @@ $countPremium  = 0;
                   </div>
                 </li>
             </div>
-
+            
             <div class="row mt-4">
               <section class="section-title"><h2>Ramadan packages</h2></section>
 

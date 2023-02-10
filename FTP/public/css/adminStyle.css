@@ -283,6 +283,20 @@ color: white;
     }
 }
 
+.home {
+    background: #fff;
+    border-radius: 50px;
+    height: 40px;
+    width: 60px;
+}
+
+.home a {
+    color: #000000;
+}
+
+.home a:hover {
+    color: #a47e1b;
+}
 
 /*** Date Picker ***/
 .bootstrap-datetimepicker-widget.bottom {

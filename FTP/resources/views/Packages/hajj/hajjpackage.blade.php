@@ -20,7 +20,7 @@
         @if(Session::get('success'))
         <div class="alert alert-success">
           {{Session::get('success')}}
-          <button href="HajjPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button>
+          <button href="hajjpackage/{{$hajjpackage['id']}}" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button>
         </div>
         @endif
   </div>
