@@ -41,7 +41,7 @@
                                 <div class="dropdown-menu bg-transparent border-0 @if ($route == 'umrahpackages' || $route == 'hajjpackages' || $route == 'hajjpackage' || $route == 'umrahpackage' || $route == 'create_hajj' || $route == 'create_umrah') active show @endif">
                                     <a href="{{route('umrahpackages')}}" class="dropdown-item @if ($route == 'umrahpackages' || $route == 'create_umrah' || $route == 'umrahpackage') active @endif">Umrah packages</a>
                                     <a href="{{route('hajjpackages')}}" class="dropdown-item @if ($route == 'hajjpackages' || $route == 'create_hajj' || $route == 'hajjpackage') active @endif">Hajj packages</a>
-                            
+                                    <a href="{{route('hajjpackages')}}" class="dropdown-item @if ($route == 'hajjpackages' || $route == 'create_hajj' || $route == 'hajjpackage') active @endif">Travel packages</a>
                                 </div>
                             </div>
 
@@ -52,7 +52,7 @@
 
                                     <a href="{{route('hajj_bookings')}}" class="dropdown-item  @if ($route == 'hajj_bookings') active @endif">Hajj bookings</a>
                                     <a href="{{route('umrah_bookings')}}" class="dropdown-item  @if ($route == 'umrah_bookings') active @endif">Umrah bookings</a>
-                
+                                    <a href="{{route('umrah_bookings')}}" class="dropdown-item  @if ($route == 'umrah_bookings') active @endif">Travel bookings</a>
                                 </div>
                             </div>
                     <!-- Settings dropdown -->

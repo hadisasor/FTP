@@ -16,7 +16,7 @@ $hajjCount   = 0;
     <div class="row px-5" data-aos="fade-up" data-aos-delay="10">
 
       <div class="section-title mt-3">
-        <h2><a href="umrahpackages">Umrah Packages</a></h2>
+        <h2><a href=" ">Umrah Packages</a></h2>
         <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
       </div>
 
@@ -223,7 +223,7 @@ $hajjCount   = 0;
     <div class="row px-5" data-aos="fade-up" data-aos-delay="10">
 
       <div class="section-title mt-3">
-        <h2><a href="umrahpackages">Travel Packages</a></h2>
+        <h2><a href="">Travel Packages</a></h2>
         <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
       </div>
 

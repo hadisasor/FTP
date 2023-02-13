@@ -21,6 +21,11 @@ class Hotel extends Model
 
         return $this->belongsToMany(HajjPackage::class);
     }
+    public function travel(){
+
+        return $this->belongsToMany(travel::class);
+    }
+
 
 
 }

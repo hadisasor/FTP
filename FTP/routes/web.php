@@ -256,8 +256,11 @@ Route::get('/Aboutus/Gallary',function(){
 //Buy Package Page path-------------------------------------------------------
 Route::get('services/buypackage', function(){
 
-   return view('Packages.hajj.buypackage',   ['hajjpackages' => Hajjpackage::all(),
-                                             'umrahpackages' => Umrahpackage::all()    
+   return view('Packages.hajj.buypackage',
+      [
+            'hajjpackages' => Hajjpackage::all(),
+            'umrahpackages' => Umrahpackage::all(),                     
+            'travelpackage' => travel::all()                               
                                                                                     ]);
 
 });
@@ -298,6 +301,7 @@ Route::get('admin', function(){
    ['bookings' => Booking::all(),
           'umrahpackages' => UmrahPackage::all(),
           'hajjpackages' => Hajjpackage::all(),
+          'travelpackage' => travel::all(),
           'users' => User::all()
           ]
    );
@@ -309,15 +313,19 @@ Route::get('admin', function(){
 Route::get('/admin/hajjpackages', function(){
    return view('admin.package_page.hajjpackages',
                ['hajjpackages'=>HajjPackage::all(),
-               'umrahpackages'=>UmrahPackage::all()]);
+               'umrahpackages'=>UmrahPackage::all(),
+               'travelpackage'=>travel::all()
+            ]);
 })->name('hajjpackages');
 //find specific hajj packages CRUD-----------------------------------------------
 Route::get('/admin/hajjpackages/{id}',function($id){
    return view('admin.package_page.edit_hajj',
    ['hajjpackage'=>HajjPackage::find($id),
    'umrahpackage'=>UmrahPackage::find($id), 
+   'travelpackage'=>travel::find($id),
           'webPath' => 'hajjpackages',
           'webPath' => 'umrahpackages',
+          'webPath' => 'travelpackage',
           'bookings' => Booking::all(),
           'hotels'=>Hotel::all()
          ]);
@@ -333,6 +341,12 @@ Route::get('/admin/umrahpackages', function(){
    return view('admin.package_page.umrahpackages',
          ['umrahpackages'=>UmrahPackage::all()]);
 })->name('umrahpackages');
+
+//find all Travel packages CRUD
+Route::get('/admin/travelpackages', function(){
+   return view('admin.package_page.travelpackages',
+         ['travelpackage'=>travel::all()]);
+})->name('travelpackages');
 
 //find specific umrah packages CRUD-----------------------------------------------
 Route::get('/admin/umrahpackages/{id}', function($id){
@@ -364,6 +378,14 @@ Route::get('admin/create_umrah', function(){
           'hotels'=>Hotel::all()]);
           {return redirect()->to('create_umrah');}
 })->name('create_umrah');
+
+Route::get('admin/create_travel', function(){
+   return view('admin.package_page.create_travel',
+   ['travelpackage'=>travel::all(),
+          'webPath' => 'travel',
+          'hotels'=>Hotel::all()]);
+          {return redirect()->to('create_travel');}
+})->name('create_travel');
 
 // Controllers --------------------------------------------------------------------------------------------------------
 //Create new Hajj package
@@ -494,6 +516,15 @@ Route::group(['middleware' => ['auth','SuperAdmin']], function(){
                 'users' => User::all()
                ]);
       })->name('umrah_bookings');
+
+
+      Route::get('admin/travel_bookings', function(){
+         return view('admin.bookings.travel_bookings',
+         ['travelpackage' => travel::all(),
+                'bookings' => Booking::all(),
+                'users' => User::all()
+               ]);
+      })->name('tavel_bookings');
 
 
       //Hotels managment ------------------------------------------------------------------------

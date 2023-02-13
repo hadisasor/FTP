@@ -44,6 +44,14 @@ class User extends Authenticatable
     {
         return $this->hasMany(UmrahPackage::class);
     }
+    public function travelPackages()
+    {
+        return $this->hasMany(travel::class);
+    }
+    public function Visa()
+    {
+        return $this->hasMany(Visa::class);
+    }
 
     
     public function reviews(){
