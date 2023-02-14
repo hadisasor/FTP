@@ -33,7 +33,9 @@
     <div style="background-color: #f3f5fa">
     <!-- ======= Hajj Section ======= -->
     
-  
+    <div class="section-title mt-3">
+      <h2> <a href="hajjpackages">Hajj Packages</a></h2>
+       </div>
     
     @include('includes.hajj')
 

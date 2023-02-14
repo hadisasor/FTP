@@ -1,18 +1,4 @@
-{{-- @php 
-$url = URL::current();
-$url = strstr($url,'hajj');
-$url = preg_replace("/[^A-Za-z]/", '',$url);
 
-    $url = URL::current();
-    $url = strstr($url,'umrah');
-    $url = preg_replace("/[^A-Za-z]/", '',$url);
-
-@endphp --}}
-
-{{-- @switch($url)
-@case('hajj') --}}
-
-<div calss="hajjpackages " >
 <div class="content col-xl-6">
     <div class="row" data-aos="zoom-in" data-aos-delay="50">
       <div class="col-xl-6"><h3>
@@ -31,10 +17,10 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
           <h4>
             
             
-            {{$hajjpackage['stayingDays']}}
+            {{-- {{$hajjpackage['stayingDays']}} --}}
             
             
-            {{-- {{$umrahpackage['stayingDays']}} --}}
+            {{$umrahpackage['stayingDays']}}
             
             
             
@@ -42,10 +28,10 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
 
             
             
-             {{priceColon($hajjpackage['packagePrice'])}}฿ 
+             {{-- {{priceColon($hajjpackage['packagePrice'])}}฿  --}}
             
             
-              {{-- {{priceColon($umrahpackage['packagePrice'])}}฿  --}}
+              {{priceColon($umrahpackage['packagePrice'])}}฿ 
             
            
         </h4>
@@ -54,9 +40,9 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
     <div class="row">
        <h3 class="pt-3">
         
-        {{$hajjpackage['groupLeader']}}
+        {{-- {{$hajjpackage['groupLeader']}} --}}
         
-        {{-- {{$umrahpackage['groupLeader']}}  --}}
+        {{$umrahpackage['groupLeader']}} 
         
       </h3>
       <div class="details"  data-aos="zoom-in" data-aos-delay="50">
@@ -64,33 +50,33 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
         <img class="icon3" src="{{asset('img/Icons/FTLPG-03.png')}}"></div>
         
         
-            @foreach($hajjpackage->hotels as $hotel)
+            {{-- @foreach($hajjpackage->hotels as $hotel)
             @if($hotel['location'] == 'Makkah')
             <div class="hot-location pt-4">
               <p>Makkah hotel: {{$hotel['hotel_name']}}
             @else
               <br>Madinah hotel: {{$hotel['hotel_name']}}
             @endif
-            @endforeach
+            @endforeach --}}
        
         
-            {{-- @foreach($umrahpackage->hotels as $hotel)
+            @foreach($umrahpackage->hotels as $hotel)
             @if($hotel['location'] == 'Makkah')
             <div class="hot-location pt-4">
               <p>Makkah hotel: {{$hotel['hotel_name']}}
             @else
               <br>Madinah hotel: {{$hotel['hotel_name']}}
             @endif
-            @endforeach  --}}
+            @endforeach 
         
 
         <br>Group: 
         
         
-        {{$hajjpackage['groupNumber']}}
+        {{-- {{$hajjpackage['groupNumber']}} --}}
        
        
-        {{-- {{$umrahpackage['groupNumber']}} --}}
+        {{$umrahpackage['groupNumber']}}
        
         </p></div>
           {{-- <div class="hot-name"><p>Al-Janadiryah<br>Al-Tayibah<br> 3 </p></div> --}}
@@ -99,10 +85,10 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
         <a 
           
           
-          href="hajjpackage/{{$hajjpackage['id']}}"
+          {{-- href="hajjpackage/{{$hajjpackage['id']}}" --}}
           
           
-          {{-- href="umrahpackage/{{$umrahpackage['id']}}" --}}
+          href="umrahpackage/{{$umrahpackage['id']}}"
           
           class="book btn-get-started scrollto">Book now
         </a>
@@ -110,5 +96,3 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
     </div>    
       
   </div>
- 
-</div>
