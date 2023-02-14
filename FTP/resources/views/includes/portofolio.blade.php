@@ -1,10 +1,6 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
-    <div class="section-title">
-
-      <h2>Portfolio</h2>
-
-    </div>
+    
   </section><!-- End Breadcrumbs -->
 
   <!-- ======= Portfolio Details Section ======= -->

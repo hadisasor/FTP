@@ -1771,7 +1771,7 @@ padding: 10px;
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
-  url("../img/FTimage/FTLP Banner.png") fixed center center;
+  url("../img/FTimage/kd.jfif") fixed center center;
   background-size: cover;
   padding: 120px 0;
   height: 100vh;
@@ -1803,8 +1803,8 @@ padding: 10px;
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #47b2e4;
-  border: 2px solid #47b2e4;
+  background: #a47e1b;
+  border: 2px solid #a47e1b;
 }
 @media (max-width: 1024px) {
   .cta {
@@ -1813,6 +1813,58 @@ padding: 10px;
 }
 @media (min-width: 769px) {
   .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+/*--------------------------------------------------------------
+# Cta1
+--------------------------------------------------------------*/
+.cta1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
+  url("../img/FTimage/kd.jfif") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+  height: 100vh;
+}
+.cta1 h3 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 240px;
+}
+.cta1 p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 120px;
+}
+.cta1 .cta1-btn {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.cta1 .cta1-btn:hover {
+  background: #a47e1b;
+  border: 2px solid #a47e1b;
+}
+@media (max-width: 1024px) {
+  .cta1 {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 769px) {
+  .cta1 .cta1-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;

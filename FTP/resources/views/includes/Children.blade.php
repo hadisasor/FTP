@@ -15,11 +15,7 @@ $hajjCount   = 0;
 <section id="portfolio" class="services section-bg">
     <div class="row px-5" data-aos="fade-up" data-aos-delay="10">
 
-      <div class="section-title mt-3">
-        <h2><a href=" ">Umrah Packages</a></h2>
-        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-      </div>
-
+      
       <div class="row centering">
 
       @foreach ($umrahpackages as $umrahpackage)

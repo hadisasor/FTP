@@ -11,9 +11,9 @@ $url1 = URL::current();
 $url1 = strstr($url1,'profile');
 $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
 @endphp
-<div class="content col-xl-6">
+<div class="content col-5">
     <div class="row" data-aos="zoom-in" data-aos-delay="50">
-      <div class="col-xl-6"><h3>
+      <div class="col-5"><h3>
         @switch($url)
         @case('hajjpackages')
         {{$hajjpackage['stayingDays']}}
@@ -24,7 +24,7 @@ $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
         @default
         @endswitch day of stay</h3>
       </div>
-        <div class="image-container col-xl-7"> <img src="{{asset('img/Ka3bah.jpg')}}"> </div> 
+        <div class="image-container col-5"> <img src="{{asset('img/Ka3bah.jpg')}}"> </div> 
         <div class="hajjpricing col">
           <h4>
             @switch($url)
@@ -118,3 +118,4 @@ $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
     </div>    
       
   </div>
+</div>

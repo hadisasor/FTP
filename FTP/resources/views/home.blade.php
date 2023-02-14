@@ -30,11 +30,11 @@
    
 
 
-    <div style="background-color: #f3f5fa">
+    <div class="pt-4" style="background-color: #f3f5fa">
     <!-- ======= Hajj Section ======= -->
     
   
-    
+    <section class="section-title mt-4"><h2>Hajj packages</h2></section>
     @include('includes.hajj')
 
   
@@ -42,7 +42,7 @@
 
 
     <!-- ======= Umrah Section ======= -->
-  
+    <section class="section-title mt-4"><h2>Umrah packages</h2></section>
     @yield('umrah')
 
   
