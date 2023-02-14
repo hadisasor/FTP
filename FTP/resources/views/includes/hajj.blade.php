@@ -5,6 +5,10 @@ $counthajj=0;
 <section id="services" class="services section-bg">
     <div class="row px-5" data-aos="fade-up" data-aos-delay="10">
       
+<<<<<<< HEAD
+      
+=======
+>>>>>>> hadi
 
       <div class="row centering">
         @foreach ($hajjpackages as $hajjpackage)
@@ -59,7 +63,7 @@ $counthajj=0;
         
         @if ($hajjCount == 0)
           <div class="col-12 null">
-         <h4 class="text-center">Currently there's no Economy package available</h4>
+         <h4 class="text-center">Currently there's no Hajj package available</h4>
           </div>
           @endif
       </div>
