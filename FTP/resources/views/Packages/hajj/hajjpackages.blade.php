@@ -37,7 +37,7 @@ $hajjCount = 0;
           </div>
 
             <div class="row mt-4">
-              <section class="section-title"><h2>Hajj Premium packages</h2></section>
+              <section class="section-title"><h2>Hajj packages</h2></section>
 
                             
                               @foreach ($hajjpackages as $hajjpackage)
@@ -49,7 +49,7 @@ $hajjCount = 0;
                               @endforeach             
                             </div>
 <!--Premium end-->
-                            
+{{--                             
                 @if ($countPremium == 0)
                 <div class="nopkg ">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
@@ -76,7 +76,7 @@ $hajjCount = 0;
          <h4 class="text-center">Currently there's no Economy package available</h4>
           </div>
           @endif
-            </div>
+            </div> --}}
 
             <div class="section-title mt-4" id="umrah">
               <h2>Umrah</h2>
@@ -103,13 +103,19 @@ $hajjCount = 0;
                               @foreach ($umrahpackages as $umrahpackage)
                               @if ($umrahpackage['packageName'] == 'Ramadan')
                                 @php $countRamadan++; @endphp
+<<<<<<< HEAD
                                   
                                   @include('packages.includes.packages_info')
+=======
+                                  <div class="hajjpackages">
+                                  @include('.includes.umrah')
+>>>>>>> hadi
                               @endif
                                   </div>
                               @endforeach             
                             </div><!--Saver end-->
 
+<<<<<<< HEAD
                             
               
                 
@@ -126,6 +132,9 @@ $hajjCount = 0;
                   @endforeach    
                 </div>
 
+=======
+{{--                             
+>>>>>>> hadi
                 @if ($countRamadan == 0)
                 <div class="nopkg ">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
@@ -139,7 +148,7 @@ $hajjCount = 0;
               <h4 class="text-center">Currently there's no Economy package available</h4>
               </div>
               @endif
-            </div>
+            </div> --}}
 
 
 

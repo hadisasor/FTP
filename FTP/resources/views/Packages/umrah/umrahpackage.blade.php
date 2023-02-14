@@ -2,31 +2,18 @@
 
 
 
-<!-- ======= Hero Section ======= -->
-  <section id="hero" class=" align-items-center">
-    <div class="container text-center" style="margin-top: 250px;">
+<!-- ======= Cta Section ======= -->
+<section id="cta" class="cta1">
+  <div class="container" data-aos="zoom-in">
 
-      <div class="row text-center centering">
-        <h1 style="font-size: 270%;">Booking <br>Umrah package</h1> 
-        </div>
+    <div class="row">
+      <div class="col-lg-9 text-center centering">
+          <h3 style="font-size: 290%; font-family: 'Noto Sans Thai', sans-serif;">Booking<br>Umrah Package</h3>
+      </div>
+    </div>
 
-        @if(Session::get('message'))
-        <div class="alert alert-danger">
-          {{Session::get('message')}}
-          <button href="UmrahPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Try Again</button>
-        </div>
-        @endif
-
-        @if(Session::get('success'))
-        <div class="alert alert-success">
-          {{Session::get('success')}}
-          <button href="UmrahPackagePage.html" class="book btn-get-started" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button>
-        </div>
-        @endif
   </div>
-    <!-- Modal -->
-    {{-- @include('includes/Modal') --}}
-  </section><!-- End Hero -->
+</section><!-- End Cta Section -->
 
   <main id="main">
 
