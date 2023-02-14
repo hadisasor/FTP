@@ -5,10 +5,7 @@ $counthajj=0;
 <section id="services" class="services section-bg">
     <div class="row px-5" data-aos="fade-up" data-aos-delay="10">
       
-<<<<<<< HEAD
       
-=======
->>>>>>> hadi
 
       <div class="row centering">
         @foreach ($hajjpackages as $hajjpackage)
