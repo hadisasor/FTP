@@ -23,7 +23,7 @@
   </div> -->
 </div>
 
-<!--      Gallery end     -->
+<!--      Gallery end    . -->
 
 
 @include('includes.portofolio')
