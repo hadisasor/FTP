@@ -6,7 +6,6 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
     $url = URL::current();
     $url = strstr($url,'umrah');
     $url = preg_replace("/[^A-Za-z]/", '',$url);
-<<<<<<< HEAD
 
 @endphp --}}
 
@@ -19,18 +18,6 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
       <div class="col-xl-6"><h3>
         
        
-=======
-  }
-$url1 = URL::current();
-$url1 = strstr($url1,'profile');
-$url1 = preg_replace("/[^A-Za-z]/", '',$url1);
-@endphp
-<div class="content col-5">
-    <div class="row" data-aos="zoom-in" data-aos-delay="50">
-      <div class="col-5"><h3>
-        @switch($url)
-        @case('hajjpackages')
->>>>>>> hadi
         {{$hajjpackage['stayingDays']}}
        
         
@@ -123,8 +110,5 @@ $url1 = preg_replace("/[^A-Za-z]/", '',$url1);
     </div>    
       
   </div>
-<<<<<<< HEAD
  
-=======
->>>>>>> hadi
 </div>
