@@ -1,5 +1,5 @@
 
-<div class="content col-xl-6">
+<div class="content col-xl-6 centering1">
     <div class="row" data-aos="zoom-in" data-aos-delay="50">
       <div class="col-xl-6"><h3>
         

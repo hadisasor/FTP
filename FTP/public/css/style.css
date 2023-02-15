@@ -2357,13 +2357,15 @@ padding: 10px;
   display:flex;
   justify-content:center; 
   align-items:center;
-
   margin-left:auto ;
   margin-right:auto ;
   align-content: center;
 }
 
-
+.centering1{
+  margin-left:auto ;
+  margin-right:auto ;
+ }
 
 .center1{
   display:flex;
