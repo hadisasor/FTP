@@ -37,7 +37,7 @@ $hajjCount = 0;
           </div>
 
             <div class="row mt-4">
-              <section class="section-title"><h2>Hajj packages</h2></section>
+              <section class="section-title"><h2>Premium Hajj packages</h2></section>
 
                             
                               @foreach ($hajjpackages as $hajjpackage)
@@ -49,7 +49,7 @@ $hajjCount = 0;
                               @endforeach             
                             </div>
 <!--Premium end-->
-{{--                             
+                            
                 @if ($countPremium == 0)
                 <div class="nopkg ">
                   <h4 class="text-center">Currently there's no Ramadan package available</h4>
@@ -67,17 +67,17 @@ $hajjCount = 0;
                     @include('packages.includes.packages_info')
                   @endif
                   </div>
-                    </div>
+      
                   @endforeach    
-                </div>
-
+                
           @if ($countEconomy == 0)
           <div class="nopkg ">
          <h4 class="text-center">Currently there's no Economy package available</h4>
           </div>
           @endif
-            </div> --}}
+      </div>
 
+      <div class="container" data-aos="fade-up">
             <div class="section-title mt-4" id="umrah">
               <h2>Umrah</h2>
             </div>
@@ -96,7 +96,7 @@ $hajjCount = 0;
                 </li>
             </div>
             
-            <div class="row mt-4">
+           
               <section class="section-title"><h2>Ramadan packages</h2></section>
 
                             <div class="hajjpackages">
@@ -104,27 +104,28 @@ $hajjCount = 0;
                               @if ($umrahpackage['packageName'] == 'Ramadan')
                                 @php $countRamadan++; @endphp
                                   
-                                  @include('packages.includes.packages_info')
+                                  @include('packages.includes.packages_infoumrah')
                               @endif
                                   </div>
                               @endforeach             
-                            </div><!--Saver end-->
+                           <!--Saver end-->
 
                             
               
                 
+                  <section class="section-title mt-4"><h2>Economy Umrah packages</h2></section>
                 
-                <div class="hajjpackages">
                   @foreach ($umrahpackages as $umrahpackage)
                   @if ($umrahpackage['packageName'] == 'Economy')
-                    @php $countEconomy++; @endphp                     
-                    
-                    @include('packages.includes.packages_info')
+                    @php $countEconomy++; @endphp    
+                  <div class="container" data-aos="fade-up">
+                    <div class="hajjpackages">
+                    @include('packages.includes.packages_infoumrah')
                   @endif
+                    </div>
                   </div>
-                </div>
                   @endforeach    
-                </div>
+               
 
                 @if ($countRamadan == 0)
                 <div class="nopkg ">
@@ -139,15 +140,9 @@ $hajjCount = 0;
               <h4 class="text-center">Currently there's no Economy package available</h4>
               </div>
               @endif
-            </div> --}}
 
+            </div>
 
-
-
-        </div>
-      </div>
-      </div>
-    </div>
 
     {{-- <div class="section-title mt-4">
       <h2>Travel</h2>
