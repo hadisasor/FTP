@@ -13,14 +13,6 @@
 
 @include('includes.gallery')
 
-{{-- 
-@include('includes.modals')
- --}}
-
-
-  <!-- <div class="pbtn">
-    <a href="#">More</a>
-  </div> -->
 </div>
 
 <!--      Gallery end    . -->
