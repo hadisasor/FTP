@@ -23,41 +23,41 @@
      
        
  
-            <div class="row mb-3 mt-2 col-9 centering">
+            <div class="row mb-3 mt-2 col-10 centering">
               <label for="email" class="form-label text-start">Email:</label>
               <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="{{old('email')}}" >
               <span style="color: #e34646;">@error ('email') {{$message}} @enderror</span>
             </div>
             
             <div class="row mb-3 centering text-start">
-              <div class="col-9">
-                  <label for="fstname" class="form-label text-start">first name</label>
-                  <input type="text" class="form-control" id="fstname" placeholder="Enter your firstname" name="fstname" value="{{old('fstname')}}" style="width:50%;" >
+              <div class="col-5 centering1">
+                  <label for="fstname" class="form-label mx-3 text-start">first name</label>
+                  <input type="text" class="form-control mx-3" id="fstname" placeholder="Enter your firstname" name="fstname" value="{{old('fstname')}}" style="width:96%;" >
                   <span style="color: #e34646;">@error ('fstname') {{$message}} @enderror</span>
               </div>
               
-              <div class="col-9 mt-2" >
+              <div class="col-5 centering1" >
                   <label for="lstname" class="form-label text-start">last name</label>
-                  <input type="text" class="form-control" id="lstname" placeholder="Enter your lastname" name="lstname" value="{{old('lstname')}}" style="width:50%;" >
+                  <input type="text" class="form-control" id="lstname" placeholder="Enter your lastname" name="lstname" value="{{old('lstname')}}" style="width:95%;" >
                   <span style="color: #e34646;">@error ('lstname') {{$message}} @enderror</span>
               </div>
             </div>
 
-            <div class="row mb-3 col-9 centering">
+            <div class="row mb-3 col-10 centering">
               <label for="password" class="form-label text-start">Password:</label>
               <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" pattern="(?=.*\d).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
               <span style="color: #e34646;">@error ('password') {{$message}} @enderror</span>
 
             </div>
 
-            <div class="row mb-3 col-9 centering">
+            <div class="row mb-3 col-10 centering">
             <label for="confirm_password" class="form-label text-start">Confirm password:</label>
             <input type="password" class="form-control" id="confirm_pwd" placeholder="Confirm password" name="confirm_password">
             <span style="color: #e34646;">@error ('password'){{'password conformation is required'}} @enderror</span>
             </div>    
             
 
-            <div class="row mb-3 col-9 centering">
+            <div class="row mb-3 col-10 centering">
                 <label for="phone" class="form-label text-start">phone number:</label>
                 <input type="number" class="form-control" id="phone" placeholder="enter phone number" name="phone" value="{{old('phone')}}">
                 <span style="color: #e34646;">@error ('phone') {{$message}} @enderror</span>
@@ -79,7 +79,7 @@
           </div>
 
             <br>
-            <button type="submit" class="btn-get-started mb-2">signup</button>
+            <button type="submit" class="btn-get-started mb-4">signup</button>
             <a href="/login">already have an account?</a>
         
     </form>  
