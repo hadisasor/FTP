@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\HajjPackage;
-use App\Models\images;
 use App\Models\travel;
 use App\Models\UmrahPackage;
 use Illuminate\Http\Request;
