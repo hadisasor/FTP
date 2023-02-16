@@ -501,7 +501,9 @@ color: #dbb42c;
 #hero {
   width: 100%;
   height: 100vh;
-  background: #e9ecef99;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
+  url("../img/FTimage/kd.jfif") fixed center center;
+  background-size: cover;
 }
 #hero .container {
   padding-top: 72px;
@@ -514,7 +516,7 @@ color: #dbb42c;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;;
-  color: #000000;
+  color: #fff;
 }
 
 
@@ -692,8 +694,14 @@ color: #dbb42c;
 }
 
 #hero p {
-  color: rgb(0, 0, 0);
-  font-size: 120%;
+  color: #fff;
+  font-size: 140%;
+  font-weight: 500;
+}
+
+.au {
+  background: #fff;
+  border-radius: 100px;
 }
 
 
@@ -2781,3 +2789,4 @@ color:black;
   height: 340px;
   padding: 30px 30px 20px;
 }
+

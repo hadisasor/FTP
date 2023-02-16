@@ -1,6 +1,6 @@
 @include('includes.header')
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex centering">
+  <section id="hero" class="d-flex centering kd">
     @if(Session::get('paid_successfully'))
     <div class="alert alert-success">
         {{Session::get('paid_successfully')}}
@@ -9,7 +9,7 @@
     
     <div class="row gx-5">
       <div class="col-3">
-          <img style="width:200px" class="px-4" src="{{asset('../../img/FLogo.png')}}">
+          <img class="au" style="width:150px" class="px-4" src="{{asset('../../img/FLogo.png')}}">
       </div>
       @switch($myprofile)
       @case('true')
@@ -35,5 +35,6 @@
   </section><!-- End Hero -->             
               
                           @include('profile.includes.packages')
+                          
                       
 @include('includes.footer')

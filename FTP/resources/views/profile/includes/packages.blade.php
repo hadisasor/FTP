@@ -36,11 +36,11 @@ function chRemover($str){
                     $cu = 0;
                     @endphp
 
-                        <div class="row centering">   
+                      
                         @foreach($umrahpackages as $i=>$umrahpackage)
                         @if (auth()->user()->id == $umrahpackage['user_id'])
                         @php $cu++ @endphp
-
+                      <div class="hajjpackages">
                         <div class="content col-xl-6">
                           <div class="row" data-aos="zoom-in" data-aos-delay="50">
                               <div class="col-xl-12"><h3>{{$umrahpackage['stayingDays']}} day of stay</h3>
@@ -69,9 +69,12 @@ function chRemover($str){
                           </div>
                         </div>
                             @endif
+                      </div>
                         @endforeach
-                        </div>
+                        
                     
+
+                        
                     <div class="row centering">
                     @foreach ($bookings as $booking) 
                     @if(auth()->user()->id == $booking['booker_id'])
@@ -119,7 +122,7 @@ function chRemover($str){
                     @endif
                   @endforeach
                   </div>
-              </div>
+              
 
                 @if($cu == 0)
                     @if(auth()->user()->userType == 'Pilgrim')
@@ -142,10 +145,11 @@ function chRemover($str){
                 <div class="hajjpackages">
                         @php $ch = 0; 
                         @endphp
-                        <div class="row centering">
+                        
                         @foreach($hajjpackages as $i=>$hajjpackage)
                         @if (auth()->user()->id == $hajjpackage['user_id'])
                         @php $ch++ @endphp
+                      <div class="hajjpackages">
                         <div class="content col-xl-6">
                           <div class="row" data-aos="zoom-in" data-aos-delay="50">
                               <div class="col-xl-12"><h3>{{$hajjpackage['stayingDays']}} day of stay</h3>
@@ -156,8 +160,8 @@ function chRemover($str){
                           </div>
                           <div class="row">
                               <div class="details"  data-aos="zoom-in" data-aos-delay="50">
-                                  <div class="icontainer"><img class="icon" src="{{asset('img/Icons/kabah2.png')}}"> <img class="icon2" src="{{asset('img/Icons/madinah2.png')}}"> 
-                                      <img class="icon3" src="{{asset('img/Icons/Group.png')}}">
+                                  <div class="icontainer"><img class="icon" src="{{asset('img/Icons/FTLPM-01.png')}}"> <img class="icon2" src="{{asset('img/Icons/FTLPT-02.png')}}"> 
+                                      <img class="icon3" src="{{asset('img/Icons/FTLPG-03.png')}}">
                                   </div>
                                   @foreach($hajjpackage->hotels as $hotel)
                                   @if($hotel['location'] == 'Makkah')
@@ -176,8 +180,9 @@ function chRemover($str){
                           </div>
                         </div>
                         @endif
+                      </div>
                     @endforeach
-                    </div>
+                  
 
                     <div class="row centering">
                     @foreach ($bookings as $booking)
@@ -237,7 +242,7 @@ function chRemover($str){
                     <div class="null col-xl-12"> <h2>There's no created packages</h2></div>
                     @endif
                 @endif
-
+                
                 </div>
                 </div>
 </section>

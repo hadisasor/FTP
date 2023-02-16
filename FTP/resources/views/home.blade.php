@@ -3,12 +3,12 @@
 @include('includes.cta')
 
   
-  <main id="main">
+  <main id="main" class="mt-4">
 
 
 
     <!-- ======= About Us Section ======= -->
-    <br><br><br><br><br>
+    
 
 
 @include('includes.gallery')

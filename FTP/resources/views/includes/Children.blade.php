@@ -154,7 +154,7 @@ $hajjCount   = 0;
       <div class="col-xl px-4"><!-- start of madinah colmn  -->
 
         <div class="section-title pb-2 pt-2">
-          <h3 class="bottom_border">
+          <h3 class="bottom_border centering">
             <div class="airline-icon">
               <img src="{{asset('img/Icons/FTLPT-02.png')}}" style="float:right; "> 
               </div> 
@@ -163,10 +163,10 @@ $hajjCount   = 0;
          
           </div>
   
-          <div class="scrollable-x">
+          <div class="d-flex centering mt-4">
           @foreach ($hotels as $hotel)
           @if($hotel['location'] == 'Madinah')
-          <div class="content col-xl-5" > 
+          <div class="content col-xl-4" > 
             <h4 class="text-center border-bottom-thick">{{$hotel['hotel_name']}}</h4>
             <!--<div class="icon"><i class="bx bxl-dribbble"></i></div>-->
             <div class="image-container"> <img class="image-crop" src="{{asset($hotel['img'])}}"> </div> 
@@ -186,8 +186,8 @@ $hajjCount   = 0;
                     <i class="col-1 bi-star"></i>
                     @endfor
                   </div>
-                  <div class="row">
-                    <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
+                  <div class="row centering">
+                    <p class="col-9 centering">Madinah - Haram</p>
                   </div>
                   
                 </div>
