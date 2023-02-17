@@ -35,8 +35,6 @@
 
   @include('includes.faq')
 
-  @include('includes.gallery')
-
   <div style="background-color: #f3f5fa">
 {{-- company board start --}}
   

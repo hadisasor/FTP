@@ -128,16 +128,37 @@ a h2:hover {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 8px 0px 0px 0;
+  padding: 0px 0px 0px 0;
   box-shadow: 0px 5px 50px 0px #a47d1b24;
   background-color: #fff;
 }
+
+#header.hide {
+  transform: translateY(-100%);
+}
+
+#header .topheader {
+  height: 28px;
+}
+
+#header .top-header .top-social-area {
+  text-align: right;
+}
+
+#header .topheader .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #header.header-scrolled, #header.header-inner-pages {
   background: #fff;
   box-shadow: 0px 10px 50px 0px #a47d1b24;
 }
 
-
+.topheader.hide
 
 #header .logo {
   font-size: 30px;

@@ -7,19 +7,6 @@
 
 
 
-    <!-- ======= About Us Section ======= -->
-    
-
-
-@include('includes.gallery')
-
-</div>
-
-<!--      Gallery end    . -->
-
-
-@include('includes.portofolio')
-   
 
 
     <div class="pt-4" style="background-color: #f3f5fa">
@@ -47,6 +34,15 @@
     @yield('Travel') --}}
 
 
+
+    @include('includes.portofolio')
+   
+
+
+    @include('includes.gallery')
+    
+    <!--      Gallery end    . -->
+    
     
     @yield('hotels')
 
