@@ -1,8 +1,4 @@
 
-
-
-
-
 <section class="visa" id="team">
     <form class="credit-card">
         <div class="form-header">
@@ -33,6 +29,14 @@
             </div>
             <div class="form-group m-4">
               <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Passport Expired Date">
+            </div>
+            <div class="input-group mb-3 mx-5">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Upload Passport image</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01">
+              </div>
             </div>
             <button type="submit" class="btn centering mb-4 mt-0">Submit</button>
           </form>
