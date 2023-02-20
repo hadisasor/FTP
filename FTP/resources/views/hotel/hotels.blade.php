@@ -3,8 +3,8 @@
 <!-- ======= Hero Section ======= -->
 
 
-    <div class="container text-center" style="margin-top: 1%;">
-      @include('includes.slide')
+    <div class="container text-center" style="margin-top: 10%;">
+      {{-- @include('includes.slide') --}}
       <div class="row text-center">
           <h1 style="font-size: 270%;">Information of <br>Hotels</h1> 
       </div>
@@ -17,41 +17,6 @@
 
 
   <main id="main">
-{{-- @php return dd(URL()) @endphp --}}
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients section-bg">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-1.png')}}" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-2.png')}}" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-3.png')}}" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-4.png')}}" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-5.png')}}" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="{{asset('img/clients/client-6.png')}}" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
-      </div>
-    </section>End Cliens Section -->
 
     <!-- ======= Hajj Section ======= -->
     <section id="hajj" class="about" style="background: url(/assets/img/bg.jpg);">
@@ -111,14 +76,14 @@
                           @endfor
                         </div>
                         <div class="row">
-                          <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
+                          <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
                         </div>
 
                        </div>
                     </div>
                   </div>
                       <div class="book-container">
-                        <a href="hajjpackage/{{...['id']}}" class="book btn-get-started scrollto">view details</a>
+                        <a href="packages/{{...['id']}}" class="book btn-get-started scrollto">view details</a>
                       </div>
                 </div>
             </div>
@@ -160,14 +125,14 @@
                       @endfor
                     </div>
                     <div class="row">
-                      <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
+                      <i class="col-md-3 bi bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
                     </div>
 
                    </div>
                 </div>
               </div>
                   <div class="book-container">
-                    <a href="hajjpackage/{{...['id']}}" class="book btn-get-started scrollto">view details</a>
+                    <a href="packages/{{...['id']}}" class="book btn-get-started scrollto">view details</a>
                   </div>
             </div>
         </div>

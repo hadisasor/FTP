@@ -166,7 +166,7 @@ Route::get('/packages',function(){
 })->name('hajjpackages');
 
 //single hajjpackage page and each page paths including hajj package model ---------------------------------------------
-Route::get('hajjpackage/{id}', function($id){
+Route::get('packages/{id}', function($id){
 
    $hajj = Hajjpackage::find($id);
    if($hajj)

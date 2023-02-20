@@ -3,31 +3,10 @@
 @include('includes.cta')
 
   
-  <main id="main">
+  <main id="main" class="mt-4">
 
 
 
-    <!-- ======= About Us Section ======= -->
-    <br><br><br><br><br>
-
-
-@include('includes.gallery')
-
-{{-- 
-@include('includes.modals')
- --}}
-
-
-  <!-- <div class="pbtn">
-    <a href="#">More</a>
-  </div> -->
-</div>
-
-<!--      Gallery end    . -->
-
-
-@include('includes.portofolio')
-   
 
 
     <div class="pt-4" style="background-color: #f3f5fa">
@@ -55,6 +34,15 @@
     @yield('Travel') --}}
 
 
+
+    @include('includes.portofolio')
+   
+
+
+    @include('includes.gallery')
+    
+    <!--      Gallery end    . -->
+    
     
     @yield('hotels')
 

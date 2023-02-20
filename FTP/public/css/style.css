@@ -128,16 +128,37 @@ a h2:hover {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 8px 0px 0px 0;
+  padding: 0px 0px 0px 0;
   box-shadow: 0px 5px 50px 0px #a47d1b24;
   background-color: #fff;
 }
+
+#header.hide {
+  transform: translateY(-100%);
+}
+
+#header .topheader {
+  height: 28px;
+}
+
+#header .top-header .top-social-area {
+  text-align: right;
+}
+
+#header .topheader .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #header.header-scrolled, #header.header-inner-pages {
   background: #fff;
   box-shadow: 0px 10px 50px 0px #a47d1b24;
 }
 
-
+.topheader.hide
 
 #header .logo {
   font-size: 30px;
@@ -230,7 +251,7 @@ color: #dbb42c;
   display: flex;
   list-style: none;
   align-items: center;
-  padding-left: 10%;
+  padding-left: 25%;
 }
 .navbar li {
   position: relative;
@@ -501,7 +522,9 @@ color: #dbb42c;
 #hero {
   width: 100%;
   height: 100vh;
-  background: #e9ecef99;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
+  url("../img/FTimage/kd.jfif") fixed center center;
+  background-size: cover;
 }
 #hero .container {
   padding-top: 72px;
@@ -514,7 +537,7 @@ color: #dbb42c;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;;
-  color: #000000;
+  color: #fff;
 }
 
 
@@ -692,8 +715,14 @@ color: #dbb42c;
 }
 
 #hero p {
-  color: rgb(0, 0, 0);
-  font-size: 120%;
+  color: #fff;
+  font-size: 140%;
+  font-weight: 500;
+}
+
+.au {
+  background: #fff;
+  border-radius: 100px;
 }
 
 
@@ -2399,9 +2428,8 @@ padding: 10px;
 }
 
 
-
 .image-crop{
-  width:100%;
+  width:80px;
   height:300px;
   border-top-left-radius: 10px ;
   border-top-right-radius: 10px;
@@ -2782,3 +2810,39 @@ color:black;
   height: 340px;
   padding: 30px 30px 20px;
 }
+
+/* upload btn
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	color: #333;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 260px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+} */

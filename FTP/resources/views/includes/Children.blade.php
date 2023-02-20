@@ -98,17 +98,17 @@ $hajjCount   = 0;
   
             <div class="col-xl px-4 pb-5">
             <div class="section-title pb-2 pt-2">
-                <h3 class="bottom_border">
+                <h3 class="bottom_border centering">
                   <div class="airline-icon">
                     <img src="{{asset('img/Icons/FTLPM-01.png')}}"> 
                     </div> 
                   Makkah Hotels</h3>
               </div>
   
-              <div class="scrollable-x">
+              <div class="d-flex centering mt-4">
               @foreach ($hotels as $hotel)
               @if($hotel['location'] == 'Makkah')
-              <div class="content col-xl-5"> 
+              <div class="content col-xl-4"> 
                 <h4 class="text-center border-bottom-thick">{{$hotel['hotel_name']}}</h4>
                 <!--<div class="icon"><i class="bx bxl-dribbble"></i></div>-->
                 <div class="image-container"> <img class="image-crop" src="{{asset($hotel['img'])}}"> </div> 
@@ -116,7 +116,7 @@ $hajjCount   = 0;
                   <div class="row">
                     <div class="details"  data-aos="zoom-in" data-aos-delay="10">
                       
-                      <div class="row">
+                      <div class="row centering">
                         <h5 class="col-md-3">Rate:</h5>
                         @for ($i = 1; $i <= $hotel['stars']; $i++)
                         <i class="col-1 bi-star-fill "></i>
@@ -128,14 +128,14 @@ $hajjCount   = 0;
                         <i class="col-1 bi-star"></i>
                         @endfor
                       </div>
-                      <div class="row">
-                        <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Makkah - Haram</p>
+                      <div class="row centering">
+                        <p class="col-9 centering">Makkah - Haram</p>
                       </div>
                        
                     </div>
                   </div>
                       <div class="book-container">
-                        <a href="#" class="book btn-get-started scrollto">Details</a>
+                        <a href="/hotels" class="book btn-get-started scrollto">Details</a>
                         {{-- <a href="hajjpackage/{{...['id']}}" class="book btn-get-started scrollto">Details</a> --}}
                       </div>
                 </div>
@@ -146,15 +146,15 @@ $hajjCount   = 0;
   
           </div>  <!-- end of makkah colmn  -->
    
-  
+          </div>
   
   
           
-  
+      <div class="row">
       <div class="col-xl px-4"><!-- start of madinah colmn  -->
 
         <div class="section-title pb-2 pt-2">
-          <h3 class="bottom_border">
+          <h3 class="bottom_border centering">
             <div class="airline-icon">
               <img src="{{asset('img/Icons/FTLPT-02.png')}}" style="float:right; "> 
               </div> 
@@ -163,10 +163,10 @@ $hajjCount   = 0;
          
           </div>
   
-          <div class="scrollable-x">
+          <div class="d-flex centering mt-4">
           @foreach ($hotels as $hotel)
           @if($hotel['location'] == 'Madinah')
-          <div class="content col-xl-5" > 
+          <div class="content col-xl-4" > 
             <h4 class="text-center border-bottom-thick">{{$hotel['hotel_name']}}</h4>
             <!--<div class="icon"><i class="bx bxl-dribbble"></i></div>-->
             <div class="image-container"> <img class="image-crop" src="{{asset($hotel['img'])}}"> </div> 
@@ -186,14 +186,14 @@ $hajjCount   = 0;
                     <i class="col-1 bi-star"></i>
                     @endfor
                   </div>
-                  <div class="row">
-                    <i class="col-md-3 bi-geo-alt-fill"></i><p class="col-9">Madinah - Haram</p>
+                  <div class="row centering">
+                    <p class="col-9 centering">Madinah - Haram</p>
                   </div>
                   
                 </div>
               </div>
                   <div class="book-container">
-                    <a href="#" class="book btn-get-started scrollto">Details</a>
+                    <a href="/hotels" class="book btn-get-started scrollto">Details</a>
                   </div>
             </div>
         @endif
@@ -286,34 +286,6 @@ $hajjCount   = 0;
     @endsection
 
 <!-- @section('slide')
-<section id="slideshow" class="d-flex align-items-center">
-  <div class="container text-center" style="">
-    
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/FTimage/1.png" class="d-block w-100 " alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/FTimage/2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/FTimage/3.png" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    
-  </div>
-</section>  
-
 
 @endsection -->
 
