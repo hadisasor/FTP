@@ -99,7 +99,7 @@
             <div class="top-social-area">
               <a href="https://www.facebook.com/fatoni.travel" data-toggle="tooltip" data-placement="bottom" title data-original-title="Facebook"><i class="bx bxl-facebook">
               </i></a>
-              <a href=""></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title data-original-title="Line"><i class="bi bi-line"></i></a>
             </div>
           </div>
         </div>
