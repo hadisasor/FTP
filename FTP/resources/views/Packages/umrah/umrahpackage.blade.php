@@ -17,7 +17,7 @@
 
   <main id="main">
 
-    {{-- @include('includes.clients') --}}
+
 
     <!-- ======= Hajj Section ======= -->
     <section id="package" class="about" style="background: url(/assets/img/bg.jpg);">
