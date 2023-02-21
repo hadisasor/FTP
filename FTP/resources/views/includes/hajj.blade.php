@@ -52,7 +52,7 @@ $counthajj=0;
               </div>
             </div>
             <div class="book-container">
-              <a href="hajjpackage/{{$hajjpackage['id']}}" class="book btn-get-started scrollto">Book Now</a>
+              <a href="packages/{{$hajjpackage['id']}}" class="book btn-get-started scrollto">Book Now</a>
             </div>
           </div></center>
         @break ($hajjCount == 4)
