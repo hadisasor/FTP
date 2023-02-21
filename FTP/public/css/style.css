@@ -137,8 +137,13 @@ a h2:hover {
   transform: translateY(-100%);
 }
 
+#header .email p{
+  padding-left: 160px;
+  font-weight: 600;
+}
+
 #header .topheader {
-  height: 28px;
+  height: 25px;
 }
 
 #header .top-header .top-social-area {
@@ -157,8 +162,6 @@ a h2:hover {
   background: #fff;
   box-shadow: 0px 10px 50px 0px #a47d1b24;
 }
-
-.topheader.hide
 
 #header .logo {
   font-size: 30px;
@@ -1800,7 +1803,7 @@ padding: 10px;
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
-  url("../img/FTimage/kd.jfif") fixed center center;
+  url("../img/FTimage/pexels-mddl-mn-13311030.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
   height: 100vh;
@@ -1853,7 +1856,7 @@ padding: 10px;
 --------------------------------------------------------------*/
 .cta1 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.722)), 
-  url("../img/FTimage/kd.jfif") fixed center center;
+  url("../img/FTimage/pexels-mddl-mn-13311030.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
   height: 100vh;

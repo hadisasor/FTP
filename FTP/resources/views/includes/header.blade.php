@@ -92,8 +92,9 @@
     <div class="topheader">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
-          <div class="col-12 col-sm-8 mt-2">
-            <p>Telephone:</p>
+          <div class="col-12 col-sm-8 mt-2 email d-flex">
+            <p>Email:</p>
+            <a href="https://mail.google.com">fatoni.travel@gmail.com</a>
           </div>
           <div class="col-12 col-sm-4">
             <div class="top-social-area">
