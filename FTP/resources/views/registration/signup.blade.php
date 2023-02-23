@@ -1,6 +1,6 @@
 @include('includes.header')
  
-<section class="reg-sec" style="background-color:#ffffff; height:100vh; overflow-y:scroll">
+<section class="reg-sec" style="background-color:#ffffff; height:110vh;">
 
 
 
