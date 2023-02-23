@@ -57,7 +57,7 @@
               Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
             </p>
             <div class="book-container">
-                <a href="#" class="book btn-get-started scrollto">Get Visa</a>
+                <a href="/VisaBook" class="book btn-get-started scrollto">Get Visa</a>
               </div>
           </div>
         </div>

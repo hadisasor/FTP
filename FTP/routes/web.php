@@ -233,6 +233,12 @@ Route::get('/Visa', function(){
    return view  ('Visa.Visa');
 
 });
+
+Route::get('/VisaBook', function(){
+
+   return view  ('Visa.visabook');
+
+});
 //knowledge path page--------------------------------------------------------
 
 Route::get('/knowledge', function(){
