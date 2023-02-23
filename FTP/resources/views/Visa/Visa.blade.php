@@ -4,11 +4,6 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
-
-      <ol>
-        <li><a href="{{route('Home')}}">Home</a></li>
-        <li>Visa Page</li>
-      </ol>
       <h2>Visa Details</h2>
 
     </div>
