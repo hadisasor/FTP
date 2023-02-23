@@ -2205,15 +2205,43 @@ padding: 10px;
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #ffffff;
+  background: #f3f5fa;
   min-height: 40px;
-  margin-top: 10px;
+  margin-top: 72px;
 }
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 68px;
   }
 }
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #76520e;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #4668a2;
+  content: "/";
+}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -2760,6 +2788,44 @@ color:black;
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #76520e;
+}
+
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
 
 /* pcontainer */
