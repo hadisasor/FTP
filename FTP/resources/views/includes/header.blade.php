@@ -92,7 +92,7 @@
     <div class="topheader">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
-          <div class="col-12 col-sm-8 mt-2 email d-flex">
+          <div class="col-12 col-sm-7 mt-3 email d-flex">
             <p>Email:</p>
             <a href="https://mail.google.com">fatoni.travel@gmail.com</a>
           </div>
