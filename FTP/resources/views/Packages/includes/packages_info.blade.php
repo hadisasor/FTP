@@ -99,8 +99,7 @@ $url = preg_replace("/[^A-Za-z]/", '',$url);
         <a 
           
           
-          href="packages
-          /{{$hajjpackage['id']}}"
+          href="packages/{{$hajjpackage['id']}}"
           
           
           {{-- href="umrahpackage/{{$umrahpackage['id']}}" --}}

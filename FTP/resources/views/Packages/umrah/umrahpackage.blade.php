@@ -2,33 +2,17 @@
 
 
 
-<!-- ======= Cta Section ======= -->
-<section id="cta" class="cta1">
-  <div class="container" data-aos="zoom-in">
-
-    <div class="row">
-      <div class="col-lg-9 text-center centering">
-          <h3 style="font-size: 290%; font-family: 'Noto Sans Thai', sans-serif;">Booking<br>Umrah Package</h3>
-      </div>
-    </div>
-
-  </div>
-</section><!-- End Cta Section -->
-
   <main id="main">
 
 
 
     <!-- ======= Hajj Section ======= -->
     <section id="package" class="about" style="background: url(/assets/img/bg.jpg);">
-      <div class="Hajj-container" data-aos="fade-up">
+     
+    <div class="row centering">
 
-    <div class="row">
-
-        @include('packages.includes.navbar')
-
-          <div class="package col-xl-9">
-            <section class="section-title"><h2>Package information</h2>
+          <div class="package col-xl-10">
+            <section class="section-title"><h2>Umrah Package Information</h2>
 
               
               <div class="info-table row"><!--beginning of info table-->
@@ -104,14 +88,13 @@
 
               @include('packages.includes.group_details')
 
+              
+              @include ('packages.includes.last_row')
+
           </div><!--end of info table-->
           </div>
 
-          @include ('packages.includes.last_row')
-
         </div>
-      </div>
-    </div>
   </section><!-- End Hajj Section -->
 </main><!-- End #main -->
 
