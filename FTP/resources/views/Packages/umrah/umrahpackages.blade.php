@@ -103,34 +103,3 @@ $countpremium  = 0;
 
 
   
-
-
-
-
-
-    {{-- {{ -- <!-- <div class="hajjpackages">
-                              @foreach ($umrahpackages as $umrahpackage)
-                              @if ($umrahpackage['packageName'] == 'Golden')
-                                @php $countGolden++; @endphp
-                                @include('packages.includes.packages_info')
-                              @endif  
-                              @endforeach   
-                            </div> -->
-                                        
-                              <!-- @if ($countGolden == 0) --> <!-- @endif --><!--Golden end-->
-
-
-
-
-
-
-              <!-- <div class="hajjpackages"> 
-                              @foreach ($umrahpackages as $umrahpackage)
-                              @if ($umrahpackage['packageName'] == 'Silver')
-                                @php $countSilver++; @endphp
-                                @include('packages.includes.packages_info')
-                              @endif                
-                              @endforeach     
-                            </div> -->
-                
-                <!-- @if ($countSilver == 0) --><!-- @endif --><!--Silver end-->--}} --}}

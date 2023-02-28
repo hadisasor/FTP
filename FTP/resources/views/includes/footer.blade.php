@@ -26,7 +26,6 @@
             <ul>
               
               <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/Aboutus#team">ทำเนียบฮุจญาต</a></li>
             </ul>
           </div> 
 

@@ -1,32 +1,17 @@
 @include('includes.header')
 
 
-<!-- ======= Cta Section ======= -->
-<section id="cta" class="cta1">
-  <div class="container" data-aos="zoom-in">
-
-    <div class="row">
-      <div class="col-lg-9 text-center centering">
-          <h3 style="font-size: 290%; font-family: 'Noto Sans Thai', sans-serif;">Booking<br>Hajj Package</h3>
-      </div>
-    </div>
-
-  </div>
-</section><!-- End Cta Section -->
 
   <main id="main">
 
 
     <!-- ======= Hajj Section ======= -->
     <section id="package" class="about" style="background: url(/assets/img/bg.jpg);">
-      <div class="Hajj-container" data-aos="fade-up">
 
-    <div class="row">
+    <div class="row centering">
 
-      @include('packages.includes.navbar')
-
-          <div class="package col-xl-9">
-            <section class="section-title"><h2>Package information</h2>
+          <div class="package col-xl-10">
+            <section class="section-title"><h2>Hajj Package Information</h2>
 
               
               <div class="info-table row"><!--beginning of info table-->
@@ -103,37 +88,9 @@
 
         </div>
       </div>
-    </div>
   </section><!-- End Hajj Section -->
 </main><!-- End #main -->
 
 @include ('includes/footer')
 
 
-
-
-   <!-- {{-- <div class="table-details row"><!--beginning of Mina details
-              <div class="col-xl-3">
-              <img src="{{asset('img/Icons/minasign.png')}}">  <h5>Mina Tent Details</h5>
-              </div>
-              
-              <div class="row specfic col-xl-9">
-                @foreach($hajjpackage->minas as $mina)
-                @php $package = 'mina'; @endphp 
-                  @include('packages.includes.icons')
-                @endforeach
-              </div>
-            </div>Ending of Mina details--> --}} -->
-
-            <!-- {{-- <div class="table-details row"><!--beginning of Arafat details
-              <div class="col-xl-3">
-                <img src="{{asset('/img/Icons/Arafatsign.png')}}"> <h5>Arafat Tent Details</h5>
-              </div>
-              
-              <div class="row specfic col-xl-9">
-                @foreach($hajjpackage->arafats as $arafat)
-                @php $package = 'arafat'; @endphp 
-                  @include('packages.includes.icons')
-                @endforeach
-              </div>
-            </div>beginning of Arafat details--> --}} -->
