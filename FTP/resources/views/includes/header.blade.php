@@ -89,25 +89,7 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top border-bottom ">
-    <div class="topheader">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12 col-sm-7 mt-3 email d-flex">
-            <p>Email:</p>
-            <a href="https://mail.google.com">fatoni.travel@gmail.com</a>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="top-social-area">
-              <a href="https://www.facebook.com/fatoni.travel" data-toggle="tooltip" data-placement="bottom" title data-original-title="Facebook"><i class="bx bxl-facebook">
-              </i></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title data-original-title="Line"><i class="bi bi-line"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
+    
     <div class="container d-flex align-items-center">
       <a href="{{route('Home')}}"><img src="{{asset('../../img/Flogo.png')}}" alt="" class="img-fluid"></a>
       <div class="logo-container">
