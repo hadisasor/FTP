@@ -62,14 +62,10 @@
                   $date = strtotime($date);
                   return date('d M', $date);
                 } 
-
-
                 //Put colon between numbers
                 function priceColon($price){
-
                   $price = (string)$price;
                   $colon = ',';
-
                   if (strlen($price) == 6)
                   {
                     return $price = substr_replace($price, $colon ,3 , 0 );
@@ -78,52 +74,25 @@
                   {
                     return  $price = substr_replace($price, $colon,2 ,0 );
                   }
-
                  else if (strlen($price) < 5)
                 {
                   return $price;
                 }
               }
-               
                 @endphp
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top border-bottom ">
-    <div class="topheader">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12 col-sm-7 mt-3 email d-flex">
-            <p>Email:</p>
-            <a href="https://mail.google.com">fatoni.travel@gmail.com</a>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="top-social-area">
-              <a href="https://www.facebook.com/fatoni.travel" data-toggle="tooltip" data-placement="bottom" title data-original-title="Facebook"><i class="bx bxl-facebook">
-              </i></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title data-original-title="Line"><i class="bi bi-line"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
     <div class="container d-flex align-items-center">
       <a href="{{route('Home')}}"><img src="{{asset('../../img/Flogo.png')}}" alt="" class="img-fluid"></a>
       <div class="logo-container">
       <h4> <a href="{{route('Home')}}">ห้างหุ้นส่วนจำกัด ฟาตอนี แทรเวิล<br> <p >convenience website for serving Thai pilgrims</p></a></h4>
     </div> 
-   
       <!-- Uncomment below if you prefer to use an \ logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       @php 
-
       $route= URL::current();
       $route = explode('/',$route);
-    
       // return dd($route[4])
-
-      
       // return dd($route)
       @endphp
       <nav id="navbar" class="navbar">
@@ -151,7 +120,6 @@
                 </li> --}}
                 {{-- <li><a href="#">Attraction</a></li> --}}
                 <li><a href="/Visa">Visa</a></li>
-                
             </ul>
           </li>
           @endif
