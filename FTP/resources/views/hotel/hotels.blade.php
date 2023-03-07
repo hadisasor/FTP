@@ -82,9 +82,10 @@
                        </div>
                     </div>
                   </div>
-                      <div class="book-container">
+                  <!-- button for view details -->
+                      {{-- <div class="book-container">
                         <a href="packages/{{...['id']}}" class="book btn-get-started scrollto">view details</a>
-                      </div>
+                      </div> --}}
                 </div>
             </div>
             @endif
@@ -131,9 +132,10 @@
                    </div>
                 </div>
               </div>
-                  <div class="book-container">
+              <!-- button for view details -->
+                  {{-- <div class="book-container">
                     <a href="packages/{{...['id']}}" class="book btn-get-started scrollto">view details</a>
-                  </div>
+                  </div> --}}
             </div>
         </div>
         @endif
