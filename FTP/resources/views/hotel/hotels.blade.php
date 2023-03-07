@@ -28,17 +28,17 @@
             <div>
             <h4> Help?</h4><br>
             <h5>Help Line Number</h5>
-            <p>+91 9920974825</p><br>
+            <p>+66 99-313-1166</p><br>
             <h5>Email</h5>
-            <p>Yadoofatani@gmail.com</p><br>
+            <p>fatoni.travel@gmail.com</p><br>
             <h5>Head Office</h5>
-            <p>Shop No.05, Sapphire Apt,
-            Behind Markaz View C.H.S.,
-            Off S.V. Road, Jogeshwari (W),
-            Mumbai - 400 102.</p><br>
-            <h5>Eyad</h5>
-            <p>+91 98212 04865<br>
-            +91 98211 72525</p>
+            <p>1332 petchkasem Rd, Hatyai Sd, <br>
+              Hatyai, Songkhla, Thailand 90110</p><br>
+              
+              1332 ถ.เพชรเกษม ถ.หาดใหญ่ <br>
+              หาดใหญ่, สงขลา <br>
+              ประเทศไทย 90110<br><br>
+            </p>
           </div>
 
           </div>
