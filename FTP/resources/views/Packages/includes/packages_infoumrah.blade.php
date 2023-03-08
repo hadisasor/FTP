@@ -83,13 +83,8 @@
       </div>
       <div class="book-container">
         <a 
-          
-          
           {{-- href="hajjpackage/{{$hajjpackage['id']}}" --}}
-          
-          
           href="umrahpackage/{{$umrahpackage['id']}}"
-          
           class="book btn-get-started scrollto">Book now
         </a>
     </div>

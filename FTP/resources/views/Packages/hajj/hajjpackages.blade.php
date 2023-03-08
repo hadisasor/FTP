@@ -112,11 +112,11 @@ $hajjCount = 0;
               
                 
                   <section class="section-title mt-4"><h2>Economy Umrah packages</h2></section>
-                
+                  <div class="hajjpackages">
                   @foreach ($umrahpackages as $umrahpackage)
                   @if ($umrahpackage['packageName'] == 'Economy')
                     @php $countEconomy++; @endphp    
-                    <div class="hajjpackages">
+                    
                     @include('packages.includes.packages_infoumrah')
                   @endif
                     </div>
